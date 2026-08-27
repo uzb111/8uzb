@@ -1,0 +1,290 @@
+{
+  "book": {
+    "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+    "primaryUrl": "https://zokirjon.com/wp-content/uploads/2025/02/8-sinf-Ozbekiston-tarixi-2023-N.pdf",
+    "fallbackUrl": "https://bilimlar.uz/wp-content/uploads/2024/11/8-S-O-t-T-D-Y-o-o.pdf",
+    "localUrl": "assets/book/ozbekiston_tarixi_8_2023.pdf",
+    "note": "Local PDF mavjud bo‘lmasa, frontend primaryUrl orqali kitobni ko‘rsatadi."
+  },
+  "topics": [
+    {
+      "id": 1,
+      "title": "XIII asr boshlarida Xorazm davlatida siyosiy vaziyat",
+      "pages": [
+        8,
+        11
+      ],
+      "years": [
+        1190,
+        1218
+      ],
+      "focusYear": 1218,
+      "showFeatureIds": [
+        "OHM_REL_2790245",
+        "OHM_REL_2790247",
+        "P00_KHWARAZM_1218",
+        "CITY_009",
+        "CITY_002",
+        "CITY_001",
+        "CITY_010",
+        "CITY_011",
+        "CITY_008"
+      ],
+      "mapStory": "Xorazmshohlar davlatining XIII asr boshidagi hududi, asosiy shaharlar va siyosiy markazlar.",
+      "generatedImages": [
+        "t01_xorazm_siyosiy.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Xorazm va Mo‘g‘ul davlati o‘rtasidagi munosabatlar",
+      "pages": [
+        12,
+        19
+      ],
+      "years": [
+        1216,
+        1219
+      ],
+      "focusYear": 1218,
+      "showFeatureIds": [
+        "OHM_REL_2790247",
+        "P00_KHWARAZM_1218",
+        "CITY_009",
+        "CITY_002",
+        "CITY_001",
+        "CITY_010",
+        "EV_1218_OTRAR"
+      ],
+      "mapStory": "Elchilik va savdo aloqalaridan O‘tror voqeasi orqali urushga o‘tish.",
+      "generatedImages": [
+        "t02_xorazm_mongol_munosabat.png",
+        "t02_otror_voqeasi.png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Muhammad Xorazmshohning mamlakat mudofaasiga oid tadbirlari va buning oqibati",
+      "pages": [
+        20,
+        35
+      ],
+      "years": [
+        1219,
+        1221
+      ],
+      "focusYear": 1220,
+      "showFeatureIds": [
+        "OHM_REL_2790247",
+        "P00_KHWARAZM_1218",
+        "CITY_010",
+        "CITY_002",
+        "CITY_001",
+        "CITY_011",
+        "CITY_009",
+        "EV_1219_BUKHARA",
+        "EV_1220_SAMARKAND",
+        "ROUTE_MONGOL_MAIN_1219_1220",
+        "ROUTE_MONGOL_SYRDARYA_1219_1221",
+        "ROUTE_MONGOL_KHUJAND_1219_1220"
+      ],
+      "mapStory": "Qo‘shinlarning shaharlarga bo‘lib joylashtirilishi, O‘tror–Buxoro–Samarqand mudofaasi va bosqin oqibatlari.",
+      "generatedImages": [
+        "t03_mudofaa_oqibat.png",
+        "t03_buxoro_samarqand.png"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Jaloliddin Manguberdi",
+      "pages": [
+        36,
+        40
+      ],
+      "years": [
+        1220,
+        1221
+      ],
+      "focusYear": 1221,
+      "showFeatureIds": [
+        "EV_1221_PARVAN",
+        "EV_1221_INDUS",
+        "CITY_009",
+        "CITY_025",
+        "CITY_026",
+        "ROUTE_JALOLIDDIN_PARVAN_INDUS_1221",
+        "ROUTE_JALOLIDDIN_INDIA_1221_1224"
+      ],
+      "mapStory": "Jaloliddinning qarshilik harakati, Parvon jangi va Sind daryosi tomon chekinishi.",
+      "generatedImages": [
+        "t04_jaloliddin_qahramonligi.png",
+        "t04_parvon.png"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Jaloliddin Manguberdi Xorazmshohlar davlatini tiklash yo‘lida",
+      "pages": [
+        41,
+        51
+      ],
+      "years": [
+        1221,
+        1231
+      ],
+      "focusYear": 1224,
+      "showFeatureIds": [
+        "EV_1221_PARVAN",
+        "EV_1221_INDUS",
+        "CITY_025",
+        "CITY_026",
+        "CITY_032",
+        "CITY_028",
+        "ROUTE_JALOLIDDIN_PARVAN_INDUS_1221",
+        "ROUTE_JALOLIDDIN_INDIA_1221_1224",
+        "ROUTE_JALOLIDDIN_RETURN_1224_1225",
+        "ROUTE_JALOLIDDIN_WEST_1226_1231"
+      ],
+      "mapStory": "Jaloliddinning Hindiston, Eron va g‘arbga yo‘nalgan tiklash harakatlari uchun sxematik xarita.",
+      "generatedImages": [
+        "t05_jaloliddin_yurishlari.png"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Chig‘atoy ulusining tashkil topishi",
+      "pages": [
+        52,
+        62
+      ],
+      "years": [
+        1227,
+        1260
+      ],
+      "focusYear": 1245,
+      "showFeatureIds": [
+        "P01_CHAGATAI_EARLY",
+        "EV_1227_ULUS",
+        "CITY_001",
+        "CITY_002",
+        "CITY_015",
+        "CITY_017",
+        "CITY_016"
+      ],
+      "mapStory": "Chig‘atoy ulusining Movarounnahr–Yettisuv–Sharqiy Turkiston makonida shakllanishi.",
+      "generatedImages": [
+        "t06_chigatoy_tashkil.png",
+        "t06_chigatoy_savdo.png"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Chig‘atoy ulusining ikki qismga bo‘linib ketishi va ijtimoiy-iqtisodiy hayot",
+      "pages": [
+        63,
+        69
+      ],
+      "years": [
+        1347,
+        1370
+      ],
+      "focusYear": 1355,
+      "showFeatureIds": [
+        "P03_MOGHULISTAN_1372",
+        "P04_WEST_CHAGATAI",
+        "ROUTE_SILKROAD_NORTH",
+        "CITY_001",
+        "CITY_002",
+        "CITY_015",
+        "CITY_017"
+      ],
+      "mapStory": "G‘arbiy Chig‘atoy/Movarounnahr va Sharqiy Chig‘atoy/Mo‘g‘uliston bo‘linishi, savdo yo‘llari.",
+      "generatedImages": [
+        "t07_chigatoy_bolinish.png",
+        "t07_moguliston_hayot.png"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "XIII asr – XIV asr birinchi yarmida ilm-fan",
+      "pages": [
+        70,
+        75
+      ],
+      "years": [
+        1207,
+        1325
+      ],
+      "focusYear": 1300,
+      "showFeatureIds": [
+        "TH_RUMI_KONYA",
+        "TH_SAADI_SHIRAZ",
+        "TH_AMIR_KHUSRAU_DELHI",
+        "TH_RASHIDIDDIN_TABRIZ_8"
+      ],
+      "mapStory": "Adabiyot va tarixnavislik markazlari: Rumiy, Sa’diy, Amir Xusrav va Rashididdin bilan bog‘liq geografik nuqtalar.",
+      "generatedImages": [
+        "t08_ilm_fan.png",
+        "t08_rashididdin.png"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "XIV asrning o‘rtalarida Turonda yuzaga kelgan siyosiy vaziyat",
+      "pages": [
+        76,
+        86
+      ],
+      "years": [
+        1346,
+        1370
+      ],
+      "focusYear": 1365,
+      "showFeatureIds": [
+        "P05_BARLAS",
+        "P05_QARAUNAS",
+        "P05_SAMARKAND",
+        "P05_FERGHANA",
+        "P05_BUKHARA",
+        "EV_1360_INVASION",
+        "EV_1365_MIRE",
+        "EV_1366_SAMARKAND",
+        "CITY_001",
+        "CITY_004",
+        "CITY_003"
+      ],
+      "mapStory": "Parokandalik, Tug‘luq Temur yurishlari, Loy jangi va Samarqand sarbadorlari davridagi siyosiy mozaika.",
+      "generatedImages": [
+        "t09_turon_siyosiy.png",
+        "t09_sarbadorlar.png"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Amir Temur – Movarounnahr hukmdori",
+      "pages": [
+        87,
+        93
+      ],
+      "years": [
+        1366,
+        1370
+      ],
+      "focusYear": 1370,
+      "showFeatureIds": [
+        "P06_TIMUR_1370",
+        "EV_1370_BALKH",
+        "TH_KESH_BAZA",
+        "CITY_001",
+        "CITY_004",
+        "CITY_006",
+        "CITY_002"
+      ],
+      "mapStory": "Amir Husayn bilan kurash, Balx 1370 va Amir Temurning Movarounnahr hukmdoriga aylanishi.",
+      "generatedImages": [
+        "t10_temur_hokimiyat.png",
+        "t10_samarqand.png"
+      ]
+    }
+  ]
+}

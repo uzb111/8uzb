@@ -3,15 +3,18 @@
 
   const hostname = global.location.hostname;
   const isLocalhost = hostname === "localhost" || hostname === "127.0.0.1" || hostname === "";
+  const isGitHubPages = hostname.endsWith(".github.io");
+  const usesStaticSnapshot = isLocalhost || isGitHubPages;
 
   // Localhost reads the prepared snapshot. Public deployments request only
   // whitelisted individual files through the serverless Drive gateway.
   global.TARIX360_DEPLOYMENT = Object.freeze({
-    environment: isLocalhost ? "localhost" : "production",
+    environment: isLocalhost ? "localhost" : isGitHubPages ? "github-pages" : "production",
     release: "first10-v1",
-    contentMode: isLocalhost ? "local-static" : "drive-api",
+    contentMode: usesStaticSnapshot ? "local-static" : "drive-api",
     contentEndpoint: "/api/content",
-    dataBase: isLocalhost ? "data" : "",
+    dataBase: usesStaticSnapshot ? "data" : "",
+    mediaManifestPath: isGitHubPages ? "data/media_manifest_github.json" : "data/media_manifest.json",
     assetBase: "",
     bookBase: "",
     sourceOfTruth: "google-drive",

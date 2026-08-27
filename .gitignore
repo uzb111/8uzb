@@ -12,18 +12,25 @@ tmp/
 Thumbs.db
 .DS_Store
 
-# Archives and textbooks stay in Drive
+# Archives and original textbooks stay in Drive
 *.zip
 assets/book/*.pdf
-assets/book/web_pages_first10/**
 
-# Authoritative web content stays in Drive. Local copies are a localhost snapshot.
+# Authoritative originals stay in Drive. GitHub Pages keeps only an optimized
+# FIRST10 deployment snapshot.
 assets/images/generated/**
 assets/images/source/**
 data/*.geojson
 data/topic_config_10.json
 data/media_manifest.json
 data/drive_manifest.json
+
+# Temporary GitHub Pages deployment snapshot.
+!assets/images/web/**
+!assets/book/web_pages_first10/**
+!data/master_all_features.geojson
+!data/topic_config_10.json
+!data/media_manifest_github.json
 
 # Keep the lightweight Drive-ID routing manifest in Git.
 !data/web_content_manifest.json

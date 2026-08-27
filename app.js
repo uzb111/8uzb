@@ -25,6 +25,7 @@ const storage = window.TARIX360_STORAGE || {
   resolveData: (path) => path,
   resolveBook: (path) => path
 };
+const mediaManifestPath = window.TARIX360_DEPLOYMENT?.mediaManifestPath || "data/media_manifest.json";
 
 const CATEGORY_LABELS = Object.freeze({
   state: "davlat",
@@ -595,7 +596,7 @@ async function boot() {
   const [config, features, media, bookPages] = await Promise.all([
     fetchJson("data/topic_config_10.json"),
     fetchJson("data/master_all_features.geojson"),
-    fetchJson("data/media_manifest.json"),
+    fetchJson(mediaManifestPath),
     fetchJson("data/book_pages_manifest.json")
   ]);
   validateData(config, features, media, bookPages);

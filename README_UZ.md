@@ -16,11 +16,12 @@ topic_config_10.json
   → davlat / shahar / voqea / route / thematic map layerlari
 ```
 
-Rasmlar `media_manifest.json` orqali mavzuga ulanadi. `web_content_manifest.json` esa har bir lokal runtime yo‘lini authoritative Google Drive file ID bilan bog‘laydi.
+Rasmlar `media_manifest.json` orqali mavzuga ulanadi. GitHub Pages vaqtinchalik `media_manifest_github.json` va web uchun yengillashtirilgan nusxalardan foydalanadi. `web_content_manifest.json` esa har bir lokal runtime yo‘lini authoritative Google Drive file ID bilan bog‘laydi.
 
 ## Runtime rejimlari
 
 - `localhost`: `local-static`; tayyor dataset va media shu papkadan ochiladi.
+- `github.io`: `local-static`; FIRST10 uchun optimallashtirilgan deployment snapshotdan foydalanadi.
 - `Vercel/public host`: `drive-api`; frontend `/api/content?path=...` orqali faqat kerakli bitta faylni oladi.
 - Drive OAuth ma’lumotlari frontendga yozilmaydi. Ular faqat Vercel environment variables’da turadi.
 
@@ -63,7 +64,7 @@ Utilita faqat yetishmayotgan fayllarni yaratadi va mavjud faylni almashtirmaydi.
 
 ## GitHub tarkibi
 
-GitHub/Vercel’da frontend kodi, Leaflet vendor fayllari, serverless gateway va Drive manifest saqlanadi. Katta PDF, rasm va GeoJSON snapshotlar `.gitignore` orqali repoga kiritilmaydi; ularning authoritative nusxasi Drive’da qoladi.
+GitHub/Vercel’da frontend kodi, Leaflet vendor fayllari, serverless gateway va Drive manifest saqlanadi. GitHub Pages vaqtinchalik final web bo‘lgan davrda FIRST10 uchun optimallashtirilgan rasmlar, WebP kitob sahifalari va master dataset snapshoti ham repoda turadi. 190 MB original PDF, ZIP va sifatli media nusxalari Drive’da qoladi.
 
 ## Tekshiruv qoidasi
 

@@ -1,0 +1,6146 @@
+{
+  "type": "FeatureCollection",
+  "name": "master_all_features",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              58.7,
+              37.5
+            ],
+            [
+              59.0,
+              39.8
+            ],
+            [
+              60.2,
+              42.0
+            ],
+            [
+              62.5,
+              43.6
+            ],
+            [
+              65.2,
+              44.4
+            ],
+            [
+              68.5,
+              45.3
+            ],
+            [
+              72.0,
+              46.6
+            ],
+            [
+              75.5,
+              47.2
+            ],
+            [
+              79.0,
+              46.8
+            ],
+            [
+              82.5,
+              46.0
+            ],
+            [
+              86.0,
+              44.8
+            ],
+            [
+              89.2,
+              43.0
+            ],
+            [
+              90.0,
+              41.0
+            ],
+            [
+              89.0,
+              39.2
+            ],
+            [
+              87.0,
+              37.5
+            ],
+            [
+              84.0,
+              36.0
+            ],
+            [
+              80.5,
+              35.0
+            ],
+            [
+              77.0,
+              34.4
+            ],
+            [
+              73.5,
+              34.2
+            ],
+            [
+              70.5,
+              34.5
+            ],
+            [
+              68.0,
+              35.1
+            ],
+            [
+              65.0,
+              35.6
+            ],
+            [
+              62.0,
+              36.0
+            ],
+            [
+              59.8,
+              36.5
+            ],
+            [
+              58.7,
+              37.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P01_CHAGATAI_EARLY",
+        "period_id": "P01",
+        "polity_uz": "Chig‘atoy ulusi",
+        "polity_en": "Chagatai Ulus",
+        "start_date": "1227",
+        "end_date": "1260",
+        "snapshot_year": 1245,
+        "phase": "early appanage",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.62,
+        "geometry_quality": "generalized from scholarly textual geography + atlas reference",
+        "source_ids": [
+          "BREGEL_MAP19",
+          "IRANICA_CENTRAL_ASIA",
+          "IRANICA_CHAGHATAYID"
+        ],
+        "notes": "Early ulus boundaries were not sharply fixed; sedentary regions also remained under imperial fiscal administration.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states",
+        "boundary_kind": "territorial_extent",
+        "boundary_quality": "textbook-georeferenced approximation",
+        "uncertainty_note": "Chig‘atoy ulusi hududi darslikning ikki masshtabdagi xaritasidan umumlashtirilgan.",
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              54,
+              55
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              58.7,
+              37.0
+            ],
+            [
+              59.5,
+              41.2
+            ],
+            [
+              62.5,
+              43.0
+            ],
+            [
+              66.5,
+              44.3
+            ],
+            [
+              70.5,
+              46.0
+            ],
+            [
+              74.5,
+              47.5
+            ],
+            [
+              79.0,
+              49.0
+            ],
+            [
+              84.0,
+              49.8
+            ],
+            [
+              89.0,
+              49.2
+            ],
+            [
+              92.5,
+              47.5
+            ],
+            [
+              94.0,
+              45.2
+            ],
+            [
+              93.0,
+              42.4
+            ],
+            [
+              90.0,
+              40.4
+            ],
+            [
+              86.5,
+              38.7
+            ],
+            [
+              82.8,
+              36.8
+            ],
+            [
+              78.3,
+              35.7
+            ],
+            [
+              73.5,
+              35.5
+            ],
+            [
+              69.5,
+              36.0
+            ],
+            [
+              65.5,
+              35.8
+            ],
+            [
+              62.0,
+              36.0
+            ],
+            [
+              58.7,
+              37.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P02_CHAGATAI_UNIFIED",
+        "period_id": "P02",
+        "polity_uz": "Chig‘atoy xonligi",
+        "polity_en": "Chagatai Khanate",
+        "start_date": "1266",
+        "end_date": "1340",
+        "snapshot_year": 1300,
+        "phase": "late-13th / early-14th unified phase",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.72,
+        "geometry_quality": "generalized from multiple reference maps",
+        "source_ids": [
+          "BREGEL_MAP19",
+          "CHAGATAI_COMMONS",
+          "CHAGATAI_CATEGORY"
+        ],
+        "notes": "Late 13th-century sources disagree on Caspian/eastern limits; eastern nomadic frontier is intentionally generalized.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68.6,
+              43.1
+            ],
+            [
+              69.8,
+              45.0
+            ],
+            [
+              73.0,
+              46.5
+            ],
+            [
+              77.0,
+              47.6
+            ],
+            [
+              81.5,
+              48.4
+            ],
+            [
+              86.2,
+              47.8
+            ],
+            [
+              90.8,
+              46.0
+            ],
+            [
+              94.0,
+              44.0
+            ],
+            [
+              93.2,
+              41.5
+            ],
+            [
+              90.0,
+              40.4
+            ],
+            [
+              87.3,
+              38.8
+            ],
+            [
+              84.2,
+              37.6
+            ],
+            [
+              81.0,
+              36.3
+            ],
+            [
+              77.7,
+              36.1
+            ],
+            [
+              75.0,
+              37.0
+            ],
+            [
+              72.8,
+              38.8
+            ],
+            [
+              71.3,
+              40.5
+            ],
+            [
+              70.2,
+              42.0
+            ],
+            [
+              68.6,
+              43.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P03_MOGHULISTAN_1372",
+        "period_id": "P03",
+        "polity_uz": "Mo‘g‘uliston / Sharqiy Chig‘atoy",
+        "polity_en": "Moghulistan / Eastern Chagatai",
+        "start_date": "1347",
+        "end_date": "1372",
+        "snapshot_year": 1372,
+        "phase": "eastern successor",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.48,
+        "geometry_quality": "generalized visual digitization from referenced 1372 map",
+        "source_ids": [
+          "EASTERN_CHAGATAI_1372",
+          "BREGEL_MAP21"
+        ],
+        "notes": "Anchored to Talas–Ili–Tarim–Turfan geography; generalized WGS84 outline.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states",
+        "boundary_kind": "influence_zone",
+        "boundary_quality": "schematic political influence zone",
+        "uncertainty_note": "Bu kontur qat’iy davlat chegarasi emas; darslik matnidagi siyosiy ta’sir makonini ko‘rsatadi.",
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              63,
+              64,
+              65
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              59.5,
+              37.0
+            ],
+            [
+              60.0,
+              40.5
+            ],
+            [
+              61.5,
+              42.4
+            ],
+            [
+              65.0,
+              43.5
+            ],
+            [
+              68.5,
+              43.0
+            ],
+            [
+              71.0,
+              42.0
+            ],
+            [
+              73.0,
+              40.5
+            ],
+            [
+              72.2,
+              38.8
+            ],
+            [
+              70.5,
+              37.0
+            ],
+            [
+              68.2,
+              35.7
+            ],
+            [
+              65.0,
+              35.8
+            ],
+            [
+              62.0,
+              36.0
+            ],
+            [
+              59.5,
+              37.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P04_WEST_CHAGATAI",
+        "period_id": "P04",
+        "polity_uz": "G‘arbiy Chig‘atoy / Movarounnahr",
+        "polity_en": "Western Chagatai / Transoxiana",
+        "start_date": "1347",
+        "end_date": "1370",
+        "snapshot_year": 1355,
+        "phase": "western fragmented successor zone",
+        "status": "historical polity",
+        "boundary_type": "approximate_political_zone",
+        "confidence": 0.48,
+        "geometry_quality": "historical political-zone reconstruction",
+        "source_ids": [
+          "BREGEL_MAP21",
+          "IRANICA_CHAGHATAYID"
+        ],
+        "notes": "A political zone rather than a single stable, cadastral state border.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states",
+        "boundary_kind": "influence_zone",
+        "boundary_quality": "schematic political influence zone",
+        "uncertainty_note": "Bu kontur qat’iy davlat chegarasi emas; darslik matnidagi siyosiy ta’sir makonini ko‘rsatadi.",
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              63,
+              64,
+              65
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              65.2,
+              38.3
+            ],
+            [
+              65.8,
+              39.5
+            ],
+            [
+              67.0,
+              40.0
+            ],
+            [
+              68.1,
+              39.4
+            ],
+            [
+              67.8,
+              38.4
+            ],
+            [
+              66.5,
+              37.9
+            ],
+            [
+              65.2,
+              38.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P05_BARLAS",
+        "period_id": "P05",
+        "polity_uz": "Barlos ta’sir zonasi (Kesh)",
+        "polity_en": "Barlas influence zone (Kesh)",
+        "start_date": "1346",
+        "end_date": "1370",
+        "snapshot_year": 1360,
+        "phase": "fragmented Turan / Transoxiana",
+        "status": "regional influence zone",
+        "boundary_type": "approximate_influence_zone",
+        "confidence": 0.36,
+        "geometry_quality": "schematic influence-zone reconstruction",
+        "source_ids": [
+          "BREGEL_MAP21"
+        ],
+        "notes": "Timur belonged to the Barlas, centered in the Kesh region.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states",
+        "boundary_kind": "influence_zone",
+        "boundary_quality": "schematic political influence zone",
+        "uncertainty_note": "Bu kontur qat’iy davlat chegarasi emas; darslik matnidagi siyosiy ta’sir makonini ko‘rsatadi.",
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              76,
+              77,
+              78
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              65.0,
+              35.3
+            ],
+            [
+              65.3,
+              37.7
+            ],
+            [
+              67.0,
+              38.3
+            ],
+            [
+              69.0,
+              37.7
+            ],
+            [
+              70.2,
+              36.2
+            ],
+            [
+              69.2,
+              34.9
+            ],
+            [
+              67.0,
+              34.5
+            ],
+            [
+              65.0,
+              35.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P05_QARAUNAS",
+        "period_id": "P05",
+        "polity_uz": "Qaraunas / Qazag‘on ta’sir zonasi",
+        "polity_en": "Qaraunas / Qazaghan influence zone",
+        "start_date": "1346",
+        "end_date": "1370",
+        "snapshot_year": 1360,
+        "phase": "fragmented Turan / Transoxiana",
+        "status": "regional influence zone",
+        "boundary_type": "approximate_influence_zone",
+        "confidence": 0.34,
+        "geometry_quality": "schematic influence-zone reconstruction",
+        "source_ids": [
+          "BREGEL_MAP21"
+        ],
+        "notes": "Southern Transoxiana/Upper Oxus influence; not a formal state border.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states",
+        "boundary_kind": "influence_zone",
+        "boundary_quality": "schematic political influence zone",
+        "uncertainty_note": "Bu kontur qat’iy davlat chegarasi emas; darslik matnidagi siyosiy ta’sir makonini ko‘rsatadi.",
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              76,
+              77,
+              78
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              65.8,
+              39.2
+            ],
+            [
+              66.2,
+              40.3
+            ],
+            [
+              68.0,
+              40.7
+            ],
+            [
+              69.2,
+              39.9
+            ],
+            [
+              68.8,
+              39.0
+            ],
+            [
+              67.2,
+              38.8
+            ],
+            [
+              65.8,
+              39.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P05_SAMARKAND",
+        "period_id": "P05",
+        "polity_uz": "Samarqand siyosiy markazi",
+        "polity_en": "Samarkand political center zone",
+        "start_date": "1346",
+        "end_date": "1370",
+        "snapshot_year": 1360,
+        "phase": "fragmented Turan / Transoxiana",
+        "status": "regional influence zone",
+        "boundary_type": "approximate_influence_zone",
+        "confidence": 0.38,
+        "geometry_quality": "schematic influence-zone reconstruction",
+        "source_ids": [
+          "BREGEL_MAP21"
+        ],
+        "notes": "Approximate political center/influence zone.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states",
+        "boundary_kind": "influence_zone",
+        "boundary_quality": "schematic political influence zone",
+        "uncertainty_note": "Bu kontur qat’iy davlat chegarasi emas; darslik matnidagi siyosiy ta’sir makonini ko‘rsatadi.",
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              76,
+              77,
+              83,
+              84
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              69.3,
+              39.2
+            ],
+            [
+              70.0,
+              41.1
+            ],
+            [
+              72.3,
+              42.0
+            ],
+            [
+              74.0,
+              41.0
+            ],
+            [
+              73.6,
+              39.4
+            ],
+            [
+              71.7,
+              38.8
+            ],
+            [
+              69.3,
+              39.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P05_FERGHANA",
+        "period_id": "P05",
+        "polity_uz": "Farg‘ona siyosiy zonasi",
+        "polity_en": "Ferghana political zone",
+        "start_date": "1346",
+        "end_date": "1370",
+        "snapshot_year": 1360,
+        "phase": "fragmented Turan / Transoxiana",
+        "status": "regional influence zone",
+        "boundary_type": "approximate_influence_zone",
+        "confidence": 0.32,
+        "geometry_quality": "schematic influence-zone reconstruction",
+        "source_ids": [
+          "BREGEL_MAP21"
+        ],
+        "notes": "Approximate regional political zone.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states",
+        "boundary_kind": "influence_zone",
+        "boundary_quality": "schematic political influence zone",
+        "uncertainty_note": "Bu kontur qat’iy davlat chegarasi emas; darslik matnidagi siyosiy ta’sir makonini ko‘rsatadi.",
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              76,
+              77
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.5,
+              38.4
+            ],
+            [
+              61.0,
+              41.7
+            ],
+            [
+              63.5,
+              42.5
+            ],
+            [
+              65.8,
+              41.0
+            ],
+            [
+              65.7,
+              39.0
+            ],
+            [
+              63.5,
+              37.8
+            ],
+            [
+              60.5,
+              38.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P05_BUKHARA",
+        "period_id": "P05",
+        "polity_uz": "Buxoro-g‘arbiy Movarounnahr zonasi",
+        "polity_en": "Bukhara / western Transoxiana zone",
+        "start_date": "1346",
+        "end_date": "1370",
+        "snapshot_year": 1360,
+        "phase": "fragmented Turan / Transoxiana",
+        "status": "regional influence zone",
+        "boundary_type": "approximate_influence_zone",
+        "confidence": 0.34,
+        "geometry_quality": "schematic influence-zone reconstruction",
+        "source_ids": [
+          "BREGEL_MAP21"
+        ],
+        "notes": "Approximate regional political zone.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states",
+        "boundary_kind": "influence_zone",
+        "boundary_quality": "schematic political influence zone",
+        "uncertainty_note": "Bu kontur qat’iy davlat chegarasi emas; darslik matnidagi siyosiy ta’sir makonini ko‘rsatadi.",
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              76,
+              77
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.8,
+              37.0
+            ],
+            [
+              61.2,
+              40.9
+            ],
+            [
+              63.5,
+              42.4
+            ],
+            [
+              66.5,
+              43.0
+            ],
+            [
+              69.0,
+              42.7
+            ],
+            [
+              71.5,
+              41.8
+            ],
+            [
+              72.8,
+              40.2
+            ],
+            [
+              71.3,
+              38.2
+            ],
+            [
+              69.5,
+              36.4
+            ],
+            [
+              67.2,
+              35.2
+            ],
+            [
+              64.5,
+              35.7
+            ],
+            [
+              62.2,
+              36.0
+            ],
+            [
+              60.8,
+              37.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P06_TIMUR_1370",
+        "period_id": "P06",
+        "polity_uz": "Amir Temurning 1370-yildagi boshlang‘ich nazorat hududi",
+        "polity_en": "Timur initial control zone",
+        "start_date": "1370",
+        "end_date": "1380",
+        "snapshot_year": 1370,
+        "phase": "post-Balkh consolidation core",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.46,
+        "geometry_quality": "generalized core-control reconstruction",
+        "source_ids": [
+          "BREGEL_MAP21"
+        ],
+        "notes": "Represents the core Chagatai/Transoxiana sphere after the 1370 Balkh transition; authority remained contested.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states",
+        "boundary_kind": "influence_zone",
+        "boundary_quality": "schematic political influence zone",
+        "uncertainty_note": "Bu kontur qat’iy davlat chegarasi emas; darslik matnidagi siyosiy ta’sir makonini ko‘rsatadi.",
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              87,
+              88,
+              89,
+              90
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.5,
+              32.0
+            ],
+            [
+              44.0,
+              36.8
+            ],
+            [
+              46.0,
+              40.5
+            ],
+            [
+              50.0,
+              43.0
+            ],
+            [
+              55.0,
+              43.5
+            ],
+            [
+              60.0,
+              44.0
+            ],
+            [
+              66.0,
+              44.5
+            ],
+            [
+              71.5,
+              43.0
+            ],
+            [
+              75.0,
+              40.0
+            ],
+            [
+              74.0,
+              35.0
+            ],
+            [
+              71.0,
+              31.0
+            ],
+            [
+              66.0,
+              29.0
+            ],
+            [
+              61.0,
+              28.0
+            ],
+            [
+              56.0,
+              27.0
+            ],
+            [
+              51.0,
+              27.5
+            ],
+            [
+              47.0,
+              29.0
+            ],
+            [
+              43.5,
+              32.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P07_TIMUR_1394",
+        "period_id": "P07",
+        "polity_uz": "Amir Temur davlati",
+        "polity_en": "Timurid realm under Timur",
+        "start_date": "1394",
+        "end_date": "1394",
+        "snapshot_year": 1394,
+        "phase": "1394 keyframe",
+        "status": "historical polity",
+        "boundary_type": "campaign_era_control_extent",
+        "confidence": 0.58,
+        "geometry_quality": "generalized campaign-era extent from Wikimedia temporal-map sequence",
+        "source_ids": [
+          "BREGEL_MAP21",
+          "TIMURID_ARCGIS_1400",
+          "WIKI_TAMERLA_1394_PNG"
+        ],
+        "notes": "Extent mixes durable control with short-lived campaign-era domination; use campaigns layer to distinguish movements.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.0,
+              31.5
+            ],
+            [
+              41.5,
+              36.5
+            ],
+            [
+              44.0,
+              42.0
+            ],
+            [
+              48.0,
+              44.5
+            ],
+            [
+              53.0,
+              46.0
+            ],
+            [
+              58.0,
+              45.0
+            ],
+            [
+              63.0,
+              45.0
+            ],
+            [
+              68.0,
+              44.5
+            ],
+            [
+              73.0,
+              43.0
+            ],
+            [
+              76.0,
+              39.5
+            ],
+            [
+              75.0,
+              34.0
+            ],
+            [
+              71.5,
+              30.5
+            ],
+            [
+              67.0,
+              28.8
+            ],
+            [
+              61.0,
+              27.5
+            ],
+            [
+              55.0,
+              27.0
+            ],
+            [
+              49.0,
+              28.5
+            ],
+            [
+              44.0,
+              29.5
+            ],
+            [
+              42.0,
+              31.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P07_TIMUR_1394_1397",
+        "period_id": "P07",
+        "polity_uz": "Amir Temur davlati",
+        "polity_en": "Timurid realm under Timur",
+        "start_date": "1394",
+        "end_date": "1397",
+        "snapshot_year": 1397,
+        "phase": "1394–1397 keyframe",
+        "status": "historical polity",
+        "boundary_type": "campaign_era_control_extent",
+        "confidence": 0.58,
+        "geometry_quality": "generalized campaign-era extent from Wikimedia temporal-map sequence",
+        "source_ids": [
+          "BREGEL_MAP21",
+          "TIMURID_ARCGIS_1400",
+          "WIKI_TAMERLA_1394_1397_PNG"
+        ],
+        "notes": "Extent mixes durable control with short-lived campaign-era domination; use campaigns layer to distinguish movements.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.0,
+              31.5
+            ],
+            [
+              41.5,
+              36.8
+            ],
+            [
+              44.0,
+              42.0
+            ],
+            [
+              49.0,
+              45.0
+            ],
+            [
+              55.0,
+              46.0
+            ],
+            [
+              62.0,
+              45.0
+            ],
+            [
+              68.0,
+              44.5
+            ],
+            [
+              73.0,
+              42.5
+            ],
+            [
+              77.5,
+              39.0
+            ],
+            [
+              78.5,
+              33.0
+            ],
+            [
+              77.3,
+              28.5
+            ],
+            [
+              73.5,
+              27.0
+            ],
+            [
+              70.0,
+              29.5
+            ],
+            [
+              66.0,
+              28.5
+            ],
+            [
+              60.0,
+              27.0
+            ],
+            [
+              54.0,
+              27.0
+            ],
+            [
+              48.0,
+              28.5
+            ],
+            [
+              44.0,
+              29.5
+            ],
+            [
+              42.0,
+              31.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P07_TIMUR_1397_1399",
+        "period_id": "P07",
+        "polity_uz": "Amir Temur davlati",
+        "polity_en": "Timurid realm under Timur",
+        "start_date": "1397",
+        "end_date": "1399",
+        "snapshot_year": 1399,
+        "phase": "1397–1399 keyframe",
+        "status": "historical polity",
+        "boundary_type": "campaign_era_control_extent",
+        "confidence": 0.58,
+        "geometry_quality": "generalized campaign-era extent from Wikimedia temporal-map sequence",
+        "source_ids": [
+          "BREGEL_MAP21",
+          "TIMURID_ARCGIS_1400",
+          "WIKI_TAMERLA_1397_1399_PNG"
+        ],
+        "notes": "Extent mixes durable control with short-lived campaign-era domination; use campaigns layer to distinguish movements.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.0,
+              32.2
+            ],
+            [
+              35.3,
+              36.8
+            ],
+            [
+              39.0,
+              39.5
+            ],
+            [
+              44.0,
+              42.0
+            ],
+            [
+              50.0,
+              45.0
+            ],
+            [
+              56.0,
+              46.0
+            ],
+            [
+              62.0,
+              45.2
+            ],
+            [
+              68.0,
+              44.5
+            ],
+            [
+              73.0,
+              42.5
+            ],
+            [
+              77.5,
+              39.0
+            ],
+            [
+              78.0,
+              33.0
+            ],
+            [
+              76.5,
+              28.5
+            ],
+            [
+              72.0,
+              28.0
+            ],
+            [
+              67.0,
+              28.5
+            ],
+            [
+              61.0,
+              27.0
+            ],
+            [
+              55.0,
+              27.0
+            ],
+            [
+              49.0,
+              28.5
+            ],
+            [
+              43.0,
+              29.0
+            ],
+            [
+              38.0,
+              30.5
+            ],
+            [
+              35.0,
+              32.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P07_TIMUR_1399_1401",
+        "period_id": "P07",
+        "polity_uz": "Amir Temur davlati",
+        "polity_en": "Timurid realm under Timur",
+        "start_date": "1399",
+        "end_date": "1401",
+        "snapshot_year": 1401,
+        "phase": "1399–1401 keyframe",
+        "status": "historical polity",
+        "boundary_type": "campaign_era_control_extent",
+        "confidence": 0.58,
+        "geometry_quality": "generalized campaign-era extent from Wikimedia temporal-map sequence",
+        "source_ids": [
+          "BREGEL_MAP21",
+          "TIMURID_ARCGIS_1400",
+          "WIKI_TAMERLA_1399_1401_PNG"
+        ],
+        "notes": "Extent mixes durable control with short-lived campaign-era domination; use campaigns layer to distinguish movements.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.5,
+              38.0
+            ],
+            [
+              33.0,
+              40.5
+            ],
+            [
+              37.0,
+              42.0
+            ],
+            [
+              42.0,
+              42.5
+            ],
+            [
+              48.0,
+              45.0
+            ],
+            [
+              55.0,
+              46.0
+            ],
+            [
+              62.0,
+              45.2
+            ],
+            [
+              68.0,
+              44.5
+            ],
+            [
+              73.0,
+              42.5
+            ],
+            [
+              77.5,
+              39.0
+            ],
+            [
+              78.0,
+              33.0
+            ],
+            [
+              76.5,
+              28.5
+            ],
+            [
+              72.0,
+              28.0
+            ],
+            [
+              67.0,
+              28.5
+            ],
+            [
+              61.0,
+              27.0
+            ],
+            [
+              55.0,
+              27.0
+            ],
+            [
+              49.0,
+              28.0
+            ],
+            [
+              43.0,
+              29.0
+            ],
+            [
+              38.0,
+              31.0
+            ],
+            [
+              35.0,
+              34.0
+            ],
+            [
+              32.5,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P07_TIMUR_1401_1402",
+        "period_id": "P07",
+        "polity_uz": "Amir Temur davlati",
+        "polity_en": "Timurid realm under Timur",
+        "start_date": "1401",
+        "end_date": "1402",
+        "snapshot_year": 1402,
+        "phase": "1401–1402 keyframe",
+        "status": "historical polity",
+        "boundary_type": "campaign_era_control_extent",
+        "confidence": 0.58,
+        "geometry_quality": "generalized campaign-era extent from Wikimedia temporal-map sequence",
+        "source_ids": [
+          "BREGEL_MAP21",
+          "TIMURID_ARCGIS_1400",
+          "WIKI_TAMERLA_1401_1402_PNG"
+        ],
+        "notes": "Extent mixes durable control with short-lived campaign-era domination; use campaigns layer to distinguish movements.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.5,
+              38.0
+            ],
+            [
+              32.5,
+              41.0
+            ],
+            [
+              37.5,
+              42.5
+            ],
+            [
+              43.0,
+              43.0
+            ],
+            [
+              49.0,
+              45.0
+            ],
+            [
+              55.0,
+              46.0
+            ],
+            [
+              62.0,
+              45.2
+            ],
+            [
+              68.0,
+              44.5
+            ],
+            [
+              73.0,
+              42.5
+            ],
+            [
+              77.5,
+              39.0
+            ],
+            [
+              78.0,
+              33.0
+            ],
+            [
+              76.0,
+              28.5
+            ],
+            [
+              72.0,
+              28.0
+            ],
+            [
+              67.0,
+              28.5
+            ],
+            [
+              61.0,
+              27.0
+            ],
+            [
+              55.0,
+              27.0
+            ],
+            [
+              49.0,
+              28.0
+            ],
+            [
+              43.0,
+              29.0
+            ],
+            [
+              38.0,
+              31.0
+            ],
+            [
+              35.0,
+              34.0
+            ],
+            [
+              31.5,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P07_TIMUR_1403_1405",
+        "period_id": "P07",
+        "polity_uz": "Amir Temur davlati",
+        "polity_en": "Timurid realm under Timur",
+        "start_date": "1403",
+        "end_date": "1405",
+        "snapshot_year": 1405,
+        "phase": "1403–1405 maximum campaign-era keyframe",
+        "status": "historical polity",
+        "boundary_type": "campaign_era_control_extent",
+        "confidence": 0.58,
+        "geometry_quality": "generalized campaign-era extent from Wikimedia temporal-map sequence",
+        "source_ids": [
+          "BREGEL_MAP21",
+          "TIMURID_ARCGIS_1400",
+          "WIKI_TAMERLA_1403_1405_PNG"
+        ],
+        "notes": "Extent mixes durable control with short-lived campaign-era domination; use campaigns layer to distinguish movements.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              59.5,
+              37.0
+            ],
+            [
+              60.0,
+              41.2
+            ],
+            [
+              63.0,
+              43.0
+            ],
+            [
+              67.0,
+              43.3
+            ],
+            [
+              71.0,
+              42.0
+            ],
+            [
+              73.0,
+              40.0
+            ],
+            [
+              71.0,
+              37.2
+            ],
+            [
+              67.0,
+              36.0
+            ],
+            [
+              63.0,
+              36.2
+            ],
+            [
+              59.5,
+              37.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P08_KHALIL_SULTAN",
+        "period_id": "P08",
+        "polity_uz": "Xalil Sulton — Movarounnahr/Samarqand",
+        "polity_en": "Khalil Sultan – Transoxiana/Samarkand",
+        "start_date": "1405",
+        "end_date": "1409",
+        "snapshot_year": 1406,
+        "phase": "post-1405 appanage",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.62,
+        "geometry_quality": "schematic post-succession division",
+        "source_ids": [
+          "WIKI_XAHRUKH1405_PNG",
+          "WIKI_XAHRUKH1405_1406_PNG"
+        ],
+        "notes": "Core Samarkand/Transoxiana sphere.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.0,
+              31.0
+            ],
+            [
+              53.0,
+              36.0
+            ],
+            [
+              57.0,
+              38.5
+            ],
+            [
+              62.0,
+              39.0
+            ],
+            [
+              67.0,
+              38.0
+            ],
+            [
+              72.0,
+              35.0
+            ],
+            [
+              72.5,
+              31.0
+            ],
+            [
+              68.0,
+              28.5
+            ],
+            [
+              61.0,
+              27.5
+            ],
+            [
+              56.0,
+              28.0
+            ],
+            [
+              52.0,
+              31.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P08_SHAHRUKH",
+        "period_id": "P08",
+        "polity_uz": "Shohrux — Xuroson/Hirot",
+        "polity_en": "Shah Rukh – Khorasan/Herat",
+        "start_date": "1405",
+        "end_date": "1409",
+        "snapshot_year": 1406,
+        "phase": "post-1405 appanage",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.66,
+        "geometry_quality": "schematic post-succession division",
+        "source_ids": [
+          "WIKI_XAHRUKH1405_PNG",
+          "WIKI_XAHRUKH1405_1406_PNG"
+        ],
+        "notes": "Core Herat/Khorasan and eastern Iranian/Afghan sphere.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.0,
+              31.0
+            ],
+            [
+              42.0,
+              38.5
+            ],
+            [
+              47.0,
+              41.0
+            ],
+            [
+              52.0,
+              40.0
+            ],
+            [
+              55.0,
+              36.0
+            ],
+            [
+              52.0,
+              31.0
+            ],
+            [
+              47.0,
+              29.0
+            ],
+            [
+              42.0,
+              31.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P08_WEST_CONTESTED",
+        "period_id": "P08",
+        "polity_uz": "G‘arbiy Temuriy mulklar — bahsli zona",
+        "polity_en": "Western Timurid possessions – contested",
+        "start_date": "1405",
+        "end_date": "1408",
+        "snapshot_year": 1406,
+        "phase": "contested western remnants",
+        "status": "historical polity",
+        "boundary_type": "contested_zone",
+        "confidence": 0.38,
+        "geometry_quality": "low-confidence schematic contested zone",
+        "source_ids": [
+          "WIKI_XAHRUKH1405_1406_PNG"
+        ],
+        "notes": "Rapidly contested by Qara Qoyunlu and other powers; shown for context only.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              50.0,
+              32.0
+            ],
+            [
+              51.0,
+              37.0
+            ],
+            [
+              55.0,
+              39.0
+            ],
+            [
+              60.0,
+              42.0
+            ],
+            [
+              65.0,
+              43.0
+            ],
+            [
+              69.5,
+              42.5
+            ],
+            [
+              73.0,
+              40.5
+            ],
+            [
+              75.0,
+              37.0
+            ],
+            [
+              73.0,
+              33.0
+            ],
+            [
+              70.0,
+              30.0
+            ],
+            [
+              65.0,
+              29.0
+            ],
+            [
+              60.0,
+              30.0
+            ],
+            [
+              55.0,
+              30.0
+            ],
+            [
+              50.0,
+              32.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P09_ABU_SAID_1465",
+        "period_id": "P09",
+        "polity_uz": "Abu Sa’id Mirzo davlati (taxm. 1465)",
+        "polity_en": "Abu Sa’id Mirza realm (c.1465)",
+        "start_date": "1458",
+        "end_date": "1469",
+        "snapshot_year": 1465,
+        "phase": "reconsolidated Timurid realm",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.65,
+        "geometry_quality": "generalized late-Timurid extent",
+        "source_ids": [
+          "TIMURID_1458",
+          "BREGEL_MAP24"
+        ],
+        "notes": "Represents broad reconsolidation across Transoxiana, Afghanistan and parts of northern Iran before 1469.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.5,
+              37.5
+            ],
+            [
+              60.8,
+              41.5
+            ],
+            [
+              64.0,
+              43.0
+            ],
+            [
+              68.0,
+              42.7
+            ],
+            [
+              70.2,
+              41.3
+            ],
+            [
+              69.8,
+              39.2
+            ],
+            [
+              67.5,
+              37.5
+            ],
+            [
+              64.0,
+              36.8
+            ],
+            [
+              60.5,
+              37.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P09_AHMAD_MAVAR",
+        "period_id": "P09",
+        "polity_uz": "Sulton Ahmad — Movarounnahr",
+        "polity_en": "Sultan Ahmad – Transoxiana",
+        "start_date": "1469",
+        "end_date": "1494",
+        "snapshot_year": 1480,
+        "phase": "post-1469 appanage",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.73,
+        "geometry_quality": "text-anchored regional reconstruction",
+        "source_ids": [
+          "BREGEL_MAP24",
+          "TIMURID_LATE15"
+        ],
+        "notes": "Bregel explicitly assigns Mavarannahr to Sultan Ahmad.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              66.3,
+              36.2
+            ],
+            [
+              67.0,
+              39.2
+            ],
+            [
+              69.5,
+              40.0
+            ],
+            [
+              72.0,
+              39.2
+            ],
+            [
+              73.5,
+              37.2
+            ],
+            [
+              73.0,
+              35.0
+            ],
+            [
+              70.0,
+              34.0
+            ],
+            [
+              67.5,
+              34.7
+            ],
+            [
+              66.3,
+              36.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P09_MAHMUD_HISAR",
+        "period_id": "P09",
+        "polity_uz": "Sulton Mahmud — Hisor/Chag‘oniyon/Badaxshon",
+        "polity_en": "Sultan Mahmud – Hisar/Chaghaniyan/Badakhshan",
+        "start_date": "1469",
+        "end_date": "1494",
+        "snapshot_year": 1480,
+        "phase": "post-1469 appanage",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.7,
+        "geometry_quality": "text-anchored regional reconstruction",
+        "source_ids": [
+          "BREGEL_MAP24"
+        ],
+        "notes": "Bregel explicitly lists Hisar, Chaghaniyan and Badakhshan.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              69.2,
+              39.2
+            ],
+            [
+              69.8,
+              41.2
+            ],
+            [
+              72.2,
+              42.0
+            ],
+            [
+              74.0,
+              41.0
+            ],
+            [
+              73.7,
+              39.2
+            ],
+            [
+              71.8,
+              38.7
+            ],
+            [
+              69.2,
+              39.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P09_UMAR_FERGHANA",
+        "period_id": "P09",
+        "polity_uz": "Umar Shayx — Farg‘ona",
+        "polity_en": "Umar Shaykh – Ferghana",
+        "start_date": "1469",
+        "end_date": "1494",
+        "snapshot_year": 1480,
+        "phase": "post-1469 appanage",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.78,
+        "geometry_quality": "text-anchored valley reconstruction",
+        "source_ids": [
+          "BREGEL_MAP24"
+        ],
+        "notes": "Bregel explicitly assigns Ferghana to Umar Shaykh.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.0,
+              31.0
+            ],
+            [
+              55.0,
+              36.8
+            ],
+            [
+              58.5,
+              38.5
+            ],
+            [
+              62.0,
+              39.0
+            ],
+            [
+              66.5,
+              38.2
+            ],
+            [
+              69.0,
+              36.0
+            ],
+            [
+              68.0,
+              32.0
+            ],
+            [
+              64.5,
+              29.0
+            ],
+            [
+              60.0,
+              28.5
+            ],
+            [
+              57.0,
+              29.5
+            ],
+            [
+              55.0,
+              31.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P09_HUSAYN_KHORASAN",
+        "period_id": "P09",
+        "polity_uz": "Sulton Husayn Boyqaro — Xuroson/Hirot",
+        "polity_en": "Sultan Husayn Bayqara – Khorasan/Herat",
+        "start_date": "1469",
+        "end_date": "1506",
+        "snapshot_year": 1490,
+        "phase": "Herat-centered Timurid realm",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.72,
+        "geometry_quality": "text-anchored regional reconstruction",
+        "source_ids": [
+          "BREGEL_MAP24",
+          "TIMURID_LATE15"
+        ],
+        "notes": "Herat-centered Khorasan sphere; exact frontier fluctuated.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              61.0,
+              38.0
+            ],
+            [
+              61.2,
+              41.3
+            ],
+            [
+              64.0,
+              42.8
+            ],
+            [
+              68.0,
+              42.5
+            ],
+            [
+              70.0,
+              41.0
+            ],
+            [
+              69.3,
+              39.0
+            ],
+            [
+              66.5,
+              37.4
+            ],
+            [
+              63.0,
+              37.0
+            ],
+            [
+              61.0,
+              38.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P09_SAMARKAND_1496",
+        "period_id": "P09",
+        "polity_uz": "Samarqand Temuriy mulki (1496)",
+        "polity_en": "Samarkand Timurid state (1496)",
+        "start_date": "1494",
+        "end_date": "1500",
+        "snapshot_year": 1496,
+        "phase": "late fragmentation",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.55,
+        "geometry_quality": "schematic 1496 fragmentation",
+        "source_ids": [
+          "BREGEL_MAP24"
+        ],
+        "notes": "After deaths in 1494–1495, succession instability intensified.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              69.2,
+              39.2
+            ],
+            [
+              69.8,
+              41.2
+            ],
+            [
+              72.2,
+              42.0
+            ],
+            [
+              74.0,
+              41.0
+            ],
+            [
+              73.7,
+              39.2
+            ],
+            [
+              71.8,
+              38.7
+            ],
+            [
+              69.2,
+              39.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P09_FERGHANA_1496",
+        "period_id": "P09",
+        "polity_uz": "Farg‘ona — Bobur davri boshlanishi",
+        "polity_en": "Ferghana – early Babur period",
+        "start_date": "1494",
+        "end_date": "1500",
+        "snapshot_year": 1496,
+        "phase": "late fragmentation",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.65,
+        "geometry_quality": "regional valley reconstruction",
+        "source_ids": [
+          "BREGEL_MAP24"
+        ],
+        "notes": "Umar Shaykh died in 1494/95; Ferghana passed into a new succession phase.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              66.5,
+              35.5
+            ],
+            [
+              67.0,
+              39.0
+            ],
+            [
+              70.0,
+              40.0
+            ],
+            [
+              73.5,
+              38.7
+            ],
+            [
+              74.0,
+              36.5
+            ],
+            [
+              72.0,
+              34.2
+            ],
+            [
+              69.0,
+              34.0
+            ],
+            [
+              66.5,
+              35.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P09_HISAR_1496",
+        "period_id": "P09",
+        "polity_uz": "Hisor-Badaxshon — Xusravshoh ta’siri",
+        "polity_en": "Hisar-Badakhshan – Khusraw Shah influence",
+        "start_date": "1495",
+        "end_date": "1499",
+        "snapshot_year": 1496,
+        "phase": "late fragmentation",
+        "status": "historical polity",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.56,
+        "geometry_quality": "schematic influence reconstruction",
+        "source_ids": [
+          "BREGEL_MAP24"
+        ],
+        "notes": "Bregel describes Khusraw Shah ruling the large Hisar appanage independently.",
+        "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.8,
+              44.5
+            ],
+            [
+              55.0,
+              45.2
+            ],
+            [
+              58.0,
+              46.0
+            ],
+            [
+              61.0,
+              45.8
+            ],
+            [
+              64.0,
+              44.9
+            ],
+            [
+              66.8,
+              44.2
+            ],
+            [
+              68.5,
+              43.5
+            ],
+            [
+              70.2,
+              42.8
+            ],
+            [
+              71.2,
+              41.2
+            ],
+            [
+              71.0,
+              39.0
+            ],
+            [
+              70.0,
+              37.2
+            ],
+            [
+              68.2,
+              35.4
+            ],
+            [
+              66.5,
+              33.2
+            ],
+            [
+              65.0,
+              30.6
+            ],
+            [
+              63.8,
+              28.0
+            ],
+            [
+              61.5,
+              25.6
+            ],
+            [
+              59.0,
+              25.2
+            ],
+            [
+              56.5,
+              25.5
+            ],
+            [
+              54.0,
+              26.5
+            ],
+            [
+              52.0,
+              28.0
+            ],
+            [
+              50.2,
+              30.0
+            ],
+            [
+              48.8,
+              32.0
+            ],
+            [
+              47.0,
+              34.0
+            ],
+            [
+              45.8,
+              36.0
+            ],
+            [
+              46.0,
+              38.0
+            ],
+            [
+              47.2,
+              39.5
+            ],
+            [
+              49.0,
+              39.2
+            ],
+            [
+              50.8,
+              37.7
+            ],
+            [
+              52.8,
+              36.9
+            ],
+            [
+              54.5,
+              37.2
+            ],
+            [
+              54.2,
+              39.0
+            ],
+            [
+              53.5,
+              41.0
+            ],
+            [
+              52.8,
+              44.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P00_KHWARAZM_1218",
+        "period_id": "P00",
+        "polity_uz": "Xorazmshohlar davlati",
+        "polity_en": "Khwarazmian Empire",
+        "start_date": "1190",
+        "end_date": "1220",
+        "snapshot_year": 1218,
+        "phase": "late pre-Mongol peak",
+        "status": "reconstructed",
+        "boundary_type": "approximate_historical_extent",
+        "confidence": 0.64,
+        "geometry_quality": "manual generalized polygon from atlas/reference maps",
+        "source_ids": "KHWARAZM_COMMONS; WIKIMEDIA_REF_MAPS",
+        "notes": "8-sinf dastlabki mavzulari uchun tayanch polygon. Aniq kadastr chegarasi emas.",
+        "crs_note": "EPSG:4326",
+        "feature_class": "state",
+        "source_layer": "states",
+        "boundary_kind": "territorial_extent",
+        "boundary_quality": "textbook-georeferenced approximation",
+        "uncertainty_note": "Chegara darslikdagi 1217–1218-yil siyosiy hudud xaritasidan umumlashtirilgan.",
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              9
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.5,
+              33.7
+            ],
+            [
+              61.2,
+              35.0
+            ],
+            [
+              62.2,
+              36.0
+            ],
+            [
+              63.0,
+              35.8
+            ],
+            [
+              63.1,
+              34.6
+            ],
+            [
+              62.5,
+              33.8
+            ],
+            [
+              61.5,
+              33.4
+            ],
+            [
+              60.5,
+              33.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P09_HERAT_CULTURAL_ZONE",
+        "period_id": "P09",
+        "polity_uz": "Hirot madaniy markazi",
+        "polity_en": "Herat cultural zone",
+        "start_date": "1469",
+        "end_date": "1500",
+        "snapshot_year": 1485,
+        "phase": "cultural focus",
+        "status": "thematic",
+        "boundary_type": "approximate_influence_zone",
+        "confidence": 0.42,
+        "geometry_quality": "small thematic zone",
+        "source_ids": "TEXTUAL_RECONSTRUCTION",
+        "notes": "Sulton Husayn Boyqaro va Alisher Navoiy mavzulari uchun tematik zona.",
+        "crs_note": "EPSG:4326",
+        "feature_class": "state",
+        "source_layer": "states"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9597,
+          39.6542
+        ]
+      },
+      "properties": {
+        "id": "CITY_001",
+        "name": "Samarkand",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.4286,
+          39.7681
+        ]
+      },
+      "properties": {
+        "id": "CITY_002",
+        "name": "Bukhara",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.2401,
+          41.2995
+        ]
+      },
+      "properties": {
+        "id": "CITY_003",
+        "name": "Tashkent",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.8342,
+          39.0578
+        ]
+      },
+      "properties": {
+        "id": "CITY_004",
+        "name": "Kesh / Shahrisabz",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.2783,
+          37.2242
+        ]
+      },
+      "properties": {
+        "id": "CITY_005",
+        "name": "Termez",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.8972,
+          36.7564
+        ]
+      },
+      "properties": {
+        "id": "CITY_006",
+        "name": "Balkh",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2031,
+          34.3529
+        ]
+      },
+      "properties": {
+        "id": "CITY_007",
+        "name": "Herat",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.189,
+          37.662
+        ]
+      },
+      "properties": {
+        "id": "CITY_008",
+        "name": "Merv",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.633,
+          41.55
+        ]
+      },
+      "properties": {
+        "id": "CITY_009",
+        "name": "Urgench / Khwarazm",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.3,
+          42.85
+        ]
+      },
+      "properties": {
+        "id": "CITY_010",
+        "name": "Otrar",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.6222,
+          40.2833
+        ]
+      },
+      "properties": {
+        "id": "CITY_011",
+        "name": "Khujand",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.7864,
+          40.3864
+        ]
+      },
+      "properties": {
+        "id": "CITY_012",
+        "name": "Ferghana",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.3442,
+          40.7821
+        ]
+      },
+      "properties": {
+        "id": "CITY_013",
+        "name": "Andijan",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.7985,
+          40.5283
+        ]
+      },
+      "properties": {
+        "id": "CITY_014",
+        "name": "Osh",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.8,
+          44.27
+        ]
+      },
+      "properties": {
+        "id": "CITY_015",
+        "name": "Almaliq (historic approx.)",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.24,
+          42.52
+        ]
+      },
+      "properties": {
+        "id": "CITY_016",
+        "name": "Talas",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9898,
+          39.4704
+        ]
+      },
+      "properties": {
+        "id": "CITY_017",
+        "name": "Kashgar",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.2634,
+          41.1675
+        ]
+      },
+      "properties": {
+        "id": "CITY_018",
+        "name": "Aksu",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.25,
+          38.42
+        ]
+      },
+      "properties": {
+        "id": "CITY_019",
+        "name": "Yarkand",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.9253,
+          37.1117
+        ]
+      },
+      "properties": {
+        "id": "CITY_020",
+        "name": "Khotan",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.96,
+          41.72
+        ]
+      },
+      "properties": {
+        "id": "CITY_021",
+        "name": "Kucha",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.1895,
+          42.9513
+        ]
+      },
+      "properties": {
+        "id": "CITY_022",
+        "name": "Turfan",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.18,
+          44.0
+        ]
+      },
+      "properties": {
+        "id": "CITY_023",
+        "name": "Beshbalik/Jimsar",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.5149,
+          42.8339
+        ]
+      },
+      "properties": {
+        "id": "CITY_024",
+        "name": "Hami",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.2075,
+          34.5553
+        ]
+      },
+      "properties": {
+        "id": "CITY_025",
+        "name": "Kabul",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.209,
+          28.6139
+        ]
+      },
+      "properties": {
+        "id": "CITY_026",
+        "name": "Delhi",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.2919,
+          38.08
+        ]
+      },
+      "properties": {
+        "id": "CITY_027",
+        "name": "Tabriz",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3661,
+          33.3152
+        ]
+      },
+      "properties": {
+        "id": "CITY_028",
+        "name": "Baghdad",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.1343,
+          36.2021
+        ]
+      },
+      "properties": {
+        "id": "CITY_029",
+        "name": "Aleppo",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.2765,
+          33.5138
+        ]
+      },
+      "properties": {
+        "id": "CITY_030",
+        "name": "Damascus",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8597,
+          39.9334
+        ]
+      },
+      "properties": {
+        "id": "CITY_031",
+        "name": "Ankara",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.666,
+          32.6539
+        ]
+      },
+      "properties": {
+        "id": "CITY_032",
+        "name": "Isfahan",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5837,
+          29.5918
+        ]
+      },
+      "properties": {
+        "id": "CITY_033",
+        "name": "Shiraz",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6168,
+          36.2605
+        ]
+      },
+      "properties": {
+        "id": "CITY_034",
+        "name": "Mashhad",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.3,
+          42.85
+        ]
+      },
+      "properties": {
+        "id": "CITY_035",
+        "name": "Otrar/Farab",
+        "role": "historical_anchor/control_point",
+        "coordinate_quality": "modern/historical-site approximate",
+        "feature_class": "city",
+        "source_layer": "cities"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.96,
+          39.65
+        ]
+      },
+      "properties": {
+        "id": "EV_1227_ULUS",
+        "date": "1227",
+        "title_uz": "Chig‘atoy ulusining merosiy ulus sifatida shakllanishi",
+        "category": "political_transition",
+        "period_id": "P01",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.24,
+          42.52
+        ]
+      },
+      "properties": {
+        "id": "EV_1264_ALGHU",
+        "date": "1264",
+        "title_uz": "Amudaryo–Oltoy oralig‘idagi yerlarning Alghuga qayta tasdiqlanishi",
+        "category": "political_transition",
+        "period_id": "P02",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.24,
+          42.52
+        ]
+      },
+      "properties": {
+        "id": "EV_1269_TALAS",
+        "date": "1269",
+        "title_uz": "Talas qurultoyi va Movarounnahr taqsimoti",
+        "category": "political_event",
+        "period_id": "P02",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.8,
+          44.27
+        ]
+      },
+      "properties": {
+        "id": "EV_1347_MOGHUL",
+        "date": "1347",
+        "title_uz": "Mo‘g‘ulistonning sharqiy Chig‘atoy vorisi sifatida shakllanishi",
+        "category": "political_transition",
+        "period_id": "P03",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.24,
+          41.3
+        ]
+      },
+      "properties": {
+        "id": "EV_1360_INVASION",
+        "date": "1360",
+        "title_uz": "Tug‘luq Temurning Movarounnahrga yurishi",
+        "category": "invasion",
+        "period_id": "P05",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.6,
+          41.2
+        ]
+      },
+      "properties": {
+        "id": "EV_1365_MIRE",
+        "date": "1365",
+        "title_uz": "Chirchiq/Toshkent yaqinidagi 1365-yil jang (Joylashuv taxminiy)",
+        "category": "battle",
+        "period_id": "P05",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9597,
+          39.6542
+        ]
+      },
+      "properties": {
+        "id": "EV_1366_SAMARKAND",
+        "date": "1366",
+        "title_uz": "Samarqanddagi Sarbadarlar epizodi va hokimiyat kurashi",
+        "category": "political_event",
+        "period_id": "P05",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.8972,
+          36.7564
+        ]
+      },
+      "properties": {
+        "id": "EV_1370_BALKH",
+        "date": "1370",
+        "title_uz": "Balkh qamali; Amir Husaynning mag‘lubiyati va Temurning yetakchilikka chiqishi",
+        "category": "siege_transition",
+        "period_id": "P06",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2031,
+          34.3529
+        ]
+      },
+      "properties": {
+        "id": "EV_1381_HERAT",
+        "date": "1381",
+        "title_uz": "Temurning Hirot yurishi",
+        "category": "campaign_event",
+        "period_id": "P07",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.2,
+          53.25
+        ]
+      },
+      "properties": {
+        "id": "EV_1391_KONDURCHA",
+        "date": "1391",
+        "title_uz": "Kondurcha daryosi jangi (joylashuv taxminiy)",
+        "category": "battle",
+        "period_id": "P07",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.0,
+          43.3
+        ]
+      },
+      "properties": {
+        "id": "EV_1395_TEREK",
+        "date": "1395",
+        "title_uz": "Terek daryosi jangi (joylashuv taxminiy)",
+        "category": "battle",
+        "period_id": "P07",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.209,
+          28.6139
+        ]
+      },
+      "properties": {
+        "id": "EV_1398_DELHI",
+        "date": "1398",
+        "title_uz": "Dehli yurishi / jang",
+        "category": "campaign_event",
+        "period_id": "P07",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.1343,
+          36.2021
+        ]
+      },
+      "properties": {
+        "id": "EV_1400_ALEPPO",
+        "date": "1400",
+        "title_uz": "Halab (Aleppo) yurishi",
+        "category": "campaign_event",
+        "period_id": "P07",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.2765,
+          33.5138
+        ]
+      },
+      "properties": {
+        "id": "EV_1401_DAMASCUS",
+        "date": "1401",
+        "title_uz": "Damashq yurishi",
+        "category": "campaign_event",
+        "period_id": "P07",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3661,
+          33.3152
+        ]
+      },
+      "properties": {
+        "id": "EV_1401_BAGHDAD",
+        "date": "1401",
+        "title_uz": "Bag‘dod yurishi",
+        "category": "campaign_event",
+        "period_id": "P07",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8597,
+          39.9334
+        ]
+      },
+      "properties": {
+        "id": "EV_1402_ANKARA",
+        "date": "1402",
+        "title_uz": "Anqara jangi",
+        "category": "battle",
+        "period_id": "P07",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.3,
+          42.85
+        ]
+      },
+      "properties": {
+        "id": "EV_1405_OTRAR",
+        "date": "1405",
+        "title_uz": "O‘tror — Temurning Xitoy yurishi arafasida vafoti",
+        "category": "political_transition",
+        "period_id": "P08",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9597,
+          39.6542
+        ]
+      },
+      "properties": {
+        "id": "EV_1409_SAMARKAND",
+        "date": "1409",
+        "title_uz": "Shohruxning Movarounnahr ustidan nazoratni tiklash bosqichi",
+        "category": "political_transition",
+        "period_id": "P08",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2031,
+          34.3529
+        ]
+      },
+      "properties": {
+        "id": "EV_1447_HERAT",
+        "date": "1447",
+        "title_uz": "Shohrux vafoti va yangi vorislik inqirozi",
+        "category": "political_transition",
+        "period_id": "P09",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2031,
+          34.3529
+        ]
+      },
+      "properties": {
+        "id": "EV_1458_HERAT",
+        "date": "1458",
+        "title_uz": "Jahanshoh Qora Qo‘yunlu tomonidan Hirotning egallanishi va Temuriy qarshi harakat",
+        "category": "war_event",
+        "period_id": "P09",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2031,
+          34.3529
+        ]
+      },
+      "properties": {
+        "id": "EV_1469_SPLIT",
+        "date": "1469",
+        "title_uz": "Abu Sa’id vafotidan keyingi Temuriy siyosiy bo‘linish",
+        "category": "political_transition",
+        "period_id": "P09",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.7864,
+          40.3864
+        ]
+      },
+      "properties": {
+        "id": "EV_1494_FERGHANA",
+        "date": "1494",
+        "title_uz": "Umar Shayx vafoti va Farg‘onada yangi vorislik bosqichi",
+        "category": "political_transition",
+        "period_id": "P09",
+        "coordinate_quality": "approximate for broad historical event unless city-fixed",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.3,
+          42.85
+        ]
+      },
+      "properties": {
+        "id": "EV_1218_OTRAR",
+        "date": "1218",
+        "title_uz": "O‘tror voqeasi — savdogar va elchilar ishi",
+        "category": "diplomatic_crisis",
+        "period_id": "P00",
+        "coordinate_quality": "city-fixed approximate",
+        "topic_refs": "2",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.4286,
+          39.7681
+        ]
+      },
+      "properties": {
+        "id": "EV_1219_BUKHARA",
+        "date": "1220",
+        "title_uz": "Buxoroning bosib olinishi",
+        "category": "siege",
+        "period_id": "P00",
+        "coordinate_quality": "city-fixed approximate",
+        "topic_refs": "3",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9597,
+          39.6542
+        ]
+      },
+      "properties": {
+        "id": "EV_1220_SAMARKAND",
+        "date": "1220",
+        "title_uz": "Samarqandning bosib olinishi",
+        "category": "siege",
+        "period_id": "P00",
+        "coordinate_quality": "city-fixed approximate",
+        "topic_refs": "3",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.1,
+          35.03
+        ]
+      },
+      "properties": {
+        "id": "EV_1221_PARVAN",
+        "date": "1221",
+        "title_uz": "Parvon jangi",
+        "category": "battle",
+        "period_id": "P00",
+        "coordinate_quality": "regional approximate",
+        "topic_refs": "4,5",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.85,
+          34.1
+        ]
+      },
+      "properties": {
+        "id": "EV_1221_INDUS",
+        "date": "1221",
+        "title_uz": "Jaloliddinning Sind (Indus) bo‘yidagi chekinishi va qarshilik davomi",
+        "category": "campaign_turning_point",
+        "period_id": "P00",
+        "coordinate_quality": "regional approximate",
+        "topic_refs": "4,5",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.0005,
+          39.678
+        ]
+      },
+      "properties": {
+        "id": "EV_1420_OBSERVATORY",
+        "date": "1420",
+        "title_uz": "Ulug‘bek rasadxonasining barpo etilishi",
+        "category": "science",
+        "period_id": "P08",
+        "coordinate_quality": "site approximate",
+        "topic_refs": "19,22",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9597,
+          39.6542
+        ]
+      },
+      "properties": {
+        "id": "EV_1449_ULUGBEK",
+        "date": "1449",
+        "title_uz": "Mirzo Ulug‘bekning vafoti",
+        "category": "political_cultural_turn",
+        "period_id": "P09",
+        "coordinate_quality": "city approximate",
+        "topic_refs": "19",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2031,
+          34.3529
+        ]
+      },
+      "properties": {
+        "id": "EV_1469_HUSAYN",
+        "date": "1469",
+        "title_uz": "Sulton Husayn Boyqaroning Hirotda hokimiyatni mustahkamlashi",
+        "category": "political_transition",
+        "period_id": "P09",
+        "coordinate_quality": "city approximate",
+        "topic_refs": "20",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2031,
+          34.3529
+        ]
+      },
+      "properties": {
+        "id": "EV_1483_NAVOI",
+        "date": "1483",
+        "title_uz": "Alisher Navoiy ijodiy yuksalishi — “Xamsa” davri",
+        "category": "literature",
+        "period_id": "P09",
+        "coordinate_quality": "city approximate",
+        "topic_refs": "26",
+        "feature_class": "event",
+        "source_layer": "events"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            66.96,
+            39.65
+          ],
+          [
+            62.0,
+            43.0
+          ],
+          [
+            55.0,
+            47.0
+          ],
+          [
+            50.2,
+            53.25
+          ],
+          [
+            46.0,
+            43.3
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CAM_1394_95_GOLDEN_HORDE",
+        "start_date": "1394",
+        "end_date": "1395",
+        "title_uz": "Temurning To‘xtamishga qarshi shimoliy yurishi",
+        "period_id": "P07",
+        "confidence": 0.45,
+        "route_quality": "schematic waypoint route, not exact march track",
+        "feature_class": "route",
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            66.96,
+            39.65
+          ],
+          [
+            67.0,
+            36.8
+          ],
+          [
+            69.2,
+            34.6
+          ],
+          [
+            72.5,
+            31.5
+          ],
+          [
+            74.3,
+            31.0
+          ],
+          [
+            77.209,
+            28.614
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CAM_1398_INDIA",
+        "start_date": "1398",
+        "end_date": "1399",
+        "title_uz": "Hindiston/Dehli yurishi",
+        "period_id": "P07",
+        "confidence": 0.55,
+        "route_quality": "schematic waypoint route, not exact march track",
+        "feature_class": "route",
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            66.96,
+            39.65
+          ],
+          [
+            62.2,
+            34.35
+          ],
+          [
+            46.29,
+            38.08
+          ],
+          [
+            37.13,
+            36.2
+          ],
+          [
+            36.28,
+            33.51
+          ],
+          [
+            44.37,
+            33.32
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CAM_1400_01_SYRIA",
+        "start_date": "1400",
+        "end_date": "1401",
+        "title_uz": "Suriya–Iroq yurishi",
+        "period_id": "P07",
+        "confidence": 0.5,
+        "route_quality": "schematic waypoint route, not exact march track",
+        "feature_class": "route",
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            44.37,
+            33.32
+          ],
+          [
+            46.29,
+            38.08
+          ],
+          [
+            39.75,
+            37.02
+          ],
+          [
+            35.0,
+            39.0
+          ],
+          [
+            32.86,
+            39.93
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CAM_1402_ANATOLIA",
+        "start_date": "1402",
+        "end_date": "1402",
+        "title_uz": "Anadolu/Anqara yurishi",
+        "period_id": "P07",
+        "confidence": 0.5,
+        "route_quality": "schematic waypoint route, not exact march track",
+        "feature_class": "route",
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            66.96,
+            39.65
+          ],
+          [
+            69.24,
+            41.3
+          ],
+          [
+            68.3,
+            42.85
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CAM_1404_05_CHINA_START",
+        "start_date": "1404",
+        "end_date": "1405",
+        "title_uz": "Xitoy yurishining boshlanish yo‘li (O‘trorgacha)",
+        "period_id": "P07",
+        "confidence": 0.7,
+        "route_quality": "schematic waypoint route, not exact march track",
+        "feature_class": "route",
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.8,
+            44.27
+          ],
+          [
+            72.24,
+            42.52
+          ],
+          [
+            69.24,
+            41.3
+          ],
+          [
+            66.96,
+            39.65
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CAM_1360_MOGHUL_INVASION",
+        "start_date": "1360",
+        "end_date": "1361",
+        "title_uz": "Tug‘luq Temurning Mo‘g‘ulistondan Movarounnahrga yurishi",
+        "period_id": "P05",
+        "confidence": 0.5,
+        "route_quality": "schematic waypoint route, not exact march track",
+        "feature_class": "route",
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            60.633,
+            41.55
+          ],
+          [
+            66.9597,
+            39.6542
+          ],
+          [
+            69.1,
+            35.03
+          ],
+          [
+            72.85,
+            34.1
+          ],
+          [
+            77.209,
+            28.6139
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE_JALOLIDDIN_1220_1223",
+        "start_date": "1220",
+        "end_date": "1223",
+        "title_uz": "Jaloliddin Manguberdining qarshilik yurishlari (sxematik)",
+        "period_id": "P00",
+        "confidence": 0.38,
+        "route_quality": "schematic educational route",
+        "topic_refs": "4,5",
+        "feature_class": "route",
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            64.4286,
+            39.7681
+          ],
+          [
+            66.9597,
+            39.6542
+          ],
+          [
+            69.2401,
+            41.2995
+          ],
+          [
+            80.8,
+            44.27
+          ],
+          [
+            75.9898,
+            39.4704
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE_SILKROAD_NORTH",
+        "start_date": "1200",
+        "end_date": "1500",
+        "title_uz": "Movarounnahr–Yettisuv–Qashqar savdo yo‘li",
+        "period_id": "MULTI",
+        "confidence": 0.53,
+        "route_quality": "generalized silk-road trunk",
+        "topic_refs": "7,21,25",
+        "feature_class": "route",
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            62.2031,
+            34.3529
+          ],
+          [
+            66.8972,
+            36.7564
+          ],
+          [
+            66.9597,
+            39.6542
+          ],
+          [
+            64.4286,
+            39.7681
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE_TIMURID_CULTURE",
+        "start_date": "1370",
+        "end_date": "1500",
+        "title_uz": "Temuriylar davri madaniy va siyosiy o‘qi",
+        "period_id": "MULTI",
+        "confidence": 0.44,
+        "route_quality": "thematic connector route",
+        "topic_refs": "17,19,20,22,23,24,26",
+        "feature_class": "route",
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.2919,
+          38.08
+        ]
+      },
+      "properties": {
+        "id": "TH_RASHIDIDDIN_TABRIZ",
+        "name": "Rashididdin Fazlulloh Hamadoniy",
+        "feature_class": "person",
+        "role": "historian / Jome ut-tavorix author",
+        "topic_refs": "8",
+        "date": "1247-1318",
+        "coordinate_quality": "city-based approximate",
+        "period_id": "P02",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9597,
+          39.6542
+        ]
+      },
+      "properties": {
+        "id": "TH_ULUGBEK_SAMARKAND",
+        "name": "Mirzo Ulug‘bek",
+        "feature_class": "person",
+        "role": "ruler-scholar / astronomy",
+        "topic_refs": "19,22",
+        "date": "1394-1449",
+        "coordinate_quality": "city-based approximate",
+        "period_id": "P08",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.0005,
+          39.678
+        ]
+      },
+      "properties": {
+        "id": "TH_ULUGBEK_OBSERVATORY",
+        "name": "Ulug‘bek rasadxonasi",
+        "feature_class": "site",
+        "role": "observatory / science heritage",
+        "topic_refs": "19,22,23",
+        "date": "1420s",
+        "coordinate_quality": "modern monument approximate",
+        "period_id": "P08",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9722,
+          39.6467
+        ]
+      },
+      "properties": {
+        "id": "TH_GURI_AMIR",
+        "name": "Go‘ri Amir majmuasi",
+        "feature_class": "site",
+        "role": "Timurid architecture",
+        "topic_refs": "17,23",
+        "date": "1404",
+        "coordinate_quality": "modern monument approximate",
+        "period_id": "P08",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.0049,
+          39.6553
+        ]
+      },
+      "properties": {
+        "id": "TH_BIBIKHONIM",
+        "name": "Bibi Xonim masjidi",
+        "feature_class": "site",
+        "role": "Timurid architecture",
+        "topic_refs": "17,23",
+        "date": "1399-1404",
+        "coordinate_quality": "modern monument approximate",
+        "period_id": "P07",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.8365,
+          39.0571
+        ]
+      },
+      "properties": {
+        "id": "TH_SHAHRISABZ_AK_SARAY",
+        "name": "Oqsaroy (Shahrisabz)",
+        "feature_class": "site",
+        "role": "Timurid architecture / royal construction",
+        "topic_refs": "17,23",
+        "date": "1380s",
+        "coordinate_quality": "modern monument approximate",
+        "period_id": "P07",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2031,
+          34.3529
+        ]
+      },
+      "properties": {
+        "id": "TH_HUSAYN_BAYQARA_HERAT",
+        "name": "Sulton Husayn Boyqaro",
+        "feature_class": "person",
+        "role": "Timurid ruler of Herat",
+        "topic_refs": "20",
+        "date": "1469-1506",
+        "coordinate_quality": "city-based approximate",
+        "period_id": "P09",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2031,
+          34.3529
+        ]
+      },
+      "properties": {
+        "id": "TH_ALISHER_NAVOI_HERAT",
+        "name": "Alisher Navoiy",
+        "feature_class": "person",
+        "role": "poet / statesman",
+        "topic_refs": "26",
+        "date": "1441-1501",
+        "coordinate_quality": "city-based approximate",
+        "period_id": "P09",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.2031,
+          34.3529
+        ]
+      },
+      "properties": {
+        "id": "TH_HERAT_MINIATURE",
+        "name": "Hirot miniatyura va xattotlik maktabi",
+        "feature_class": "site",
+        "role": "calligraphy / miniature center",
+        "topic_refs": "24,26",
+        "date": "15th century",
+        "coordinate_quality": "city-based approximate",
+        "period_id": "P09",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9597,
+          39.6542
+        ]
+      },
+      "properties": {
+        "id": "TH_SAMARKAND_CRAFTS",
+        "name": "Samarqand hunarmandchilik markazi",
+        "feature_class": "site",
+        "role": "crafts / urban economy",
+        "topic_refs": "21,25",
+        "date": "14th-15th century",
+        "coordinate_quality": "city-based approximate",
+        "period_id": "P07",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.4286,
+          39.7681
+        ]
+      },
+      "properties": {
+        "id": "TH_BUKHARA_CRAFTS",
+        "name": "Buxoro hunarmandchilik markazi",
+        "feature_class": "site",
+        "role": "crafts / trade",
+        "topic_refs": "21,25",
+        "date": "14th-15th century",
+        "coordinate_quality": "city-based approximate",
+        "period_id": "P07",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.8342,
+          39.0578
+        ]
+      },
+      "properties": {
+        "id": "TH_KESH_BAZA",
+        "name": "Kesh/Shahrisabz",
+        "feature_class": "site",
+        "role": "Timur early power base",
+        "topic_refs": "9,10,11",
+        "date": "14th century",
+        "coordinate_quality": "city-based approximate",
+        "period_id": "P06",
+        "source_layer": "thematic_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4846,
+          37.8746
+        ]
+      },
+      "properties": {
+        "id": "TH_RUMI_KONYA",
+        "name": "Jaloliddin Rumiy",
+        "feature_class": "thematic",
+        "source_layer": "thematic_points",
+        "role": "adabiyot / tasavvuf",
+        "date": "1207-1273",
+        "topic_refs": "8",
+        "coordinate_quality": "city-based approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5837,
+          29.5918
+        ]
+      },
+      "properties": {
+        "id": "TH_SAADI_SHIRAZ",
+        "name": "Sa’diy Sheroziy",
+        "feature_class": "thematic",
+        "source_layer": "thematic_points",
+        "role": "adabiyot / axloqiy-falsafiy meros",
+        "date": "1210-1291",
+        "topic_refs": "8",
+        "coordinate_quality": "city-based approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.209,
+          28.6139
+        ]
+      },
+      "properties": {
+        "id": "TH_AMIR_KHUSRAU_DELHI",
+        "name": "Amir Xusrav Dehlaviy",
+        "feature_class": "thematic",
+        "source_layer": "thematic_points",
+        "role": "adabiyot / musiqa",
+        "date": "1253-1325",
+        "topic_refs": "8",
+        "coordinate_quality": "city-based approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.2919,
+          38.08
+        ]
+      },
+      "properties": {
+        "id": "TH_RASHIDIDDIN_TABRIZ_8",
+        "name": "Rashididdin Fazlulloh Hamadoniy",
+        "feature_class": "thematic",
+        "source_layer": "thematic_points",
+        "role": "tarixnavislik / Jome’ ut-tavorix",
+        "date": "1247-1318",
+        "topic_refs": "8",
+        "coordinate_quality": "city-based approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ohm_relation_2790245",
+      "properties": {
+        "ohm_id": 2790245,
+        "name": "Qara Khitai",
+        "name_local": "Qara Khitai",
+        "start_date": "1210",
+        "end_date": "1218",
+        "admin_level": "2",
+        "source": null,
+        "source_ref": null,
+        "wikidata": "Q862304",
+        "osm_type": "relation",
+        "dataset": "OpenHistoricalMap",
+        "geometry_status": "reconstructed_from_overpass_members",
+        "id": "OHM_REL_2790245",
+        "feature_class": "state",
+        "source_layer": "states",
+        "polity_uz": "Qoraxitoy",
+        "confidence": 0.8,
+        "boundary_kind": "territorial_extent",
+        "boundary_quality": "external historical map geometry",
+        "uncertainty_note": "Tarixiy chegara taxminiy; zamonaviy ma’muriy chegara sifatida talqin qilinmaydi."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95.943598,
+              42.4315699
+            ],
+            [
+              95.9545459,
+              41.9513526
+            ],
+            [
+              95.0042285,
+              41.4427593
+            ],
+            [
+              95.0317328,
+              41.1745235
+            ],
+            [
+              95.0811328,
+              40.9799312
+            ],
+            [
+              94.8174994,
+              40.9384191
+            ],
+            [
+              94.2077582,
+              41.0337913
+            ],
+            [
+              93.8177051,
+              41.0172437
+            ],
+            [
+              93.6529486,
+              40.7264499
+            ],
+            [
+              93.5485785,
+              40.5430302
+            ],
+            [
+              93.2409613,
+              40.3632925
+            ],
+            [
+              93.0321826,
+              40.1117223
+            ],
+            [
+              93.2025092,
+              39.4870892
+            ],
+            [
+              93.3508246,
+              39.3555422
+            ],
+            [
+              93.3562793,
+              39.1386161
+            ],
+            [
+              93.0432074,
+              39.0106518
+            ],
+            [
+              92.1038763,
+              38.8953125
+            ],
+            [
+              91.3952197,
+              38.8440204
+            ],
+            [
+              90.785517,
+              38.6125826
+            ],
+            [
+              90.4943793,
+              38.4664971
+            ],
+            [
+              90.3625049,
+              38.2597843
+            ],
+            [
+              90.4669135,
+              38.0134806
+            ],
+            [
+              90.719599,
+              37.7099037
+            ],
+            [
+              91.3402881,
+              37.1559737
+            ],
+            [
+              91.3842719,
+              36.8664419
+            ],
+            [
+              91.2579291,
+              36.7300839
+            ],
+            [
+              91.021723,
+              36.584662
+            ],
+            [
+              90.9228461,
+              36.4433847
+            ],
+            [
+              90.9722461,
+              36.1600885
+            ],
+            [
+              90.450434,
+              36.1644923
+            ],
+            [
+              89.917597,
+              36.3284072
+            ],
+            [
+              89.6704047,
+              36.3947611
+            ],
+            [
+              89.2858832,
+              36.4080251
+            ],
+            [
+              89.1265814,
+              36.6067133
+            ],
+            [
+              88.6486761,
+              36.6816405
+            ],
+            [
+              88.2202094,
+              36.8708366
+            ],
+            [
+              87.352251,
+              36.9499269
+            ],
+            [
+              86.8908636,
+              36.9806195
+            ],
+            [
+              86.6821234,
+              37.0420288
+            ],
+            [
+              86.1383002,
+              36.8840188
+            ],
+            [
+              85.462641,
+              36.8884124
+            ],
+            [
+              85.1220264,
+              36.7961247
+            ],
+            [
+              84.122309,
+              36.4743112
+            ],
+            [
+              83.7762396,
+              36.2398472
+            ],
+            [
+              83.386225,
+              35.9379928
+            ],
+            [
+              83.0071967,
+              35.9024043
+            ],
+            [
+              82.5897162,
+              35.7019212
+            ],
+            [
+              82.2656195,
+              35.4293485
+            ],
+            [
+              81.9085638,
+              35.2680514
+            ],
+            [
+              81.5459766,
+              35.245655
+            ],
+            [
+              81.1834662,
+              35.1872822
+            ],
+            [
+              80.9197943,
+              35.2321639
+            ],
+            [
+              80.288042,
+              35.37565
+            ],
+            [
+              80.1452582,
+              35.1468674
+            ],
+            [
+              80.2166693,
+              35.0300009
+            ],
+            [
+              80.0353949,
+              34.8994523
+            ],
+            [
+              79.9420111,
+              34.7280742
+            ],
+            [
+              79.9914496,
+              34.6241723
+            ],
+            [
+              79.9694385,
+              34.4296034
+            ],
+            [
+              79.1564886,
+              34.3706495
+            ],
+            [
+              78.9532416,
+              34.3434406
+            ],
+            [
+              78.5302295,
+              34.4884841
+            ],
+            [
+              78.1896918,
+              34.7280742
+            ],
+            [
+              78.1347601,
+              34.9174714
+            ],
+            [
+              78.0029242,
+              35.1109263
+            ],
+            [
+              77.9534857,
+              35.290473
+            ],
+            [
+              78.0139105,
+              35.4696224
+            ],
+            [
+              77.9754199,
+              35.5814199
+            ],
+            [
+              77.2558539,
+              35.5903232
+            ],
+            [
+              77.0745795,
+              35.7108423
+            ],
+            [
+              76.7065375,
+              35.8356328
+            ],
+            [
+              76.5417426,
+              35.9691195
+            ],
+            [
+              76.4923041,
+              36.0801863
+            ],
+            [
+              76.0308398,
+              36.0713378
+            ],
+            [
+              75.9924303,
+              36.2165803
+            ],
+            [
+              75.8949225,
+              36.2487077
+            ],
+            [
+              75.8592169,
+              36.4157614
+            ],
+            [
+              75.7342474,
+              36.4345463
+            ],
+            [
+              75.618891,
+              36.7256812
+            ],
+            [
+              75.1464404,
+              37.0683626
+            ],
+            [
+              74.9487085,
+              38.0999999
+            ],
+            [
+              74.3993921,
+              39.5718392
+            ],
+            [
+              73.1030054,
+              41.02966
+            ],
+            [
+              74.2455835,
+              42.0982387
+            ],
+            [
+              71.6088647,
+              43.4688836
+            ],
+            [
+              71.9823999,
+              44.1349292
+            ],
+            [
+              72.7624457,
+              45.6946737
+            ],
+            [
+              73.7182562,
+              45.7521972
+            ],
+            [
+              74.1356982,
+              45.7675536
+            ],
+            [
+              75.1024951,
+              46.4681633
+            ],
+            [
+              77.8271045,
+              46.5286649
+            ],
+            [
+              78.0225224,
+              46.5540261
+            ],
+            [
+              80.1562061,
+              46.8301637
+            ],
+            [
+              81.0351123,
+              47.1598699
+            ],
+            [
+              81.1560004,
+              47.5134944
+            ],
+            [
+              81.243891,
+              47.8758323
+            ],
+            [
+              81.5295355,
+              48.2027139
+            ],
+            [
+              82.3754663,
+              48.7054774
+            ],
+            [
+              82.6171655,
+              48.1221157
+            ],
+            [
+              83.8115385,
+              47.6333122
+            ],
+            [
+              84.9457109,
+              47.1019888
+            ],
+            [
+              85.0066559,
+              46.4578057
+            ],
+            [
+              84.3380948,
+              46.0469343
+            ],
+            [
+              83.6054552,
+              45.2349735
+            ],
+            [
+              83.6498804,
+              43.8028346
+            ],
+            [
+              84.8055535,
+              43.2197297
+            ],
+            [
+              86.6780518,
+              42.6497117
+            ],
+            [
+              87.4950952,
+              41.9104698
+            ],
+            [
+              88.8378414,
+              41.4598463
+            ],
+            [
+              90.7250867,
+              41.3685724
+            ],
+            [
+              92.3620496,
+              41.4756684
+            ],
+            [
+              95.0348505,
+              42.171466
+            ],
+            [
+              95.943598,
+              42.4315699
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ohm_relation_2790247",
+      "properties": {
+        "ohm_id": 2790247,
+        "name": "Mongol Empire",
+        "name_local": "Mongol Empire",
+        "start_date": "1218",
+        "end_date": "1219",
+        "admin_level": "2",
+        "source": "The Conquest of the Mongols in the 13th Century, Georgian Soviet Encyclopedia, Vol. 7, p. 113",
+        "source_ref": null,
+        "wikidata": "Q12557",
+        "osm_type": "relation",
+        "dataset": "OpenHistoricalMap",
+        "geometry_status": "reconstructed_from_overpass_members",
+        "id": "OHM_REL_2790247",
+        "feature_class": "state",
+        "source_layer": "states",
+        "polity_uz": "Mo‘g‘ullar davlati",
+        "confidence": 0.8,
+        "boundary_kind": "territorial_extent",
+        "boundary_quality": "external historical map geometry",
+        "uncertainty_note": "Tarixiy chegara taxminiy; zamonaviy ma’muriy chegara sifatida talqin qilinmaydi."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              111.1776148,
+              40.3703612
+            ],
+            [
+              109.9284276,
+              40.3132336
+            ],
+            [
+              108.9040941,
+              39.7969111
+            ],
+            [
+              108.1795655,
+              38.4597093
+            ],
+            [
+              107.5799556,
+              37.8309682
+            ],
+            [
+              106.5806058,
+              37.5145693
+            ],
+            [
+              105.6605559,
+              37.748474
+            ],
+            [
+              105.3856595,
+              38.5964787
+            ],
+            [
+              106.0573423,
+              39.5592306
+            ],
+            [
+              106.4668673,
+              40.7452199
+            ],
+            [
+              105.8758301,
+              41.4134903
+            ],
+            [
+              104.1383945,
+              42.6099629
+            ],
+            [
+              101.9019019,
+              43.0141863
+            ],
+            [
+              100.9514615,
+              43.1557612
+            ],
+            [
+              99.0953634,
+              42.9061224
+            ],
+            [
+              95.943598,
+              42.4315699
+            ],
+            [
+              95.9545459,
+              41.9513526
+            ],
+            [
+              95.0042285,
+              41.4427593
+            ],
+            [
+              95.0317328,
+              41.1745235
+            ],
+            [
+              95.0811328,
+              40.9799312
+            ],
+            [
+              94.8174994,
+              40.9384191
+            ],
+            [
+              94.2077582,
+              41.0337913
+            ],
+            [
+              93.8177051,
+              41.0172437
+            ],
+            [
+              93.6529486,
+              40.7264499
+            ],
+            [
+              93.5485785,
+              40.5430302
+            ],
+            [
+              93.2409613,
+              40.3632925
+            ],
+            [
+              93.0321826,
+              40.1117223
+            ],
+            [
+              93.2025092,
+              39.4870892
+            ],
+            [
+              93.3508246,
+              39.3555422
+            ],
+            [
+              93.3562793,
+              39.1386161
+            ],
+            [
+              93.0432074,
+              39.0106518
+            ],
+            [
+              92.1038763,
+              38.8953125
+            ],
+            [
+              91.3952197,
+              38.8440204
+            ],
+            [
+              90.785517,
+              38.6125826
+            ],
+            [
+              90.4943793,
+              38.4664971
+            ],
+            [
+              90.3625049,
+              38.2597843
+            ],
+            [
+              90.4669135,
+              38.0134806
+            ],
+            [
+              90.719599,
+              37.7099037
+            ],
+            [
+              91.3402881,
+              37.1559737
+            ],
+            [
+              91.3842719,
+              36.8664419
+            ],
+            [
+              91.2579291,
+              36.7300839
+            ],
+            [
+              91.021723,
+              36.584662
+            ],
+            [
+              90.9228461,
+              36.4433847
+            ],
+            [
+              90.9722461,
+              36.1600885
+            ],
+            [
+              90.450434,
+              36.1644923
+            ],
+            [
+              89.917597,
+              36.3284072
+            ],
+            [
+              89.6704047,
+              36.3947611
+            ],
+            [
+              89.2858832,
+              36.4080251
+            ],
+            [
+              89.1265814,
+              36.6067133
+            ],
+            [
+              88.6486761,
+              36.6816405
+            ],
+            [
+              88.2202094,
+              36.8708366
+            ],
+            [
+              87.352251,
+              36.9499269
+            ],
+            [
+              86.8908636,
+              36.9806195
+            ],
+            [
+              86.6821234,
+              37.0420288
+            ],
+            [
+              86.1383002,
+              36.8840188
+            ],
+            [
+              85.462641,
+              36.8884124
+            ],
+            [
+              85.1220264,
+              36.7961247
+            ],
+            [
+              84.122309,
+              36.4743112
+            ],
+            [
+              83.7762396,
+              36.2398472
+            ],
+            [
+              83.386225,
+              35.9379928
+            ],
+            [
+              83.0071967,
+              35.9024043
+            ],
+            [
+              82.5897162,
+              35.7019212
+            ],
+            [
+              82.2656195,
+              35.4293485
+            ],
+            [
+              81.9085638,
+              35.2680514
+            ],
+            [
+              81.5459766,
+              35.245655
+            ],
+            [
+              81.1834662,
+              35.1872822
+            ],
+            [
+              80.9197943,
+              35.2321639
+            ],
+            [
+              80.288042,
+              35.37565
+            ],
+            [
+              80.1452582,
+              35.1468674
+            ],
+            [
+              80.2166693,
+              35.0300009
+            ],
+            [
+              80.0353949,
+              34.8994523
+            ],
+            [
+              79.9420111,
+              34.7280742
+            ],
+            [
+              79.9914496,
+              34.6241723
+            ],
+            [
+              79.9694385,
+              34.4296034
+            ],
+            [
+              79.1564886,
+              34.3706495
+            ],
+            [
+              78.9532416,
+              34.3434406
+            ],
+            [
+              78.5302295,
+              34.4884841
+            ],
+            [
+              78.1896918,
+              34.7280742
+            ],
+            [
+              78.1347601,
+              34.9174714
+            ],
+            [
+              78.0029242,
+              35.1109263
+            ],
+            [
+              77.9534857,
+              35.290473
+            ],
+            [
+              78.0139105,
+              35.4696224
+            ],
+            [
+              77.9754199,
+              35.5814199
+            ],
+            [
+              77.2558539,
+              35.5903232
+            ],
+            [
+              77.0745795,
+              35.7108423
+            ],
+            [
+              76.7065375,
+              35.8356328
+            ],
+            [
+              76.5417426,
+              35.9691195
+            ],
+            [
+              76.4923041,
+              36.0801863
+            ],
+            [
+              76.0308398,
+              36.0713378
+            ],
+            [
+              75.9924303,
+              36.2165803
+            ],
+            [
+              75.8949225,
+              36.2487077
+            ],
+            [
+              75.8592169,
+              36.4157614
+            ],
+            [
+              75.7342474,
+              36.4345463
+            ],
+            [
+              75.618891,
+              36.7256812
+            ],
+            [
+              75.1464404,
+              37.0683626
+            ],
+            [
+              74.9487085,
+              38.0999999
+            ],
+            [
+              74.3993921,
+              39.5718392
+            ],
+            [
+              73.1030054,
+              41.02966
+            ],
+            [
+              74.2455835,
+              42.0982387
+            ],
+            [
+              71.6088647,
+              43.4688836
+            ],
+            [
+              71.9823999,
+              44.1349292
+            ],
+            [
+              72.7624457,
+              45.6946737
+            ],
+            [
+              73.7182562,
+              45.7521972
+            ],
+            [
+              74.1356982,
+              45.7675536
+            ],
+            [
+              75.1024951,
+              46.4681633
+            ],
+            [
+              77.8271045,
+              46.5286649
+            ],
+            [
+              78.0225224,
+              46.5540261
+            ],
+            [
+              80.1562061,
+              46.8301637
+            ],
+            [
+              81.0351123,
+              47.1598699
+            ],
+            [
+              81.1560004,
+              47.5134944
+            ],
+            [
+              81.243891,
+              47.8758323
+            ],
+            [
+              81.5295355,
+              48.2027139
+            ],
+            [
+              82.3754663,
+              48.7054774
+            ],
+            [
+              81.8316211,
+              50.2718159
+            ],
+            [
+              83.6430297,
+              51.7162284
+            ],
+            [
+              85.1945201,
+              53.8809002
+            ],
+            [
+              86.8836206,
+              54.4191188
+            ],
+            [
+              89.2265897,
+              54.9108381
+            ],
+            [
+              91.7902288,
+              55.0711595
+            ],
+            [
+              100.3346696,
+              54.4367911
+            ],
+            [
+              111.7772247,
+              52.6860646
+            ],
+            [
+              116.0244614,
+              51.5509268
+            ],
+            [
+              116.9238762,
+              50.9882109
+            ],
+            [
+              117.0675327,
+              50.2151872
+            ],
+            [
+              117.0675764,
+              49.388765
+            ],
+            [
+              116.8739087,
+              48.1706002
+            ],
+            [
+              116.3242663,
+              46.5288674
+            ],
+            [
+              115.6746889,
+              45.1892144
+            ],
+            [
+              115.1500553,
+              44.2125326
+            ],
+            [
+              115.1250715,
+              43.1647547
+            ],
+            [
+              115.2250065,
+              42.2653125
+            ],
+            [
+              115.9745188,
+              41.3716041
+            ],
+            [
+              116.6990474,
+              40.5414345
+            ],
+            [
+              116.9488849,
+              40.1033331
+            ],
+            [
+              116.6740637,
+              39.1217739
+            ],
+            [
+              115.4248765,
+              38.7915005
+            ],
+            [
+              114.0257867,
+              38.8693504
+            ],
+            [
+              113.2263069,
+              39.3346593
+            ],
+            [
+              112.1270221,
+              39.9311288
+            ],
+            [
+              111.1776148,
+              40.3703612
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            68.3,
+            42.85
+          ],
+          [
+            67.35,
+            42.45
+          ],
+          [
+            66.1,
+            41.85
+          ],
+          [
+            64.95,
+            40.95
+          ],
+          [
+            64.43,
+            39.77
+          ],
+          [
+            65.55,
+            39.6
+          ],
+          [
+            66.96,
+            39.65
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE_MONGOL_MAIN_1219_1220",
+        "start_date": "1219",
+        "end_date": "1220",
+        "title_uz": "Chingizxonning O‘trordan Buxoro va Samarqandga asosiy yurishi",
+        "period_id": "P00",
+        "confidence": 0.72,
+        "route_quality": "sourced educational waypoint route; not an exact march track",
+        "topic_refs": "3",
+        "feature_class": "route",
+        "phase": "main-army",
+        "waypoints": [
+          "O‘tror",
+          "Qizilqum",
+          "Buxoro",
+          "Samarqand"
+        ],
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              20,
+              21,
+              22,
+              23,
+              27
+            ]
+          }
+        ],
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            68.3,
+            42.85
+          ],
+          [
+            67.4,
+            43.55
+          ],
+          [
+            66.75,
+            44.15
+          ],
+          [
+            65.5,
+            44.82
+          ],
+          [
+            63.6,
+            45.2
+          ],
+          [
+            61.85,
+            44.9
+          ],
+          [
+            60.63,
+            41.55
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE_MONGOL_SYRDARYA_1219_1221",
+        "start_date": "1219",
+        "end_date": "1221",
+        "title_uz": "Jo‘chi qo‘shinining Sirdaryo bo‘ylab yurishi",
+        "period_id": "P00",
+        "confidence": 0.58,
+        "route_quality": "sourced educational waypoint route; not an exact march track",
+        "topic_refs": "3",
+        "feature_class": "route",
+        "phase": "syr-darya-branch",
+        "waypoints": [
+          "O‘tror",
+          "Sig‘noq",
+          "Jand",
+          "Yangikent",
+          "Urganch"
+        ],
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              20,
+              21,
+              22,
+              32
+            ]
+          }
+        ],
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            68.3,
+            42.85
+          ],
+          [
+            69.05,
+            42.1
+          ],
+          [
+            69.24,
+            41.3
+          ],
+          [
+            68.9,
+            40.82
+          ],
+          [
+            69.62,
+            40.28
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE_MONGOL_KHUJAND_1219_1220",
+        "start_date": "1219",
+        "end_date": "1220",
+        "title_uz": "Mo‘g‘ul qo‘shinining Banokat va Xo‘jand tomon yurishi",
+        "period_id": "P00",
+        "confidence": 0.63,
+        "route_quality": "sourced educational waypoint route; not an exact march track",
+        "topic_refs": "3",
+        "feature_class": "route",
+        "phase": "khujand-branch",
+        "waypoints": [
+          "O‘tror",
+          "Toshkent vohasi",
+          "Banokat",
+          "Xo‘jand"
+        ],
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              20,
+              21,
+              22,
+              24
+            ]
+          }
+        ],
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            68.42,
+            33.55
+          ],
+          [
+            69.17,
+            34.53
+          ],
+          [
+            69.17,
+            35.12
+          ],
+          [
+            69.23,
+            33.6
+          ],
+          [
+            70.6,
+            32.99
+          ],
+          [
+            71.55,
+            32.92
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE_JALOLIDDIN_PARVAN_INDUS_1221",
+        "start_date": "1221",
+        "end_date": "1221",
+        "title_uz": "Jaloliddinning G‘azna–Parvon–Sind qarshilik yo‘li",
+        "period_id": "P00",
+        "confidence": 0.73,
+        "route_quality": "sourced educational waypoint route; not an exact march track",
+        "topic_refs": "4,5",
+        "feature_class": "route",
+        "phase": "parwan-indus",
+        "waypoints": [
+          "G‘azna",
+          "Kobul",
+          "Parvon",
+          "Gardez",
+          "Sind daryosi"
+        ],
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              36,
+              37,
+              38,
+              39,
+              40
+            ]
+          },
+          {
+            "title": "Encyclopaedia Iranica",
+            "url": "https://www.iranicaonline.org/articles/jalal-al-din-kvarazmsahi-mengbirni/"
+          }
+        ],
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.55,
+            32.92
+          ],
+          [
+            72.33,
+            31.55
+          ],
+          [
+            74.36,
+            31.52
+          ],
+          [
+            73.1,
+            30.2
+          ],
+          [
+            71.47,
+            30.2
+          ],
+          [
+            71.06,
+            29.24
+          ],
+          [
+            74.1,
+            29.0
+          ],
+          [
+            77.21,
+            28.61
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE_JALOLIDDIN_INDIA_1221_1224",
+        "start_date": "1221",
+        "end_date": "1224",
+        "title_uz": "Jaloliddinning Hindistondagi harakatlari",
+        "period_id": "P00",
+        "confidence": 0.55,
+        "route_quality": "sourced educational waypoint route; not an exact march track",
+        "topic_refs": "4,5",
+        "feature_class": "route",
+        "phase": "india",
+        "waypoints": [
+          "Sind daryosi",
+          "Panjob",
+          "Lahor",
+          "Multon",
+          "Uch",
+          "Dehli"
+        ],
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              38,
+              39,
+              41,
+              42
+            ]
+          },
+          {
+            "title": "Encyclopaedia Iranica",
+            "url": "https://www.iranicaonline.org/articles/jalal-al-din-kvarazmsahi-mengbirni/"
+          }
+        ],
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            71.06,
+            29.24
+          ],
+          [
+            68.78,
+            27.85
+          ],
+          [
+            65.2,
+            26.1
+          ],
+          [
+            62.32,
+            25.13
+          ],
+          [
+            59.47,
+            28.95
+          ],
+          [
+            57.08,
+            30.28
+          ],
+          [
+            54.35,
+            29.61
+          ],
+          [
+            52.58,
+            29.59
+          ],
+          [
+            51.68,
+            32.65
+          ],
+          [
+            48.52,
+            34.8
+          ],
+          [
+            46.24,
+            37.39
+          ],
+          [
+            46.29,
+            38.08
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE_JALOLIDDIN_RETURN_1224_1225",
+        "start_date": "1224",
+        "end_date": "1225",
+        "title_uz": "Jaloliddinning Hindistondan Eron va Ozarbayjonga qaytishi",
+        "period_id": "P00",
+        "confidence": 0.61,
+        "route_quality": "sourced educational waypoint route; not an exact march track",
+        "topic_refs": "5",
+        "feature_class": "route",
+        "phase": "return-to-iran",
+        "waypoints": [
+          "Sind",
+          "Makron",
+          "Kirmon",
+          "Fors",
+          "Isfahon",
+          "Hamadon",
+          "Marog‘a",
+          "Tabriz"
+        ],
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              42,
+              43,
+              44,
+              45
+            ]
+          },
+          {
+            "title": "Encyclopaedia Iranica",
+            "url": "https://www.iranicaonline.org/articles/jalal-al-din-kvarazmsahi-mengbirni/"
+          }
+        ],
+        "source_layer": "routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            46.29,
+            38.08
+          ],
+          [
+            47.58,
+            40.68
+          ],
+          [
+            44.8,
+            41.69
+          ],
+          [
+            44.52,
+            40.18
+          ],
+          [
+            43.05,
+            39.72
+          ],
+          [
+            42.48,
+            38.75
+          ],
+          [
+            40.52,
+            39.75
+          ],
+          [
+            39.49,
+            39.75
+          ],
+          [
+            40.23,
+            37.91
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE_JALOLIDDIN_WEST_1226_1231",
+        "start_date": "1226",
+        "end_date": "1231",
+        "title_uz": "Jaloliddinning Kavkaz va Sharqiy Anadoludagi yurishlari",
+        "period_id": "P00",
+        "confidence": 0.64,
+        "route_quality": "sourced educational waypoint route; not an exact march track",
+        "topic_refs": "5",
+        "feature_class": "route",
+        "phase": "caucasus-anatolia",
+        "waypoints": [
+          "Tabriz",
+          "Arron",
+          "Tbilisi",
+          "Ani",
+          "Ahlat",
+          "Yassi Chemen",
+          "Amid"
+        ],
+        "source_refs": [
+          {
+            "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+            "drive_file_id": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+            "pages": [
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50
+            ]
+          },
+          {
+            "title": "Encyclopaedia Iranica",
+            "url": "https://www.iranicaonline.org/articles/jalal-al-din-kvarazmsahi-mengbirni/"
+          }
+        ],
+        "source_layer": "routes"
+      }
+    }
+  ]
+}
