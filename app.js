@@ -10,6 +10,8 @@ const state = {
   currentBookPage: null,
   map: null,
   baseLayer: null,
+  baseLayers: null,
+  activeBasemap: "imagery",
   layerGroup: null,
   featureLayers: new Map(),
   visibleLayers: new Set(["state", "city", "event", "route", "thematic"]),
@@ -150,11 +152,34 @@ function bindFeature(feature, layer) {
 
 function initMap() {
   state.map = L.map("map", { zoomControl: true, preferCanvas: false, minZoom: 3 }).setView([39.7, 66.9], 5);
-  state.baseLayer = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 18,
-    attribution: "© OpenStreetMap · TARIX360 tarixiy qatlamlari"
-  }).addTo(state.map);
+  state.baseLayers = {
+    imagery: L.tileLayer("https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+      maxZoom: 19,
+      className: "imagery-basemap",
+      attribution: "Tiles © Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community"
+    }),
+    osm: L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      className: "osm-basemap",
+      attribution: "© OpenStreetMap contributors"
+    })
+  };
+  state.baseLayer = state.baseLayers[state.activeBasemap].addTo(state.map);
   state.layerGroup = L.layerGroup().addTo(state.map);
+}
+
+function selectBasemap(basemap) {
+  const nextLayer = state.baseLayers?.[basemap];
+  if (!nextLayer || basemap === state.activeBasemap) return;
+  if (state.baseLayer) state.map.removeLayer(state.baseLayer);
+  state.baseLayer = nextLayer.addTo(state.map);
+  state.baseLayer.bringToBack();
+  state.activeBasemap = basemap;
+  document.querySelectorAll(".basemap-toggle").forEach((button) => {
+    const active = button.dataset.basemap === basemap;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
 }
 
 function topicFeatures(topic = state.topic) {
@@ -556,6 +581,10 @@ function bindInterface() {
       button.setAttribute("aria-pressed", String(active));
       renderMap({ fitBounds: false, animate: true });
     });
+  });
+
+  document.querySelectorAll(".basemap-toggle").forEach((button) => {
+    button.addEventListener("click", () => selectBasemap(button.dataset.basemap));
   });
 
   document.addEventListener("keydown", (event) => {
