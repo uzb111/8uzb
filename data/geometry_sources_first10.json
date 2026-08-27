@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "status": "boundary-redraw-in-progress",
+  "policy": {
+    "primarySource": "O‘zbekiston tarixi, 8-sinf (2023)",
+    "boundaryMeaning": "Tarixiy ta’sir va nazorat zonasi; zamonaviy davlat chegarasi aniqligida talqin qilinmaydi.",
+    "requiredProperties": [
+      "start_date",
+      "end_date",
+      "confidence",
+      "source_refs",
+      "boundary_quality"
+    ]
+  },
+  "referenceMaps": [
+    {
+      "page": 9,
+      "title": "XIII asr boshlarida Xorazmshohlar",
+      "file": "assets/reference_maps/book_p009_khwarazm_boundary.webp",
+      "driveFileId": "1s2mE_ypE4JV8cNswmuyRvOHu3yUqDWvS",
+      "targets": ["P00_KHWARAZM_1218"]
+    },
+    {
+      "page": 22,
+      "title": "Chingizxonning Movarounnahrga yurishi",
+      "file": "assets/reference_maps/book_p022_mongol_campaigns.webp",
+      "driveFileId": "1skM0ipwe_rdieL1SfHLTjehVdI622TJr",
+      "targets": [
+        "ROUTE_MONGOL_MAIN_1219_1220",
+        "ROUTE_MONGOL_SYRDARYA_1219_1221",
+        "ROUTE_MONGOL_KHUJAND_1219_1220"
+      ]
+    },
+    {
+      "page": 54,
+      "title": "Chig‘atoy ulusi — jahon konteksti",
+      "file": "assets/reference_maps/book_p054_chagatai_world_context.webp",
+      "driveFileId": "1gq_H-tN1Vgdg2ipvADEuQPNhdzvQJ--r",
+      "targets": ["P01_CHAGATAI_EARLY"]
+    },
+    {
+      "page": 55,
+      "title": "Chig‘atoy ulusi — batafsil hudud",
+      "file": "assets/reference_maps/book_p055_chagatai_detailed.webp",
+      "driveFileId": "1LKOzkUv1XmTDVafzHr4PRDvPjPL39eSY",
+      "targets": ["P01_CHAGATAI_EARLY"]
+    }
+  ],
+  "routeSources": [
+    {
+      "title": "Jalāl-al-Din Ḵvārazmšāh Mengübirni",
+      "publisher": "Encyclopaedia Iranica",
+      "url": "https://www.iranicaonline.org/articles/jalal-al-din-kvarazmsahi-mengbirni/",
+      "targets": [
+        "ROUTE_JALOLIDDIN_PARVAN_INDUS_1221",
+        "ROUTE_JALOLIDDIN_INDIA_1221_1224",
+        "ROUTE_JALOLIDDIN_RETURN_1224_1225",
+        "ROUTE_JALOLIDDIN_WEST_1226_1231"
+      ]
+    }
+  ],
+  "boundaryTargets": [
+    "P00_KHWARAZM_1218",
+    "P01_CHAGATAI_EARLY",
+    "P03_MOGHULISTAN_1372",
+    "P04_WEST_CHAGATAI",
+    "P05_BARLAS",
+    "P05_QARAUNAS",
+    "P05_SAMARKAND",
+    "P05_FERGHANA",
+    "P05_BUKHARA",
+    "P06_TIMUR_1370",
+    "OHM_REL_2790245",
+    "OHM_REL_2790247"
+  ]
+}

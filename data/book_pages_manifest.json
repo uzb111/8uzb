@@ -1,0 +1,860 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "title": "8-sinf OвЂzbekiston tarixi (2023)",
+    "driveFileId": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+    "originalBytes": 144604832,
+    "totalPages": 192
+  },
+  "render": {
+    "format": "webp",
+    "targetWidth": 1440,
+    "quality": 82,
+    "policy": "Load the current page only; prefetch at most the adjacent pages."
+  },
+  "topics": [
+    {
+      "topic": 1,
+      "start": 8,
+      "end": 11
+    },
+    {
+      "topic": 2,
+      "start": 12,
+      "end": 19
+    },
+    {
+      "topic": 3,
+      "start": 20,
+      "end": 35
+    },
+    {
+      "topic": 4,
+      "start": 36,
+      "end": 40
+    },
+    {
+      "topic": 5,
+      "start": 41,
+      "end": 51
+    },
+    {
+      "topic": 6,
+      "start": 52,
+      "end": 62
+    },
+    {
+      "topic": 7,
+      "start": 63,
+      "end": 69
+    },
+    {
+      "topic": 8,
+      "start": 70,
+      "end": 75
+    },
+    {
+      "topic": 9,
+      "start": 76,
+      "end": 86
+    },
+    {
+      "topic": 10,
+      "start": 87,
+      "end": 93
+    }
+  ],
+  "pages": [
+    {
+      "page": 8,
+      "topic": 1,
+      "file": "assets/book/web_pages_first10/page-008.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 247354,
+      "driveFileId": "1oLhhvsIjdtjgP98GwgSEDr3bJUNi3pgi"
+    },
+    {
+      "page": 9,
+      "topic": 1,
+      "file": "assets/book/web_pages_first10/page-009.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 309340,
+      "driveFileId": "1xP1JE6gdf-XfxWTvt9E1egRlO34R7_zf"
+    },
+    {
+      "page": 10,
+      "topic": 1,
+      "file": "assets/book/web_pages_first10/page-010.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 335410,
+      "driveFileId": "10Bis1wOHXm5nZ_PvdedWaT9DNOh9RJvC"
+    },
+    {
+      "page": 11,
+      "topic": 1,
+      "file": "assets/book/web_pages_first10/page-011.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 315464,
+      "driveFileId": "1982Q_hr3iidotCgO8v3cUQFgapb-eWCD"
+    },
+    {
+      "page": 12,
+      "topic": 2,
+      "file": "assets/book/web_pages_first10/page-012.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 278396,
+      "driveFileId": "1BKELHzrgt1tM-1yXsk6zrAxYsCAncMrT"
+    },
+    {
+      "page": 13,
+      "topic": 2,
+      "file": "assets/book/web_pages_first10/page-013.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 500512,
+      "driveFileId": "1vQ_eu5gTtUybhuf7vcgGKStU4f1JEI4g"
+    },
+    {
+      "page": 14,
+      "topic": 2,
+      "file": "assets/book/web_pages_first10/page-014.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 307964,
+      "driveFileId": "1thL1T9PCeVgDVIUoGhXSs9BzBCdd-wi_"
+    },
+    {
+      "page": 15,
+      "topic": 2,
+      "file": "assets/book/web_pages_first10/page-015.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 318064,
+      "driveFileId": "1DIM1JlxmsBLTSBAv8lD92ce3wvB4LCQE"
+    },
+    {
+      "page": 16,
+      "topic": 2,
+      "file": "assets/book/web_pages_first10/page-016.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 304140,
+      "driveFileId": "1S5GMAbcPBnIYhmo_lUKo0Ft3Racl1loM"
+    },
+    {
+      "page": 17,
+      "topic": 2,
+      "file": "assets/book/web_pages_first10/page-017.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 332622,
+      "driveFileId": "1POqKQlAL_3zUvE6ZnIBtT3UP-z_6I_3b"
+    },
+    {
+      "page": 18,
+      "topic": 2,
+      "file": "assets/book/web_pages_first10/page-018.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 269528,
+      "driveFileId": "1M5wgd2HyfGS38tGoTJnOA2d_NfkKt6PD"
+    },
+    {
+      "page": 19,
+      "topic": 2,
+      "file": "assets/book/web_pages_first10/page-019.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 287514,
+      "driveFileId": "13tDnpVScEPJtdxZtvCbyCbT2CTfP5pC7"
+    },
+    {
+      "page": 20,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-020.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 266692,
+      "driveFileId": "1MXbD_Bxs2jk8_oskbdabSVhuFzlJkucH"
+    },
+    {
+      "page": 21,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-021.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 321200,
+      "driveFileId": "1rd5m5Z3TAy-ox9qpPwVU5mKpaNnHzeMk"
+    },
+    {
+      "page": 22,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-022.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 312926,
+      "driveFileId": "1zMSNtp_2vMlGbLnZZ4i1VZhZyL1dwXZn"
+    },
+    {
+      "page": 23,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-023.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 489788,
+      "driveFileId": "1WqxdVa_5KRQ862oPiUC3DEZPIETJ_NCS"
+    },
+    {
+      "page": 24,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-024.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 320262,
+      "driveFileId": "15tKhRfF2dojTfrnigPrjU0YAzFffPzZx"
+    },
+    {
+      "page": 25,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-025.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 306202,
+      "driveFileId": "1G3N5ONtSGQVYfLaTaYrRNJnfePBtjbQH"
+    },
+    {
+      "page": 26,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-026.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 271714,
+      "driveFileId": "1RNqXRqo6Hk7MyB-ilqPJAJe7oOa8W26y"
+    },
+    {
+      "page": 27,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-027.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 372436,
+      "driveFileId": "1IIlZMvl-z_BQFhqyIeTGqznMj4s0uu9w"
+    },
+    {
+      "page": 28,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-028.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 359324,
+      "driveFileId": "1sq8HQ4-uLvPksr5UuPDE3Uvq3npZzaGR"
+    },
+    {
+      "page": 29,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-029.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 353320,
+      "driveFileId": "1rHAj0vQuzqYJB3-AFVHn4eWkf3FB_zV2"
+    },
+    {
+      "page": 30,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-030.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 354320,
+      "driveFileId": "10LJ1MqHZ6EfaQN6NFFb6WGSfsLSWPbAn"
+    },
+    {
+      "page": 31,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-031.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 295490,
+      "driveFileId": "1luLf_7Cl7X6zgmLYMr47L2Gjan3Fv_9P"
+    },
+    {
+      "page": 32,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-032.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 307346,
+      "driveFileId": "1NHvoFqxP42lKP3Vr_OT4A23QWRpbYbT8"
+    },
+    {
+      "page": 33,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-033.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 349540,
+      "driveFileId": "1K5msXcZldIqoN_sL6fF7S_oE9JbMhclZ"
+    },
+    {
+      "page": 34,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-034.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 479162,
+      "driveFileId": "1A9Vsb4wxTvsewftH6ejiH_nDgHB3pV9Z"
+    },
+    {
+      "page": 35,
+      "topic": 3,
+      "file": "assets/book/web_pages_first10/page-035.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 271108,
+      "driveFileId": "1FRcXp77O0_RMOpD_vljFlUiJOYp_vOBZ"
+    },
+    {
+      "page": 36,
+      "topic": 4,
+      "file": "assets/book/web_pages_first10/page-036.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 320916,
+      "driveFileId": "1M_PEcAcyDuduea28T9gyAtDtX_3-1kV6"
+    },
+    {
+      "page": 37,
+      "topic": 4,
+      "file": "assets/book/web_pages_first10/page-037.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 269176,
+      "driveFileId": "1sbEFaTtXpuq9cDUcoSvIFfhqEnBflIFK"
+    },
+    {
+      "page": 38,
+      "topic": 4,
+      "file": "assets/book/web_pages_first10/page-038.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 371830,
+      "driveFileId": "1Ab9iUdv1FXEk5sstK2Vh1d2KNKT9BRgN"
+    },
+    {
+      "page": 39,
+      "topic": 4,
+      "file": "assets/book/web_pages_first10/page-039.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 302832,
+      "driveFileId": "1NT6DP7E6I-wVq7rRavJFjSCSBAQNQAvk"
+    },
+    {
+      "page": 40,
+      "topic": 4,
+      "file": "assets/book/web_pages_first10/page-040.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 263614,
+      "driveFileId": "1kcQqguXeRvRbbvh3k_v9WHa3tza86S3y"
+    },
+    {
+      "page": 41,
+      "topic": 5,
+      "file": "assets/book/web_pages_first10/page-041.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 293080,
+      "driveFileId": "1EDboaAsC_6In_wqxMM_xPBVFl_qxlJh-"
+    },
+    {
+      "page": 42,
+      "topic": 5,
+      "file": "assets/book/web_pages_first10/page-042.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 399126,
+      "driveFileId": "1MaIkSMTpJKGSDpJhWPoXbHLLtzdPlaQX"
+    },
+    {
+      "page": 43,
+      "topic": 5,
+      "file": "assets/book/web_pages_first10/page-043.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 328636,
+      "driveFileId": "1Uhv_rieyaw1M2hL48Ihn4USEfl8aqCEs"
+    },
+    {
+      "page": 44,
+      "topic": 5,
+      "file": "assets/book/web_pages_first10/page-044.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 339860,
+      "driveFileId": "1ysEdfOSfdHfbvwglFpCLVVkU20FxuJx6"
+    },
+    {
+      "page": 45,
+      "topic": 5,
+      "file": "assets/book/web_pages_first10/page-045.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 325812,
+      "driveFileId": "12NTJFxp75WOHFHWhzqJ-I9SoSzvBbAsZ"
+    },
+    {
+      "page": 46,
+      "topic": 5,
+      "file": "assets/book/web_pages_first10/page-046.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 386378,
+      "driveFileId": "1yEkgdyaLgjeIw-9Ht7YNvIvpC_0mb6g1"
+    },
+    {
+      "page": 47,
+      "topic": 5,
+      "file": "assets/book/web_pages_first10/page-047.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 365624,
+      "driveFileId": "1EzVz0inVD5R5vhV0j1t_vMVjj22OhFLq"
+    },
+    {
+      "page": 48,
+      "topic": 5,
+      "file": "assets/book/web_pages_first10/page-048.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 330896,
+      "driveFileId": "1xA5Z84xTzcsLfPCCqAESQffUmRzlauo8"
+    },
+    {
+      "page": 49,
+      "topic": 5,
+      "file": "assets/book/web_pages_first10/page-049.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 324410,
+      "driveFileId": "1k-dVEupfTm-D8SoQKBrqm19P1zBssb_j"
+    },
+    {
+      "page": 50,
+      "topic": 5,
+      "file": "assets/book/web_pages_first10/page-050.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 448968,
+      "driveFileId": "1H354b_4cdUdrTtVVruycDldKAWQoC1nG"
+    },
+    {
+      "page": 51,
+      "topic": 5,
+      "file": "assets/book/web_pages_first10/page-051.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 249274,
+      "driveFileId": "1wXHazJ1eTkFSdqLJKMVAR0LMkMOM7Q4B"
+    },
+    {
+      "page": 52,
+      "topic": 6,
+      "file": "assets/book/web_pages_first10/page-052.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 235798,
+      "driveFileId": "1tCl3swKrdUaY16vievpfBRaeN94ib_iQ"
+    },
+    {
+      "page": 53,
+      "topic": 6,
+      "file": "assets/book/web_pages_first10/page-053.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 258996,
+      "driveFileId": "1Twx1h5-Emetq6--AEb0FMp9W1i03Anxm"
+    },
+    {
+      "page": 54,
+      "topic": 6,
+      "file": "assets/book/web_pages_first10/page-054.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 296024,
+      "driveFileId": "1RjWSZZ2GL9iWWr8WCZzOHhrV7mcRmHBf"
+    },
+    {
+      "page": 55,
+      "topic": 6,
+      "file": "assets/book/web_pages_first10/page-055.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 277228,
+      "driveFileId": "1tZFjHzORYzXNANM0ANDCcBGtxbOQ9ZTe"
+    },
+    {
+      "page": 56,
+      "topic": 6,
+      "file": "assets/book/web_pages_first10/page-056.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 328760,
+      "driveFileId": "1ub1UCZr6OzeD2w_pcWEBdtO-uygdtiat"
+    },
+    {
+      "page": 57,
+      "topic": 6,
+      "file": "assets/book/web_pages_first10/page-057.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 294130,
+      "driveFileId": "1lpKATLBym6Bf5JqCe2B6rpXZ3vbxpYOG"
+    },
+    {
+      "page": 58,
+      "topic": 6,
+      "file": "assets/book/web_pages_first10/page-058.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 301086,
+      "driveFileId": "12kDggaZrc5Y5cE4yamP5Qg1VN6wVjAme"
+    },
+    {
+      "page": 59,
+      "topic": 6,
+      "file": "assets/book/web_pages_first10/page-059.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 342334,
+      "driveFileId": "1RrjxeWmAmxvb_rB8qHAWGSjfqbraOBgw"
+    },
+    {
+      "page": 60,
+      "topic": 6,
+      "file": "assets/book/web_pages_first10/page-060.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 387178,
+      "driveFileId": "1KFphngKGfGrR6zz3HmoyQkHPVCVat1XZ"
+    },
+    {
+      "page": 61,
+      "topic": 6,
+      "file": "assets/book/web_pages_first10/page-061.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 327544,
+      "driveFileId": "1EBQZiwsgfvYQK9AVhOA7RSCud8egrCGJ"
+    },
+    {
+      "page": 62,
+      "topic": 6,
+      "file": "assets/book/web_pages_first10/page-062.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 267478,
+      "driveFileId": "1rFkb5xyUx_EMNxUzucxymzu1Exk7W7dQ"
+    },
+    {
+      "page": 63,
+      "topic": 7,
+      "file": "assets/book/web_pages_first10/page-063.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 236808,
+      "driveFileId": "1vOnkGrkiPXtI3DyuhrxeDgXETzcpQk8u"
+    },
+    {
+      "page": 64,
+      "topic": 7,
+      "file": "assets/book/web_pages_first10/page-064.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 317798,
+      "driveFileId": "1Vmi_j1Pqcm_-ZWGUzoeaE5b2U55dvhAq"
+    },
+    {
+      "page": 65,
+      "topic": 7,
+      "file": "assets/book/web_pages_first10/page-065.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 302064,
+      "driveFileId": "1ZckylvJjaEb2Buf_VaKSC5KGSqgsnSo2"
+    },
+    {
+      "page": 66,
+      "topic": 7,
+      "file": "assets/book/web_pages_first10/page-066.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 301310,
+      "driveFileId": "1fnA2wPIhnAwMPdTS3Grr-M7gDFRFPIcS"
+    },
+    {
+      "page": 67,
+      "topic": 7,
+      "file": "assets/book/web_pages_first10/page-067.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 300070,
+      "driveFileId": "1ntAC6ouiWHn9eQ5iUEa2zYtjVI1bvHo0"
+    },
+    {
+      "page": 68,
+      "topic": 7,
+      "file": "assets/book/web_pages_first10/page-068.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 361442,
+      "driveFileId": "1mi38_KurzGSCiGb9_2ft7lHdBtfWUy1G"
+    },
+    {
+      "page": 69,
+      "topic": 7,
+      "file": "assets/book/web_pages_first10/page-069.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 319140,
+      "driveFileId": "1zri2slo4l9K55-ZZJdTr-lsQeg5DMX4P"
+    },
+    {
+      "page": 70,
+      "topic": 8,
+      "file": "assets/book/web_pages_first10/page-070.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 268010,
+      "driveFileId": "11GXnLDXDrr0tMlpEbCq3kfBifA4yeMsw"
+    },
+    {
+      "page": 71,
+      "topic": 8,
+      "file": "assets/book/web_pages_first10/page-071.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 300060,
+      "driveFileId": "1Yeqk3WISp32pQbr4575nARZNYSMiedIR"
+    },
+    {
+      "page": 72,
+      "topic": 8,
+      "file": "assets/book/web_pages_first10/page-072.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 418028,
+      "driveFileId": "1XC8q_V0GUyfX4GHeTEK794PwRDNSDjp0"
+    },
+    {
+      "page": 73,
+      "topic": 8,
+      "file": "assets/book/web_pages_first10/page-073.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 369686,
+      "driveFileId": "1GWVelHrXZMu95SXiCfTjeANpfgD2jDLc"
+    },
+    {
+      "page": 74,
+      "topic": 8,
+      "file": "assets/book/web_pages_first10/page-074.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 325710,
+      "driveFileId": "1iqayf_X-aatYo4QOrJpaVdQ83-5KLvbX"
+    },
+    {
+      "page": 75,
+      "topic": 8,
+      "file": "assets/book/web_pages_first10/page-075.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 157068,
+      "driveFileId": "1VbUXOqON6u-kImXbrBBv5R6YS95V5lP8"
+    },
+    {
+      "page": 76,
+      "topic": 9,
+      "file": "assets/book/web_pages_first10/page-076.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 235138,
+      "driveFileId": "1qZ779U_uD0h0vAAmP5MEexyRHIyZyEYx"
+    },
+    {
+      "page": 77,
+      "topic": 9,
+      "file": "assets/book/web_pages_first10/page-077.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 303780,
+      "driveFileId": "15w4QgzI08cJ9J1DLEoZyK04JZp4xZPqf"
+    },
+    {
+      "page": 78,
+      "topic": 9,
+      "file": "assets/book/web_pages_first10/page-078.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 270992,
+      "driveFileId": "1blnF3zGdetIfNl9zbqxJ2pVzZ427gB7Z"
+    },
+    {
+      "page": 79,
+      "topic": 9,
+      "file": "assets/book/web_pages_first10/page-079.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 285486,
+      "driveFileId": "1XQ6AExIuiHUS78y1kpKou27RY065iAYY"
+    },
+    {
+      "page": 80,
+      "topic": 9,
+      "file": "assets/book/web_pages_first10/page-080.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 367536,
+      "driveFileId": "1v1lK2w6Fby2l0kLFqc4uRkhOpGUSKO9b"
+    },
+    {
+      "page": 81,
+      "topic": 9,
+      "file": "assets/book/web_pages_first10/page-081.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 278536,
+      "driveFileId": "18NbGgZGAg2YVnms9fOB3oYu7DAjSoDPf"
+    },
+    {
+      "page": 82,
+      "topic": 9,
+      "file": "assets/book/web_pages_first10/page-082.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 380090,
+      "driveFileId": "1yLxqV00s5o4EUQhXxYXCp9nVt7iTXw3H"
+    },
+    {
+      "page": 83,
+      "topic": 9,
+      "file": "assets/book/web_pages_first10/page-083.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 299814,
+      "driveFileId": "1DOvPkloZApJbrbO1w_h3bVFt3mo1BHK5"
+    },
+    {
+      "page": 84,
+      "topic": 9,
+      "file": "assets/book/web_pages_first10/page-084.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 285376,
+      "driveFileId": "1umyi-k7DiMGvQ3GH7iq7LXjkaGMDypUY"
+    },
+    {
+      "page": 85,
+      "topic": 9,
+      "file": "assets/book/web_pages_first10/page-085.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 290636,
+      "driveFileId": "1QsktOoh4GdqP4DlRwT1ykm4nTmUX2gk0"
+    },
+    {
+      "page": 86,
+      "topic": 9,
+      "file": "assets/book/web_pages_first10/page-086.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 252218,
+      "driveFileId": "19d2mVnBZWASux4mkoSDR-lo8-IYqZc_o"
+    },
+    {
+      "page": 87,
+      "topic": 10,
+      "file": "assets/book/web_pages_first10/page-087.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 247810,
+      "driveFileId": "1qvSxaSCB-RNwc_ZRI9xwlIyV5IpuTXxx"
+    },
+    {
+      "page": 88,
+      "topic": 10,
+      "file": "assets/book/web_pages_first10/page-088.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 281160,
+      "driveFileId": "1fnZ05TiUzVHqfHKNj_ZQLdqt6BMU9d5t"
+    },
+    {
+      "page": 89,
+      "topic": 10,
+      "file": "assets/book/web_pages_first10/page-089.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 260306,
+      "driveFileId": "1YhA9qvc6wqXDwylQ1UK4Ljon-2RmAx2q"
+    },
+    {
+      "page": 90,
+      "topic": 10,
+      "file": "assets/book/web_pages_first10/page-090.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 321750,
+      "driveFileId": "1omv6KcACSjrqtu0dKdYtEdlPnqkonN0z"
+    },
+    {
+      "page": 91,
+      "topic": 10,
+      "file": "assets/book/web_pages_first10/page-091.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 321906,
+      "driveFileId": "19xyUN8PkXeDfMolWTfqmvMw0m4Xj7HYM"
+    },
+    {
+      "page": 92,
+      "topic": 10,
+      "file": "assets/book/web_pages_first10/page-092.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 289452,
+      "driveFileId": "1wSGsHHdULk7mLUzY2ubAwhePBXhU2zke"
+    },
+    {
+      "page": 93,
+      "topic": 10,
+      "file": "assets/book/web_pages_first10/page-093.webp",
+      "width": 1440,
+      "height": 2077,
+      "bytes": 237858,
+      "driveFileId": "1SE-APoACkDOaVP4m8nBYfcVnjOKnmJUl"
+    }
+  ],
+  "drive": {
+    "originalFolderId": "1D33KX0ZawPCtbTfj8q4N-xmWs6gA4qrD",
+    "webPagesFolderId": "1xdgXUBk_QQzPHhP1IfMxyWnwOGwYE8Yo",
+    "topicFolderIds": {
+      "1": "1KpsYsj8J4Lg5uyEskM_ZSNpHAYH2HY8Q",
+      "2": "19ZDJen9a6QyTJzW_nilot0Rf5Hc8EClJ",
+      "3": "1a-GiSSj76ohPf7aYrwoMq2CQBHk8pJbX",
+      "4": "1MkKhLWXqMcSRpa5PhZ7h2u_OmNE3pMMz",
+      "5": "1YAdhcEWlGVNLzLPixuDpYVj5TTGn5qs0",
+      "6": "1rw9lkdMEgH-0XoFEtdd3Xgaqs6Lya8-a",
+      "7": "1019x1Asbt8BLUOzWsZR_k_sgBtMg0Sck",
+      "8": "1sOsaYh-wpq2jgQCUFa358q2E9SFXNm3V",
+      "9": "1j9HBG5mv7BQ3_e6ulqnU3uBpz1opWqdp",
+      "10": "1Kl4Am4r78SRGc8tFP-2RPolEqUe1t9e_"
+    }
+  }
+}
+

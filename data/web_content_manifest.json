@@ -1,0 +1,709 @@
+{
+  "schemaVersion": 1,
+  "release": "first10-v1",
+  "sourceOfTruth": "google-drive",
+  "runtimePolicy": "Browser runtime requests individual files through local static paths or a cached server endpoint; it never downloads the project ZIP.",
+  "drive": {
+    "projectFolderId": "13DOOyIWOgHoNcT8ExWwMb4gow5IMH83n",
+    "datasetFolderId": "12fFMcWf2Go2sDPZC9sTOncKdRuTsH007",
+    "mediaFolderId": "1XNFStuw_4nommRfQT8xt-7ixm9dS8oqh",
+    "generatedFolderId": "1yUqXvxiPDGSDk672qiRVVWWOkIeBWuYj",
+    "sourceFolderId": "1yJa5I1BdVD2Imp9tnNDjAdfJSW0bU_kB",
+    "referenceMapsFolderId": "155fays5l89foqjE5iWMHUDfvXSMBqMq9",
+    "geometrySourcesFileId": "1H83l5iFI1MTiRnVGKGLtm_MsOrPD2V5h",
+    "bookFolderId": "1Jk0GkISH0nYezMnhnXL3Hnwv-Sc8q9cw",
+    "bookOriginalFolderId": "1D33KX0ZawPCtbTfj8q4N-xmWs6gA4qrD",
+    "bookWebPagesFolderId": "1xdgXUBk_QQzPHhP1IfMxyWnwOGwYE8Yo",
+    "manifestFolderId": "1WBJkOspRPYLXBHTfcaBlGWXPoYtRDDdz",
+    "manifestFileId": "1Cu_lrZr1J5atKsG-KBnwZkGKjuwa8GuE"
+  },
+  "datasets": [
+    {
+      "path": "data/topic_config_10.json",
+      "driveFileId": "1trfdZ0JG9tVeh8374C3CjQ9VGIdzQ22Q",
+      "mimeType": "application/json",
+      "size": 7550
+    },
+    {
+      "path": "data/book_pages_manifest.json",
+      "driveFileId": "18-90zh5cLf9N3PvxkCmlahCLf5v26QwY",
+      "mimeType": "application/json",
+      "size": 21763
+    },
+    {
+      "path": "data/master_all_features.geojson",
+      "driveFileId": "1DGRz1O6TYk0NfFp2pmX-dgTuua3JUuEB",
+      "mimeType": "application/geo+json",
+      "size": 149879
+    },
+    {
+      "path": "data/media_manifest.json",
+      "driveFileId": "1NdhxMXuHHO8GjrtMG0hxVBCWf4fVHndV",
+      "mimeType": "application/json",
+      "size": 42156
+    },
+    {
+      "path": "data/states_master_v2.geojson",
+      "driveFileId": "1qBlpC_lCbSuOh7Y2L4WVBjqF07mJAe71",
+      "mimeType": "application/geo+json",
+      "size": 63620
+    },
+    {
+      "path": "data/events_master_v2.geojson",
+      "driveFileId": "1X83gTmYVOe-YiVgJhmpCHbnX5R2jfC9S",
+      "mimeType": "application/geo+json",
+      "size": 15291
+    },
+    {
+      "path": "data/cities_master_v2.geojson",
+      "driveFileId": "1QMAPzYDt5ZqlRK30quKQ6LDjwKAkq5tu",
+      "mimeType": "application/geo+json",
+      "size": 13651
+    },
+    {
+      "path": "data/routes_master_v2.geojson",
+      "driveFileId": "1Pd3fyDFnD6S5NDkSpsclgSqlSVJU7WXO",
+      "mimeType": "application/geo+json",
+      "size": 19382
+    },
+    {
+      "path": "data/thematic_points_v2.geojson",
+      "driveFileId": "19vbOYk-CCnyT5HVkV8_FyuS84mYb3RNv",
+      "mimeType": "application/geo+json",
+      "size": 6045
+    }
+  ],
+  "media": [
+    {
+      "path": "assets/images/generated/t01_xorazm_siyosiy.png",
+      "topic": 1,
+      "kind": "generated",
+      "driveFileId": "17iBpZrNsqla5nMAsTR7vkIyzmML_bSer",
+      "mimeType": "image/png",
+      "size": 2979569
+    },
+    {
+      "path": "assets/images/generated/t02_otror_voqeasi.png",
+      "topic": 2,
+      "kind": "generated",
+      "driveFileId": "1TNm6eCkxt5adjg01LYRvl-x2VYhQIjSu",
+      "mimeType": "image/png",
+      "size": 3203691
+    },
+    {
+      "path": "assets/images/generated/t02_xorazm_mongol_munosabat.png",
+      "topic": 2,
+      "kind": "generated",
+      "driveFileId": "1Nuhs5YJGRD6Dp_3Jd_FhbkYUhE4JougT",
+      "mimeType": "image/png",
+      "size": 3028294
+    },
+    {
+      "path": "assets/images/generated/t03_buxoro_samarqand.png",
+      "topic": 3,
+      "kind": "generated",
+      "driveFileId": "1l_Lh4OOKKCjG1F_2wlYzo9MbcXlrxSOU",
+      "mimeType": "image/png",
+      "size": 3094187
+    },
+    {
+      "path": "assets/images/generated/t03_mudofaa_oqibat.png",
+      "topic": 3,
+      "kind": "generated",
+      "driveFileId": "1S1n_4g_2OybEXydxmwVccKpKCUqFpJtu",
+      "mimeType": "image/png",
+      "size": 3010277
+    },
+    {
+      "path": "assets/images/generated/t04_jaloliddin_qahramonligi.png",
+      "topic": 4,
+      "kind": "generated",
+      "driveFileId": "1xMimxHCXpaMaOn4FiP3rbQwXyiflMTlA",
+      "mimeType": "image/png",
+      "size": 3091915
+    },
+    {
+      "path": "assets/images/generated/t04_parvon.png",
+      "topic": 4,
+      "kind": "generated",
+      "driveFileId": "1zgMw23G9A_iIssvta0_Air_0Cdh1ZYzK",
+      "mimeType": "image/png",
+      "size": 3112537
+    },
+    {
+      "path": "assets/images/generated/t05_jaloliddin_yurishlari.png",
+      "topic": 5,
+      "kind": "generated",
+      "driveFileId": "1IpsqNGo10yTvnGPLDIfaBbDf02f3YZpT",
+      "mimeType": "image/png",
+      "size": 3092946
+    },
+    {
+      "path": "assets/images/generated/t06_chigatoy_savdo.png",
+      "topic": 6,
+      "kind": "generated",
+      "driveFileId": "1xGRR3bZqogpaTy_JBgw6X7YyxxcjgkB0",
+      "mimeType": "image/png",
+      "size": 3314739
+    },
+    {
+      "path": "assets/images/generated/t06_chigatoy_tashkil.png",
+      "topic": 6,
+      "kind": "generated",
+      "driveFileId": "1qdRZkaGnumRPwsy8IZ3yvbacHphLggnm",
+      "mimeType": "image/png",
+      "size": 3054982
+    },
+    {
+      "path": "assets/images/generated/t07_chigatoy_bolinish.png",
+      "topic": 7,
+      "kind": "generated",
+      "driveFileId": "122siAN0ILo0rJB_Pp436qoJSp1Ba1-0I",
+      "mimeType": "image/png",
+      "size": 2956229
+    },
+    {
+      "path": "assets/images/generated/t07_moguliston_hayot.png",
+      "topic": 7,
+      "kind": "generated",
+      "driveFileId": "17slWn2SoixNrTUdVhOeb1QbDAN9kLN5r",
+      "mimeType": "image/png",
+      "size": 3154934
+    },
+    {
+      "path": "assets/images/generated/t08_ilm_fan.png",
+      "topic": 8,
+      "kind": "generated",
+      "driveFileId": "1bwYFEGMPztz8eNkRYgVM3ErP9OiFNHnf",
+      "mimeType": "image/png",
+      "size": 3102943
+    },
+    {
+      "path": "assets/images/generated/t08_rashididdin.png",
+      "topic": 8,
+      "kind": "generated",
+      "driveFileId": "1rKr9-ZZ7actwlVuV3jp0kIXi_v8CgepQ",
+      "mimeType": "image/png",
+      "size": 3179888
+    },
+    {
+      "path": "assets/images/generated/t09_sarbadorlar.png",
+      "topic": 9,
+      "kind": "generated",
+      "driveFileId": "13EYnptkPHyGeAzRkMRQdhliP_rc2lHi-",
+      "mimeType": "image/png",
+      "size": 3039871
+    },
+    {
+      "path": "assets/images/generated/t09_turon_siyosiy.png",
+      "topic": 9,
+      "kind": "generated",
+      "driveFileId": "1aHJNfaZu960NoSos7-6eN_Mw-4ahIK38",
+      "mimeType": "image/png",
+      "size": 3009884
+    },
+    {
+      "path": "assets/images/generated/t10_samarqand.png",
+      "topic": 10,
+      "kind": "generated",
+      "driveFileId": "1R014c93Kos4NWIiJ7k32LZvYpSxaprsR",
+      "mimeType": "image/png",
+      "size": 3071124
+    },
+    {
+      "path": "assets/images/generated/t10_temur_hokimiyat.png",
+      "topic": 10,
+      "kind": "generated",
+      "driveFileId": "10J1i05_CD4lurSErpxOwzmi8McSmN0ij",
+      "mimeType": "image/png",
+      "size": 3056275
+    },
+    {
+      "path": "assets/images/source/topic_01/src_t01_001.jpeg",
+      "topic": 1,
+      "kind": "source",
+      "driveFileId": "1Z0odasKSi6Uh8JEyePPpvMX-JwEzHyOc",
+      "mimeType": "image/jpeg",
+      "size": 2814208
+    },
+    {
+      "path": "assets/images/source/topic_01/src_t01_002.png",
+      "topic": 1,
+      "kind": "source",
+      "driveFileId": "1LXViHLriwGCoBc8EIs-oV_aoXh3uhKe2",
+      "mimeType": "image/png",
+      "size": 14004074
+    },
+    {
+      "path": "assets/images/source/topic_01/src_t01_003.png",
+      "topic": 1,
+      "kind": "source",
+      "driveFileId": "1XeM33Sti3T1KSPA8N9gTEdrfW83DaKFp",
+      "mimeType": "image/png",
+      "size": 16779948
+    },
+    {
+      "path": "assets/images/source/topic_01/src_t01_004.svg",
+      "topic": 1,
+      "kind": "source",
+      "driveFileId": "1kmUC5W-JqWq2u0yvyfFmlg2g1L3DTpSy",
+      "mimeType": "image/svg+xml",
+      "size": 279341
+    },
+    {
+      "path": "assets/images/source/topic_01/src_t01_005.svg",
+      "topic": 1,
+      "kind": "source",
+      "driveFileId": "1SfONAqZfp_lYBBLQeXxESmVE8KA5TYHH",
+      "mimeType": "image/svg+xml",
+      "size": 1444198
+    },
+    {
+      "path": "assets/images/source/topic_01/src_t01_006.jpg",
+      "topic": 1,
+      "kind": "source",
+      "driveFileId": "1ivw4qmbiXytUBFdIjLKExVvi8N9bujQU",
+      "mimeType": "image/jpeg",
+      "size": 220063
+    },
+    {
+      "path": "assets/images/source/topic_01/src_t01_007.jpeg",
+      "topic": 1,
+      "kind": "source",
+      "driveFileId": "1r8Pi463cSGg6TGliQUYjMsTHWPVjNiEM",
+      "mimeType": "image/jpeg",
+      "size": 6469572
+    },
+    {
+      "path": "assets/images/source/topic_01/src_t01_008.jpg",
+      "topic": 1,
+      "kind": "source",
+      "driveFileId": "1MIpKUf-pTr2OpmkcXNSOWuxj-7KOBlua",
+      "mimeType": "image/jpeg",
+      "size": 1859290
+    },
+    {
+      "path": "assets/images/source/topic_01/src_t01_009.jpg",
+      "topic": 1,
+      "kind": "source",
+      "driveFileId": "1vWSNprCmu2dM8anzhvB4Z1UDbnmFo965",
+      "mimeType": "image/jpeg",
+      "size": 306522
+    },
+    {
+      "path": "assets/images/source/topic_02/src_t02_001.jpg",
+      "topic": 2,
+      "kind": "source",
+      "driveFileId": "1t32AQL-Iljeim_aTR9kisahOcELeiXJo",
+      "mimeType": "image/jpeg",
+      "size": 344875
+    },
+    {
+      "path": "assets/images/source/topic_02/src_t02_002.jpg",
+      "topic": 2,
+      "kind": "source",
+      "driveFileId": "1cl4DsphKyop7LlIHVQKuB8PcMETDaH4m",
+      "mimeType": "image/jpeg",
+      "size": 846530
+    },
+    {
+      "path": "assets/images/source/topic_02/src_t02_003.jpg",
+      "topic": 2,
+      "kind": "source",
+      "driveFileId": "1uJuXFOz12qnJvw-qzckZqLHa3hgJ37Cp",
+      "mimeType": "image/jpeg",
+      "size": 319486
+    },
+    {
+      "path": "assets/images/source/topic_03/src_t03_001.png",
+      "topic": 3,
+      "kind": "source",
+      "driveFileId": "1lgPdYnrwOT174QBGwsIMxgqpovHd4PkN",
+      "mimeType": "image/png",
+      "size": 104022
+    },
+    {
+      "path": "assets/images/source/topic_03/src_t03_002.jpg",
+      "topic": 3,
+      "kind": "source",
+      "driveFileId": "1FfBWMn38nzBeQYU5xD87vNIaLSAjJ_Je",
+      "mimeType": "image/jpeg",
+      "size": 217119
+    },
+    {
+      "path": "assets/images/source/topic_03/src_t03_003.jpg",
+      "topic": 3,
+      "kind": "source",
+      "driveFileId": "1byI7EQRV5wXaLRApIDNxqkewg6HRImrm",
+      "mimeType": "image/jpeg",
+      "size": 5386081
+    },
+    {
+      "path": "assets/images/source/topic_03/src_t03_004.jpg",
+      "topic": 3,
+      "kind": "source",
+      "driveFileId": "1bHGPif-MXaWLB-qhFESsuohTWjRKLvp5",
+      "mimeType": "image/jpeg",
+      "size": 5598099
+    },
+    {
+      "path": "assets/images/source/topic_04/src_t04_001.jpg",
+      "topic": 4,
+      "kind": "source",
+      "driveFileId": "19sAue-Ybrv6IK58ucru8zuhhpPgJgIay",
+      "mimeType": "image/jpeg",
+      "size": 980434
+    },
+    {
+      "path": "assets/images/source/topic_04/src_t04_002.jpg",
+      "topic": 4,
+      "kind": "source",
+      "driveFileId": "1ATz_Pks-r3C7yNBq0xdpPxVJ3mbgb30T",
+      "mimeType": "image/jpeg",
+      "size": 94502
+    },
+    {
+      "path": "assets/images/source/topic_04/src_t04_003.jpg",
+      "topic": 4,
+      "kind": "source",
+      "driveFileId": "16UgvzsKFiekeiuI-E7m8JaQFNH9SqF62",
+      "mimeType": "image/jpeg",
+      "size": 1361190
+    },
+    {
+      "path": "assets/images/source/topic_04/src_t04_004.jpg",
+      "topic": 4,
+      "kind": "source",
+      "driveFileId": "1NOKX_8x62dvaSwIh3Buf3dx31R78ttwR",
+      "mimeType": "image/jpeg",
+      "size": 3789507
+    },
+    {
+      "path": "assets/images/source/topic_04/src_t04_005.jpg",
+      "topic": 4,
+      "kind": "source",
+      "driveFileId": "16Zkk79WJ_fs7tIjRvzuOGGZJesoD53M8",
+      "mimeType": "image/jpeg",
+      "size": 288354
+    },
+    {
+      "path": "assets/images/source/topic_04/src_t04_006.jpg",
+      "topic": 4,
+      "kind": "source",
+      "driveFileId": "1PvvSgyhtx7CuXE1BU6-XGQFbL3dzxYoa",
+      "mimeType": "image/jpeg",
+      "size": 1304594
+    },
+    {
+      "path": "assets/images/source/topic_04/src_t04_007.jpg",
+      "topic": 4,
+      "kind": "source",
+      "driveFileId": "1tOIiOcF-QfPq6UYGQbQUP0VuJbIL-0zS",
+      "mimeType": "image/jpeg",
+      "size": 143787
+    },
+    {
+      "path": "assets/images/source/topic_05/src_t05_001.jpg",
+      "topic": 5,
+      "kind": "source",
+      "driveFileId": "1bpWItjXFGo7XEwEWHx075gkJ2MHw8Qsm",
+      "mimeType": "image/jpeg",
+      "size": 623586
+    },
+    {
+      "path": "assets/images/source/topic_05/src_t05_002.jpg",
+      "topic": 5,
+      "kind": "source",
+      "driveFileId": "1W8qL_K8YA4FBfyyA081lOimd1SW3otG0",
+      "mimeType": "image/jpeg",
+      "size": 122304
+    },
+    {
+      "path": "assets/images/source/topic_06/src_t06_001.png",
+      "topic": 6,
+      "kind": "source",
+      "driveFileId": "1-aag-CEheM9DeN9co9-saNg4ef4qFkTp",
+      "mimeType": "image/png",
+      "size": 15522610
+    },
+    {
+      "path": "assets/images/source/topic_06/src_t06_002.png",
+      "topic": 6,
+      "kind": "source",
+      "driveFileId": "1iAjLGinOvFGOZrNgEriPhPA5SnNQhXzb",
+      "mimeType": "image/png",
+      "size": 15148296
+    },
+    {
+      "path": "assets/images/source/topic_06/src_t06_003.jpg",
+      "topic": 6,
+      "kind": "source",
+      "driveFileId": "1bdnDxC-gzaavnPndtvX2X116ln-sHbws",
+      "mimeType": "image/jpeg",
+      "size": 365648
+    },
+    {
+      "path": "assets/images/source/topic_06/src_t06_004.png",
+      "topic": 6,
+      "kind": "source",
+      "driveFileId": "1wGSSWtqV55m7wdLtefJBFf820i91Nn9S",
+      "mimeType": "image/png",
+      "size": 10010714
+    },
+    {
+      "path": "assets/images/source/topic_06/src_t06_005.svg",
+      "topic": 6,
+      "kind": "source",
+      "driveFileId": "120nYz-XBEhUrGChdIDanhym9XjFBpxzz",
+      "mimeType": "image/svg+xml",
+      "size": 479552
+    },
+    {
+      "path": "assets/images/source/topic_06/src_t06_006.jpg",
+      "topic": 6,
+      "kind": "source",
+      "driveFileId": "1El0IhLaqCzkJkFi9Iq8OGYMg4FeBshVA",
+      "mimeType": "image/jpeg",
+      "size": 9017892
+    },
+    {
+      "path": "assets/images/source/topic_06/src_t06_007.png",
+      "topic": 6,
+      "kind": "source",
+      "driveFileId": "1XyC61HFiNYY68Dnv3E2eqeB_nzhI8g_E",
+      "mimeType": "image/png",
+      "size": 20562
+    },
+    {
+      "path": "assets/images/source/topic_07/src_t07_001.jpg",
+      "topic": 7,
+      "kind": "source",
+      "driveFileId": "1JVPYUg8bpb5-BQfC_z2ME-jkfGkG-gLR",
+      "mimeType": "image/jpeg",
+      "size": 4118562
+    },
+    {
+      "path": "assets/images/source/topic_07/src_t07_002.png",
+      "topic": 7,
+      "kind": "source",
+      "driveFileId": "1wxGhbxRIev5b6bStz1CJHX9MiL99yOYP",
+      "mimeType": "image/png",
+      "size": 1825204
+    },
+    {
+      "path": "assets/images/source/topic_07/src_t07_003.png",
+      "topic": 7,
+      "kind": "source",
+      "driveFileId": "1v3VB_m-IMzLNWfXr20sGjkZhohDC5i-1",
+      "mimeType": "image/png",
+      "size": 1280808
+    },
+    {
+      "path": "assets/images/source/topic_07/src_t07_004.png",
+      "topic": 7,
+      "kind": "source",
+      "driveFileId": "132GVTphuqLctWFNyiaoqPV3VoeVgbUjK",
+      "mimeType": "image/png",
+      "size": 1297132
+    },
+    {
+      "path": "assets/images/source/topic_07/src_t07_005.png",
+      "topic": 7,
+      "kind": "source",
+      "driveFileId": "1NdhXQHLQlCvAAJT95_FBwHR1A3a2TM84",
+      "mimeType": "image/png",
+      "size": 1329270
+    },
+    {
+      "path": "assets/images/source/topic_07/src_t07_006.jpg",
+      "topic": 7,
+      "kind": "source",
+      "driveFileId": "1qUoWH7t-tQm3Pz6omEAScPgpZwPf9VzI",
+      "mimeType": "image/jpeg",
+      "size": 195024
+    },
+    {
+      "path": "assets/images/source/topic_07/src_t07_007.png",
+      "topic": 7,
+      "kind": "source",
+      "driveFileId": "15Ww2kYAxYKI_u6UX4m4k5zwUgWQa2usY",
+      "mimeType": "image/png",
+      "size": 37631
+    },
+    {
+      "path": "assets/images/source/topic_07/src_t07_008.svg",
+      "topic": 7,
+      "kind": "source",
+      "driveFileId": "1S0H6Em0vGcGSbTE4apxXA_MXsNtI4udh",
+      "mimeType": "image/svg+xml",
+      "size": 1083858
+    },
+    {
+      "path": "assets/images/source/topic_07/src_t07_009.jpg",
+      "topic": 7,
+      "kind": "source",
+      "driveFileId": "1LSz2VX0qSsxeh0HZP_4U7XXwGlE5GEDG",
+      "mimeType": "image/jpeg",
+      "size": 3326843
+    },
+    {
+      "path": "assets/images/source/topic_08/src_t08_001.png",
+      "topic": 8,
+      "kind": "source",
+      "driveFileId": "1I_dB_VP9OZN7Hc9NUG_ljc1u5DsRqGH8",
+      "mimeType": "image/png",
+      "size": 301031
+    },
+    {
+      "path": "assets/images/source/topic_08/src_t08_002.jpg",
+      "topic": 8,
+      "kind": "source",
+      "driveFileId": "1liJuiQ6lCXU45aSmNjfvilXBw64UVDVF",
+      "mimeType": "image/jpeg",
+      "size": 575446
+    },
+    {
+      "path": "assets/images/source/topic_08/src_t08_003.jpg",
+      "topic": 8,
+      "kind": "source",
+      "driveFileId": "1MjIFsG8ikLZrAHR3uIKbv6aTcvFsjjuu",
+      "mimeType": "image/jpeg",
+      "size": 3092526
+    },
+    {
+      "path": "assets/images/source/topic_08/src_t08_004.jpg",
+      "topic": 8,
+      "kind": "source",
+      "driveFileId": "1R00W7YPibG2hAuvulHO75xFkFXd10Okl",
+      "mimeType": "image/jpeg",
+      "size": 2493164
+    },
+    {
+      "path": "assets/images/source/topic_08/src_t08_005.jpg",
+      "topic": 8,
+      "kind": "source",
+      "driveFileId": "19-kDFWv1qy8hqfGGF_r8d-zH18ZRRalW",
+      "mimeType": "image/jpeg",
+      "size": 4049604
+    },
+    {
+      "path": "assets/images/source/topic_08/src_t08_006.jpg",
+      "topic": 8,
+      "kind": "source",
+      "driveFileId": "1y801xL30Q5eETpV_46gXRwlyAJTn6ejV",
+      "mimeType": "image/jpeg",
+      "size": 327523
+    },
+    {
+      "path": "assets/images/source/topic_08/src_t08_007.jpg",
+      "topic": 8,
+      "kind": "source",
+      "driveFileId": "1P77Af-68IB4074jRxqUGTE5Bo9ZMZXbu",
+      "mimeType": "image/jpeg",
+      "size": 82800
+    },
+    {
+      "path": "assets/images/source/topic_09/src_t09_001.png",
+      "topic": 9,
+      "kind": "source",
+      "driveFileId": "1iOX94yQQvf4na-495IDwHJLxB9IgrSJz",
+      "mimeType": "image/png",
+      "size": 563708
+    },
+    {
+      "path": "assets/images/source/topic_09/src_t09_002.jpg",
+      "topic": 9,
+      "kind": "source",
+      "driveFileId": "1xdMydX6OXOGPnXzJ-5jp_gonWkdnZ7KO",
+      "mimeType": "image/jpeg",
+      "size": 6993783
+    },
+    {
+      "path": "assets/images/source/topic_09/src_t09_003.jpg",
+      "topic": 9,
+      "kind": "source",
+      "driveFileId": "1DchjJk9jPT-raRrp2mZkRtKpzyD9f_Ln",
+      "mimeType": "image/jpeg",
+      "size": 1854663
+    },
+    {
+      "path": "assets/images/source/topic_09/src_t09_004.jpg",
+      "topic": 9,
+      "kind": "source",
+      "driveFileId": "1fZt7gOW0o1L_25qbMHWFUncQ3ai1S-Tt",
+      "mimeType": "image/jpeg",
+      "size": 5207914
+    },
+    {
+      "path": "assets/images/source/topic_10/src_t10_001.jpg",
+      "topic": 10,
+      "kind": "source",
+      "driveFileId": "1DzwORbDswMkMCQ8LqmO4SLYv6bEuyuDb",
+      "mimeType": "image/jpeg",
+      "size": 7066852
+    },
+    {
+      "path": "assets/images/source/topic_10/src_t10_002.png",
+      "topic": 10,
+      "kind": "source",
+      "driveFileId": "103rDKz90DpyegFjgJahYGDgSNdjFdZuI",
+      "mimeType": "image/png",
+      "size": 973696
+    },
+    {
+      "path": "assets/images/source/topic_10/src_t10_003.png",
+      "topic": 10,
+      "kind": "source",
+      "driveFileId": "1G7mVk0Yx-wmGQbMOA8bV6JpoOYjgMfI6",
+      "mimeType": "image/png",
+      "size": 889724
+    },
+    {
+      "path": "assets/images/source/topic_10/src_t10_004.png",
+      "topic": 10,
+      "kind": "source",
+      "driveFileId": "19aW9gOVNye4da04-t6GCHQxIBBlok0U6",
+      "mimeType": "image/png",
+      "size": 13959503
+    },
+    {
+      "path": "assets/images/source/topic_10/src_t10_005.jpg",
+      "topic": 10,
+      "kind": "source",
+      "driveFileId": "1Goudud-ccv4zDkJn2XQsrXmJahNHQzYs",
+      "mimeType": "image/jpeg",
+      "size": 8181810
+    },
+    {
+      "path": "assets/images/source/topic_10/src_t10_006.jpg",
+      "topic": 10,
+      "kind": "source",
+      "driveFileId": "1xPo8V03NunyPwo3ZDvroipamgDN9O-Z5",
+      "mimeType": "image/jpeg",
+      "size": 105026
+    },
+    {
+      "path": "assets/images/source/topic_10/src_t10_007.jpg",
+      "topic": 10,
+      "kind": "source",
+      "driveFileId": "12hYPkW8wVHpzdKl4eOv0ckr6r43DdC0p",
+      "mimeType": "image/jpeg",
+      "size": 2106244
+    },
+    {
+      "path": "assets/images/source/topic_10/src_t10_008.jpg",
+      "topic": 10,
+      "kind": "source",
+      "driveFileId": "1ue9UBn98mjiAiOWrP1WYBivbcx1GhMvg",
+      "mimeType": "image/jpeg",
+      "size": 16309840
+    }
+  ],
+  "book": {
+    "localPath": "assets/book/ozbekiston_tarixi_8_2023.pdf",
+    "driveFileId": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+    "size": 144604832,
+    "webPagesManifestFileId": "18-90zh5cLf9N3PvxkCmlahCLf5v26QwY",
+    "status": "original-and-first10-web-pages-ready"
+  }
+}

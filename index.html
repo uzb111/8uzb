@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#07111f" />
+  <title>TARIX360 — tarixni jonli tushuntirish tizimi</title>
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand-lockup">
+        <div class="brand-mark" aria-hidden="true">360</div>
+        <div>
+          <div class="eyebrow">8-sinf · O‘zbekiston tarixi · 2023</div>
+          <h1>TARIX<span>360</span></h1>
+        </div>
+      </div>
+      <div class="lesson-status" aria-live="polite">
+        <span class="status-pulse" aria-hidden="true"></span>
+        <div><small>Jonli dars sahnasi</small><strong id="sceneStatus">Ma’lumot yuklanmoqda…</strong></div>
+      </div>
+      <div class="top-actions">
+        <button id="teacherModeBtn" class="teacher-mode-btn" type="button" title="Proyektor ko‘rinishi">Proyektor</button>
+        <div class="tab-switcher" aria-label="Dars materiallari">
+          <button id="bookTabBtn" class="tab-btn active" type="button">Kitob</button>
+          <button id="galleryTabBtn" class="tab-btn" type="button">Rasmlar</button>
+          <button id="eventsTabBtn" class="tab-btn" type="button">Voqealar</button>
+        </div>
+      </div>
+    </header>
+
+    <aside class="topics-panel">
+      <div class="topics-heading">
+        <div><span class="panel-kicker">Darslar</span><h2>Birinchi 10 mavzu</h2></div>
+        <span id="topicProgress" class="topic-progress">1 / 10</span>
+      </div>
+      <div id="topicsList" class="topics-list"></div>
+      <div class="topic-nav">
+        <button id="previousTopic" class="nav-btn" type="button">← Oldingi</button>
+        <button id="nextTopic" class="nav-btn primary" type="button">Keyingi →</button>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <section class="map-section" aria-label="Tarixiy xarita sahnasi">
+        <div class="section-head">
+          <div class="section-copy">
+            <div id="topicNumber" class="topic-number">1-mavzu</div>
+            <h2 id="topicTitle"></h2>
+            <p id="mapStory"></p>
+          </div>
+          <div class="map-badges"><span id="topicYears" class="badge"></span><span id="bookPages" class="badge"></span></div>
+        </div>
+
+        <div id="mapStage" class="map-stage">
+          <div id="map"></div>
+          <div class="map-overlay layer-panel" aria-label="Xarita qatlamlari">
+            <div class="overlay-title">Qatlamlar</div>
+            <div class="layer-buttons">
+              <button class="layer-toggle active" type="button" data-layer="state" aria-pressed="true"><i class="swatch state"></i>Davlat</button>
+              <button class="layer-toggle active" type="button" data-layer="city" aria-pressed="true"><i class="swatch city"></i>Shahar</button>
+              <button class="layer-toggle active" type="button" data-layer="event" aria-pressed="true"><i class="swatch event"></i>Voqea</button>
+              <button class="layer-toggle active" type="button" data-layer="route" aria-pressed="true"><i class="swatch route"></i>Yo‘nalish</button>
+              <button class="layer-toggle active" type="button" data-layer="thematic" aria-pressed="true"><i class="swatch thematic"></i>Shaxs / maskan</button>
+            </div>
+          </div>
+          <div class="map-overlay scene-counter"><small>Joriy sahna</small><strong id="visibleFeatureCount">0 obyekt</strong><span id="sceneComposition">Xarita tayyorlanmoqda</span></div>
+          <div id="mapNotice" class="map-notice hidden">Tanlangan qatlamlarda bu yil uchun obyekt yo‘q.</div>
+        </div>
+
+        <div class="timeline-bar">
+          <div class="timeline-main">
+            <div class="timeline-label"><span>Tarixiy vaqt</span><strong id="yearValue"></strong></div>
+            <div class="timeline-transport" aria-label="Timeline boshqaruvi">
+              <button id="previousMoment" class="icon-btn" type="button" title="Oldingi tarixiy nuqta">−</button>
+              <button id="playTimeline" class="play-btn" type="button"><span class="play-icon">▶</span><span class="play-label">Jonlantirish</span></button>
+              <button id="nextMoment" class="icon-btn" type="button" title="Keyingi tarixiy nuqta">+</button>
+            </div>
+            <input id="yearSlider" type="range" aria-label="Tarixiy yil" />
+            <button id="resetYear" class="reset-btn" type="button">Mavzu yili</button>
+          </div>
+          <div id="timelineMoments" class="timeline-moments" aria-label="Muhim tarixiy yillar"></div>
+        </div>
+      </section>
+
+      <section class="study-section" aria-label="Dars materiali">
+        <div id="bookPanel" class="study-panel active">
+          <div class="study-toolbar">
+            <div><small class="toolbar-kicker">Darslik</small><strong>Yengil sahifa viewer</strong><span id="pdfRangeText"></span></div>
+            <div class="toolbar-actions">
+              <span id="bookPageNumber" class="page-number">8 / 11</span>
+              <a id="openPdfNew" class="small-btn link-btn" target="_blank" rel="noreferrer">To‘liq PDF</a>
+            </div>
+          </div>
+          <div class="pdf-stage">
+            <div id="bookScroll" class="book-scroll"><img id="bookPageImage" decoding="async" alt="8-sinf O‘zbekiston tarixi darsligi sahifasi"></div>
+            <div class="pdf-placeholder" id="bookPagePlaceholder"><div class="pdf-symbol">8</div><strong>Darslik sahifasi tayyorlanmoqda</strong><span id="bookPageStatus">Yengil WebP yuklanmoqda…</span></div>
+            <div class="book-pagination" aria-label="Darslik sahifalari">
+              <button id="previousBookPage" class="page-step" type="button">← Oldingi bet</button>
+              <strong id="bookPageCurrent">8-bet</strong>
+              <button id="nextBookPage" class="page-step" type="button">Keyingi bet →</button>
+            </div>
+          </div>
+          <div id="pdfHint" class="pdf-hint"></div>
+        </div>
+
+        <div id="galleryPanel" class="study-panel">
+          <div class="study-toolbar"><div><small class="toolbar-kicker">Vizual manbalar</small><strong>Rasm va rekonstruksiyalar</strong></div><span id="galleryCount"></span></div>
+          <div id="gallery" class="gallery"></div>
+        </div>
+
+        <div id="eventsPanel" class="study-panel">
+          <div class="study-toolbar"><div><small class="toolbar-kicker">Sahna obyektlari</small><strong>Voqealar va maskanlar</strong></div><span id="eventCount"></span></div>
+          <div id="eventSummary" class="event-summary"></div>
+          <div id="eventList" class="event-list"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Rasm ko‘rinishi">
+    <button id="lightboxClose" class="lightbox-close" type="button" aria-label="Yopish">×</button>
+    <img id="lightboxImg" alt="">
+    <div id="lightboxCaption"></div>
+  </div>
+
+  <script src="deployment.config.js"></script>
+  <script src="storage.js"></script>
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
