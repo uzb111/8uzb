@@ -15,6 +15,7 @@ const state = {
   layerGroup: null,
   featureLayers: new Map(),
   visibleLayers: new Set(["state", "city", "event", "route", "thematic"]),
+  selectedStateId: null,
   playbackTimer: null,
   isPlaying: false,
   activeTab: "book"
@@ -60,7 +61,7 @@ function featureClass(feature) {
 
 function featureLabel(feature) {
   const properties = feature.properties || {};
-  return properties.title_uz || properties.name || properties.polity_uz || properties.polity_en || properties.id || "Obyekt";
+  return properties.title_uz || properties.name_uz || properties.name || properties.polity_uz || properties.polity_en || properties.id || "Obyekt";
 }
 
 function isActive(feature, year) {
@@ -123,8 +124,32 @@ function pointStyle(feature) {
   return { radius: 5.2, color: "#16334f", fillColor: "#64a9df", fillOpacity: 0.98, weight: 2, className: "history-point city-point" };
 }
 
+function pointLayer(feature, latlng) {
+  if (featureClass(feature) !== "city") return L.circleMarker(latlng, pointStyle(feature));
+  return L.marker(latlng, {
+    icon: L.divIcon({
+      className: "history-city-marker",
+      html: '<span class="city-symbol" aria-hidden="true"><i></i></span>',
+      iconSize: [22, 22],
+      iconAnchor: [11, 11],
+      popupAnchor: [0, -10],
+      tooltipAnchor: [0, -10]
+    }),
+    riseOnHover: true
+  });
+}
+
 function featureDetails(feature) {
   const properties = feature.properties || {};
+  if (featureClass(feature) === "city") {
+    const modernLocation = [properties.modern_name_uz, properties.modern_region_uz, properties.modern_country_uz].filter(Boolean).join(", ");
+    return [
+      ["Tarixiy nom", properties.historical_name_uz || featureLabel(feature)],
+      ["Hozirgi joy", modernLocation],
+      ["Mavzudagi roli", properties.summary_uz || properties.role || ""],
+      ["Joy aniqligi", properties.location_precision || properties.coordinate_quality || ""]
+    ].filter((row) => row[1]);
+  }
   return [
     ["Nomi", featureLabel(feature)],
     ["Sana", properties.date || [properties.start_date, properties.end_date].filter(Boolean).join(" – ")],
@@ -135,14 +160,33 @@ function featureDetails(feature) {
 
 function bindFeature(feature, layer) {
   const properties = feature.properties || {};
+  const category = featureClass(feature);
   const html = featureDetails(feature)
     .map(([label, value]) => `<div class="popup-row"><b>${escapeHtml(label)}:</b> ${escapeHtml(value)}</div>`)
     .join("");
-  layer.bindPopup(`<div class="history-popup"><strong>${escapeHtml(featureLabel(feature))}</strong>${html}</div>`);
 
-  if (featureClass(feature) === "city" && properties.name) {
-    layer.bindTooltip(escapeHtml(properties.name), {
-      permanent: true,
+  if (category === "state") {
+    const period = [properties.start_date, properties.end_date].filter(Boolean).join("–");
+    layer.bindTooltip(`<strong>${escapeHtml(featureLabel(feature))}</strong>${period ? `<span>${escapeHtml(period)}</span>` : ""}`, {
+      sticky: true,
+      direction: "top",
+      className: "state-hover-label"
+    });
+    layer.on("click", () => selectStateFeature(feature));
+    layer.on("mouseover", () => {
+      if (!state.selectedStateId && typeof layer.setStyle === "function") layer.setStyle({ weight: 3.4, fillOpacity: 0.38 });
+    });
+    layer.on("mouseout", applyStateSelectionStyles);
+    return;
+  }
+
+  layer.bindPopup(`<div class="history-popup${category === "city" ? " city-popup" : ""}"><strong>${escapeHtml(featureLabel(feature))}</strong>${html}</div>`);
+
+  if (category === "city") {
+    const cityCount = topicFeatures().filter((item) => featureClass(item) === "city").length;
+    layer.bindTooltip(escapeHtml(properties.name_uz || properties.name), {
+      permanent: cityCount <= 12,
+      sticky: cityCount > 12,
       direction: "top",
       className: "city-label",
       offset: [0, -5]
@@ -193,6 +237,160 @@ function visibleTopicFeatures(topic = state.topic, year = state.currentYear) {
     .filter((feature) => state.visibleLayers.has(featureClass(feature)));
 }
 
+function featureById(featureId) {
+  return state.features?.features.find((feature) => (feature.properties || {}).id === featureId) || null;
+}
+
+function pointInRing(point, ring) {
+  let inside = false;
+  for (let index = 0, previous = ring.length - 1; index < ring.length; previous = index++) {
+    const [x1, y1] = ring[index];
+    const [x2, y2] = ring[previous];
+    const intersects = ((y1 > point[1]) !== (y2 > point[1])) && (point[0] < ((x2 - x1) * (point[1] - y1)) / ((y2 - y1) || Number.EPSILON) + x1);
+    if (intersects) inside = !inside;
+  }
+  return inside;
+}
+
+function pointInState(point, geometry) {
+  if (!geometry || !Array.isArray(point)) return false;
+  const insidePolygon = (polygon) => polygon.length > 0 && pointInRing(point, polygon[0]) && !polygon.slice(1).some((hole) => pointInRing(point, hole));
+  if (geometry.type === "Polygon") return insidePolygon(geometry.coordinates);
+  if (geometry.type === "MultiPolygon") return geometry.coordinates.some(insidePolygon);
+  return false;
+}
+
+function relationForState(city, stateId) {
+  return ((city.properties || {}).state_relations || []).find((item) => item.state_id === stateId) || null;
+}
+
+function relatedCitiesForState(stateFeature) {
+  const stateId = (stateFeature.properties || {}).id;
+  const topicIds = new Set(state.topic.showFeatureIds || []);
+  return state.features.features
+    .filter((feature) => featureClass(feature) === "city" && topicIds.has((feature.properties || {}).id))
+    .map((city) => {
+      const relation = relationForState(city, stateId);
+      const inside = pointInState(city.geometry?.coordinates, stateFeature.geometry);
+      return relation || inside ? { city, relation, inside } : null;
+    })
+    .filter(Boolean)
+    .sort((a, b) => Number(Boolean(b.relation)) - Number(Boolean(a.relation)) || featureLabel(a.city).localeCompare(featureLabel(b.city), "uz"));
+}
+
+const RELATION_LABELS = Object.freeze({
+  poytaxt: "Poytaxt",
+  siyosiy_markaz: "Siyosiy markaz",
+  asosiy_shahar: "Asosiy shahar",
+  yirik_markaz: "Yirik markaz",
+  tayanch_markaz: "Tayanch markaz",
+  nazorat_markazi: "Nazorat markazi",
+  hal_qiluvchi_markaz: "Hal qiluvchi markaz",
+  chegara_markazi: "Chegara markazi",
+  chegara_savdo_markazi: "Savdo-chegara markazi",
+  chegara_qalasi: "Chegara qal’asi",
+  strategik_shahar: "Strategik shahar",
+  voha_markazi: "Voha markazi",
+  sharqiy_markaz: "Sharqiy markaz",
+  qarorgoh: "Hukmdor qarorgohi",
+  asosiy_markaz: "Asosiy markaz",
+  voha_shahri: "Voha shahri",
+  sharqiy_darvoza: "Sharqiy darvoza",
+  yo‘l_markazi: "Yo‘l markazi",
+  shahar: "Shahar"
+});
+
+function boundaryTypeLabel(properties) {
+  if (properties.boundary_kind === "influence_zone") return "Ta’sir zonasi";
+  if (properties.boundary_kind === "territorial_extent") return "Taxminiy hudud";
+  return properties.status === "reconstructed" ? "Rekonstruksiya" : "Tarixiy hudud";
+}
+
+function renderStateSources(properties) {
+  const sourceList = $("stateSourceList");
+  const sources = Array.isArray(properties.source_refs) ? properties.source_refs : [];
+  if (!sources.length) {
+    sourceList.innerHTML = `<div class="profile-source-note">${escapeHtml(properties.geometry_quality || properties.notes || "Manba metama’lumoti tayyorlanmoqda.")}</div>`;
+    return;
+  }
+  sourceList.innerHTML = sources.map((source) => {
+    const title = typeof source === "string" ? source : source.title || "Tarixiy manba";
+    const url = typeof source === "string" ? source : source.url || (source.drive_file_id ? `https://drive.google.com/file/d/${encodeURIComponent(source.drive_file_id)}/view` : "");
+    const pages = typeof source === "object" && Array.isArray(source.pages) ? ` · ${source.pages.join(", ")}-bet` : "";
+    if (!url) return `<div class="profile-source-note">${escapeHtml(title + pages)}</div>`;
+    return `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer"><span>${escapeHtml(title + pages)}</span><b>↗</b></a>`;
+  }).join("");
+}
+
+function renderStateProfile(feature) {
+  const properties = feature.properties || {};
+  const cities = relatedCitiesForState(feature);
+  $("stateProfileName").textContent = featureLabel(feature);
+  $("stateProfilePeriod").textContent = [properties.start_date, properties.end_date].filter(Boolean).join("–") || "Sana ko‘rsatilmagan";
+  $("stateProfileType").textContent = boundaryTypeLabel(properties);
+  const confidence = Number(properties.confidence);
+  $("stateProfileConfidence").textContent = Number.isFinite(confidence) ? `Ishonch ${Math.round(confidence * 100)}%` : "Taxminiy rekonstruksiya";
+  $("stateProfileSummary").textContent = properties.notes || `${state.currentYear}-yil sahnasidagi tanlangan tarixiy siyosiy hudud.`;
+  $("stateProfileUncertainty").textContent = properties.uncertainty_note || "Chegara tarixiy manbalardan umumlashtirilgan; zamonaviy davlat chegarasi emas.";
+  $("stateCityCount").textContent = `${cities.length} ta bog‘liq nuqta`;
+
+  const cityList = $("stateCityList");
+  if (!cities.length) {
+    cityList.innerHTML = '<div class="profile-empty">Bu mavzu sahnasida poligon bilan bog‘langan shahar nuqtasi yo‘q.</div>';
+  } else {
+    cityList.innerHTML = "";
+    cities.forEach(({ city, relation }) => {
+      const properties = city.properties || {};
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "state-city-item";
+      const relationLabel = relation ? (RELATION_LABELS[relation.kind] || relation.kind.replaceAll("_", " ")) : "Poligon ichidagi shahar";
+      const current = [properties.modern_name_uz, properties.modern_country_uz].filter(Boolean).join(", ");
+      button.innerHTML = `<span class="state-city-glyph" aria-hidden="true"><i></i></span><span><strong>${escapeHtml(featureLabel(city))}</strong><small>${escapeHtml(relationLabel)}</small><em>${escapeHtml(current || "Hozirgi joylashuv aniqlanmoqda")}</em></span><b>↗</b>`;
+      button.title = relation?.note_uz || properties.summary_uz || featureLabel(city);
+      button.addEventListener("click", () => locateFeature(properties.id));
+      cityList.appendChild(button);
+    });
+  }
+  renderStateSources(properties);
+  $("stateProfile").classList.remove("hidden");
+}
+
+function applyStateSelectionStyles() {
+  state.featureLayers.forEach((container, featureId) => {
+    const feature = featureById(featureId);
+    if (!feature || featureClass(feature) !== "state") return;
+    const baseStyle = styleForFeature(feature);
+    const isSelected = state.selectedStateId === featureId;
+    const isDimmed = Boolean(state.selectedStateId) && !isSelected;
+    container.eachLayer((child) => {
+      if (typeof child.setStyle !== "function") return;
+      child.setStyle(isSelected
+        ? { ...baseStyle, color: "#ffd36e", weight: 4, fillOpacity: 0.43, opacity: 1 }
+        : isDimmed
+          ? { ...baseStyle, weight: 1, fillOpacity: 0.045, opacity: 0.28 }
+          : baseStyle);
+    });
+    if (isSelected && typeof container.bringToFront === "function") container.bringToFront();
+  });
+}
+
+function selectStateFeature(feature) {
+  const featureId = (feature.properties || {}).id;
+  state.selectedStateId = featureId;
+  applyStateSelectionStyles();
+  const container = state.featureLayers.get(featureId);
+  const bounds = container?.getBounds();
+  if (bounds?.isValid()) state.map.fitBounds(bounds.pad(0.16), { maxZoom: 6.5, animate: true, duration: 0.65 });
+  renderStateProfile(feature);
+}
+
+function closeStateProfile({ preserveStyles = false } = {}) {
+  state.selectedStateId = null;
+  $("stateProfile")?.classList.add("hidden");
+  if (!preserveStyles) applyStateSelectionStyles();
+}
+
 function compositionText(features) {
   const counts = new Map();
   features.forEach((feature) => {
@@ -202,16 +400,6 @@ function compositionText(features) {
   return [...counts.entries()]
     .map(([category, count]) => `${count} ${CATEGORY_LABELS[category] || category}`)
     .join(" · ") || "Faol qatlam yo‘q";
-}
-
-function updateLayerButtonCounts() {
-  const active = topicFeatures().filter((feature) => isPermanentAnchor(feature) || isActive(feature, state.currentYear));
-  document.querySelectorAll(".layer-toggle").forEach((button) => {
-    const layer = button.dataset.layer;
-    const count = active.filter((feature) => featureClass(feature) === layer).length;
-    button.dataset.count = count;
-    button.title = `${CATEGORY_LABELS[layer]}: ${count} ta`;
-  });
 }
 
 function renderMap({ fitBounds = false, animate = true } = {}) {
@@ -228,7 +416,7 @@ function renderMap({ fitBounds = false, animate = true } = {}) {
   selected.forEach((feature) => {
     const container = L.geoJSON(feature, {
       style: styleForFeature,
-      pointToLayer: (item, latlng) => L.circleMarker(latlng, pointStyle(item)),
+      pointToLayer: pointLayer,
       onEachFeature: bindFeature
     }).addTo(state.layerGroup);
     const featureId = (feature.properties || {}).id;
@@ -237,6 +425,9 @@ function renderMap({ fitBounds = false, animate = true } = {}) {
     const layerBounds = container.getBounds();
     if (layerBounds.isValid()) bounds.push(layerBounds);
   });
+
+  if (state.selectedStateId && !state.featureLayers.has(state.selectedStateId)) closeStateProfile({ preserveStyles: true });
+  applyStateSelectionStyles();
 
   if (fitBounds && bounds.length) {
     const combined = bounds.slice(1).reduce((result, item) => result.extend(item), bounds[0]);
@@ -247,13 +438,17 @@ function renderMap({ fitBounds = false, animate = true } = {}) {
   $("sceneComposition").textContent = compositionText(selected);
   $("mapNotice").classList.toggle("hidden", selected.length > 0);
   $("sceneStatus").textContent = `${state.topic.id}-mavzu · ${state.currentYear}-yil · ${selected.length} obyekt`;
-  updateLayerButtonCounts();
   renderEventList(selected);
 }
 
 function locateFeature(featureId) {
   const layer = state.featureLayers.get(featureId);
   if (!layer) return;
+  const feature = featureById(featureId);
+  if (feature && featureClass(feature) === "state") {
+    selectStateFeature(feature);
+    return;
+  }
   const bounds = layer.getBounds();
   if (bounds.isValid()) state.map.fitBounds(bounds.pad(0.5), { maxZoom: 8, animate: true });
   const childLayers = layer.getLayers();
@@ -471,6 +666,7 @@ function selectTopic(id) {
   const topic = state.config.topics.find((item) => item.id === id);
   if (!topic) return;
   stopPlayback();
+  closeStateProfile();
   state.topic = topic;
   state.currentYear = topic.focusYear;
   state.currentBookPage = topic.pages[0];
@@ -571,24 +767,17 @@ function bindInterface() {
     $("bookPagePlaceholder").classList.remove("hidden");
   });
 
-  document.querySelectorAll(".layer-toggle").forEach((button) => {
-    button.addEventListener("click", () => {
-      const layer = button.dataset.layer;
-      if (state.visibleLayers.has(layer)) state.visibleLayers.delete(layer);
-      else state.visibleLayers.add(layer);
-      const active = state.visibleLayers.has(layer);
-      button.classList.toggle("active", active);
-      button.setAttribute("aria-pressed", String(active));
-      renderMap({ fitBounds: false, animate: true });
-    });
-  });
-
   document.querySelectorAll(".basemap-toggle").forEach((button) => {
     button.addEventListener("click", () => selectBasemap(button.dataset.basemap));
   });
 
+  $("stateProfileClose").addEventListener("click", () => closeStateProfile());
+
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeLightbox();
+    if (event.key === "Escape") {
+      closeLightbox();
+      closeStateProfile();
+    }
     const tag = document.activeElement?.tagName;
     if (["INPUT", "BUTTON", "A"].includes(tag)) return;
     if (event.key === "ArrowLeft") stepMoment(-1);

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "note_uz": "MVP-1 shahar boyitishida ishlatilgan asosiy ilmiy va meros manbalari. Chegaralar va shahar-davlat aloqalari tarixiy taxmin bo‘lib, zamonaviy siyosiy chegara sifatida talqin qilinmaydi.",
+  "sources": [
+    {
+      "id": "UNESCO_OTRAR",
+      "title": "Silk Roads: Fergana–Syrdarya Corridor — Otrar",
+      "url": "https://whc.unesco.org/en/tentativelists/6568/"
+    },
+    {
+      "id": "UNESCO_KUNYA",
+      "title": "Kunya-Urgench",
+      "url": "https://whc.unesco.org/en/list/1199"
+    },
+    {
+      "id": "UNESCO_SHAHRISABZ",
+      "title": "Historic Centre of Shakhrisyabz",
+      "url": "https://whc.unesco.org/en/list/885/"
+    },
+    {
+      "id": "IRANICA_CENTRAL_ASIA",
+      "title": "Central Asia in the Mongol and Timurid Periods",
+      "url": "https://www.iranicaonline.org/articles/central-asia-v/"
+    },
+    {
+      "id": "IRANICA_CHAGHATAY",
+      "title": "Chaghatayid Dynasty",
+      "url": "https://www.iranicaonline.org/articles/chaghatayid-dynasty/"
+    },
+    {
+      "id": "IRANICA_JALAL",
+      "title": "Jalal-al-Din Khwarazmshah Mengubirni",
+      "url": "https://www.iranicaonline.org/articles/jalal-al-din-kvarazmsahi-mengbirni/"
+    },
+    {
+      "id": "IRANICA_SAMARQAND",
+      "title": "Samarqand: History and Archaeology",
+      "url": "https://www.iranicaonline.org/articles/samarqand-i/"
+    },
+    {
+      "id": "IRANICA_LITERATURE",
+      "title": "Classical Persian Literature",
+      "url": "https://www.iranicaonline.org/articles/iran-viii2-classical-persian-literature/"
+    }
+  ]
+}

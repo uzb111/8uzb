@@ -22,7 +22,7 @@
       "path": "data/topic_config_10.json",
       "driveFileId": "1trfdZ0JG9tVeh8374C3CjQ9VGIdzQ22Q",
       "mimeType": "application/json",
-      "size": 7550
+      "size": 8642
     },
     {
       "path": "data/book_pages_manifest.json",
@@ -34,7 +34,7 @@
       "path": "data/master_all_features.geojson",
       "driveFileId": "1DGRz1O6TYk0NfFp2pmX-dgTuua3JUuEB",
       "mimeType": "application/geo+json",
-      "size": 149879
+      "size": 190883
     },
     {
       "path": "data/media_manifest.json",
@@ -58,7 +58,13 @@
       "path": "data/cities_master_v2.geojson",
       "driveFileId": "1QMAPzYDt5ZqlRK30quKQ6LDjwKAkq5tu",
       "mimeType": "application/geo+json",
-      "size": 13651
+      "size": 56796
+    },
+    {
+      "path": "data/city_sources_first10.json",
+      "driveFileId": "1eL4DbSr5s2Nm4IkAGOghy8gMk_dYqoxH",
+      "mimeType": "application/json",
+      "size": 1625
     },
     {
       "path": "data/routes_master_v2.geojson",

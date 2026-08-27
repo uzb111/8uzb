@@ -28,7 +28,12 @@
         "CITY_001",
         "CITY_010",
         "CITY_011",
-        "CITY_008"
+        "CITY_008",
+        "CITY_006",
+        "CITY_007",
+        "CITY_032",
+        "CITY_044",
+        "CITY_045"
       ],
       "mapStory": "Xorazmshohlar davlatining XIII asr boshidagi hududi, asosiy shaharlar va siyosiy markazlar.",
       "generatedImages": [
@@ -86,7 +91,10 @@
         "EV_1220_SAMARKAND",
         "ROUTE_MONGOL_MAIN_1219_1220",
         "ROUTE_MONGOL_SYRDARYA_1219_1221",
-        "ROUTE_MONGOL_KHUJAND_1219_1220"
+        "ROUTE_MONGOL_KHUJAND_1219_1220",
+        "CITY_006",
+        "CITY_007",
+        "CITY_044"
       ],
       "mapStory": "Qo‘shinlarning shaharlarga bo‘lib joylashtirilishi, O‘tror–Buxoro–Samarqand mudofaasi va bosqin oqibatlari.",
       "generatedImages": [
@@ -113,7 +121,10 @@
         "CITY_025",
         "CITY_026",
         "ROUTE_JALOLIDDIN_PARVAN_INDUS_1221",
-        "ROUTE_JALOLIDDIN_INDIA_1221_1224"
+        "ROUTE_JALOLIDDIN_INDIA_1221_1224",
+        "CITY_036",
+        "CITY_037",
+        "CITY_041"
       ],
       "mapStory": "Jaloliddinning qarshilik harakati, Parvon jangi va Sind daryosi tomon chekinishi.",
       "generatedImages": [
@@ -143,7 +154,15 @@
         "ROUTE_JALOLIDDIN_PARVAN_INDUS_1221",
         "ROUTE_JALOLIDDIN_INDIA_1221_1224",
         "ROUTE_JALOLIDDIN_RETURN_1224_1225",
-        "ROUTE_JALOLIDDIN_WEST_1226_1231"
+        "ROUTE_JALOLIDDIN_WEST_1226_1231",
+        "CITY_027",
+        "CITY_033",
+        "CITY_038",
+        "CITY_039",
+        "CITY_040",
+        "CITY_041",
+        "CITY_043",
+        "CITY_045"
       ],
       "mapStory": "Jaloliddinning Hindiston, Eron va g‘arbga yo‘nalgan tiklash harakatlari uchun sxematik xarita.",
       "generatedImages": [
@@ -169,7 +188,11 @@
         "CITY_002",
         "CITY_015",
         "CITY_017",
-        "CITY_016"
+        "CITY_016",
+        "CITY_012",
+        "CITY_014",
+        "CITY_018",
+        "CITY_023"
       ],
       "mapStory": "Chig‘atoy ulusining Movarounnahr–Yettisuv–Sharqiy Turkiston makonida shakllanishi.",
       "generatedImages": [
@@ -196,7 +219,20 @@
         "CITY_001",
         "CITY_002",
         "CITY_015",
-        "CITY_017"
+        "CITY_017",
+        "CITY_003",
+        "CITY_004",
+        "CITY_012",
+        "CITY_013",
+        "CITY_014",
+        "CITY_016",
+        "CITY_018",
+        "CITY_019",
+        "CITY_020",
+        "CITY_021",
+        "CITY_022",
+        "CITY_023",
+        "CITY_024"
       ],
       "mapStory": "G‘arbiy Chig‘atoy/Movarounnahr va Sharqiy Chig‘atoy/Mo‘g‘uliston bo‘linishi, savdo yo‘llari.",
       "generatedImages": [
@@ -220,7 +256,12 @@
         "TH_RUMI_KONYA",
         "TH_SAADI_SHIRAZ",
         "TH_AMIR_KHUSRAU_DELHI",
-        "TH_RASHIDIDDIN_TABRIZ_8"
+        "TH_RASHIDIDDIN_TABRIZ_8",
+        "CITY_006",
+        "CITY_026",
+        "CITY_027",
+        "CITY_033",
+        "CITY_042"
       ],
       "mapStory": "Adabiyot va tarixnavislik markazlari: Rumiy, Sa’diy, Amir Xusrav va Rashididdin bilan bog‘liq geografik nuqtalar.",
       "generatedImages": [
@@ -251,7 +292,14 @@
         "EV_1366_SAMARKAND",
         "CITY_001",
         "CITY_004",
-        "CITY_003"
+        "CITY_003",
+        "CITY_002",
+        "CITY_005",
+        "CITY_006",
+        "CITY_011",
+        "CITY_012",
+        "CITY_013",
+        "CITY_014"
       ],
       "mapStory": "Parokandalik, Tug‘luq Temur yurishlari, Loy jangi va Samarqand sarbadorlari davridagi siyosiy mozaika.",
       "generatedImages": [
@@ -278,7 +326,11 @@
         "CITY_001",
         "CITY_004",
         "CITY_006",
-        "CITY_002"
+        "CITY_002",
+        "CITY_003",
+        "CITY_005",
+        "CITY_011",
+        "CITY_012"
       ],
       "mapStory": "Amir Husayn bilan kurash, Balx 1370 va Amir Temurning Movarounnahr hukmdoriga aylanishi.",
       "generatedImages": [

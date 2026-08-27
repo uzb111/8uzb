@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#07111f" />
   <title>TARIX360 — tarixni jonli tushuntirish tizimi</title>
   <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
-  <link rel="stylesheet" href="styles.css?v=github-first10-2" />
+  <link rel="stylesheet" href="styles.css?v=github-first10-mvp1" />
 </head>
 <body>
   <div class="app-shell">
@@ -57,20 +57,10 @@
 
         <div id="mapStage" class="map-stage">
           <div id="map"></div>
-          <div class="map-overlay layer-panel" aria-label="Xarita qatlamlari">
-            <div class="overlay-title">Asosiy xarita</div>
+          <div class="map-overlay basemap-control" aria-label="Asosiy xarita turi">
             <div class="basemap-buttons" role="group" aria-label="Asosiy xarita turi">
               <button class="basemap-toggle active" type="button" data-basemap="imagery" aria-pressed="true"><i class="basemap-icon satellite" aria-hidden="true"></i>Satellite</button>
               <button class="basemap-toggle" type="button" data-basemap="osm" aria-pressed="false"><i class="basemap-icon streets" aria-hidden="true"></i>OSM</button>
-            </div>
-            <div class="overlay-divider"></div>
-            <div class="overlay-title">Tarixiy qatlamlar</div>
-            <div class="layer-buttons">
-              <button class="layer-toggle active" type="button" data-layer="state" aria-pressed="true"><i class="swatch state"></i>Davlat</button>
-              <button class="layer-toggle active" type="button" data-layer="city" aria-pressed="true"><i class="swatch city"></i>Shahar</button>
-              <button class="layer-toggle active" type="button" data-layer="event" aria-pressed="true"><i class="swatch event"></i>Voqea</button>
-              <button class="layer-toggle active" type="button" data-layer="route" aria-pressed="true"><i class="swatch route"></i>Yo‘nalish</button>
-              <button class="layer-toggle active" type="button" data-layer="thematic" aria-pressed="true"><i class="swatch thematic"></i>Shaxs / maskan</button>
             </div>
           </div>
           <div class="map-overlay scene-counter"><small>Joriy sahna</small><strong id="visibleFeatureCount">0 obyekt</strong><span id="sceneComposition">Xarita tayyorlanmoqda</span></div>
@@ -123,6 +113,29 @@
           <div id="eventSummary" class="event-summary"></div>
           <div id="eventList" class="event-list"></div>
         </div>
+
+        <aside id="stateProfile" class="state-profile hidden" aria-live="polite" aria-label="Tanlangan davlat profili">
+          <header class="state-profile-head">
+            <div><small id="stateProfileKicker">DAVLAT PROFILI</small><h3 id="stateProfileName"></h3></div>
+            <button id="stateProfileClose" class="state-profile-close" type="button" aria-label="Davlat profilini yopish">×</button>
+          </header>
+          <div class="state-profile-scroll">
+            <div class="state-profile-badges"><span id="stateProfilePeriod"></span><span id="stateProfileType"></span><span id="stateProfileConfidence"></span></div>
+            <section class="state-profile-section state-profile-intro">
+              <span class="profile-section-label">Xaritani qanday o‘qish kerak?</span>
+              <p id="stateProfileSummary"></p>
+              <div id="stateProfileUncertainty" class="profile-caution"></div>
+            </section>
+            <section class="state-profile-section">
+              <div class="profile-section-title"><div><span class="profile-section-label">Shaharlar va markazlar</span><strong id="stateCityCount"></strong></div><small>Shaharni bosing — xarita unga boradi</small></div>
+              <div id="stateCityList" class="state-city-list"></div>
+            </section>
+            <section class="state-profile-section">
+              <span class="profile-section-label">Manba va ishonchlilik</span>
+              <div id="stateSourceList" class="state-source-list"></div>
+            </section>
+          </div>
+        </aside>
       </section>
     </main>
   </div>
@@ -133,9 +146,9 @@
     <div id="lightboxCaption"></div>
   </div>
 
-  <script src="deployment.config.js?v=github-first10-2"></script>
-  <script src="storage.js?v=github-first10-2"></script>
+  <script src="deployment.config.js?v=github-first10-mvp1"></script>
+  <script src="storage.js?v=github-first10-mvp1"></script>
   <script src="vendor/leaflet/leaflet.js"></script>
-  <script src="app.js?v=github-first10-2"></script>
+  <script src="app.js?v=github-first10-mvp1"></script>
 </body>
 </html>
