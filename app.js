@@ -348,12 +348,13 @@ function renderStateProfile(feature) {
       const current = [properties.modern_name_uz, properties.modern_country_uz].filter(Boolean).join(", ");
       button.innerHTML = `<span class="state-city-glyph" aria-hidden="true"><i></i></span><span><strong>${escapeHtml(featureLabel(city))}</strong><small>${escapeHtml(relationLabel)}</small><em>${escapeHtml(current || "Hozirgi joylashuv aniqlanmoqda")}</em></span><b>↗</b>`;
       button.title = relation?.note_uz || properties.summary_uz || featureLabel(city);
-      button.addEventListener("click", () => locateFeature(properties.id));
+      button.addEventListener("click", () => locateFromStateProfile(properties.id));
       cityList.appendChild(button);
     });
   }
   renderStateSources(properties);
   $("stateProfile").classList.remove("hidden");
+  document.body.classList.add("state-profile-open");
 }
 
 function applyStateSelectionStyles() {
@@ -388,7 +389,21 @@ function selectStateFeature(feature) {
 function closeStateProfile({ preserveStyles = false } = {}) {
   state.selectedStateId = null;
   $("stateProfile")?.classList.add("hidden");
+  document.body.classList.remove("state-profile-open");
   if (!preserveStyles) applyStateSelectionStyles();
+}
+
+function locateFromStateProfile(featureId) {
+  if (!window.matchMedia("(max-width: 700px)").matches) {
+    locateFeature(featureId);
+    return;
+  }
+  closeStateProfile();
+  $("mapStage").scrollIntoView({ behavior: "smooth", block: "center" });
+  window.setTimeout(() => {
+    state.map.invalidateSize({ animate: false });
+    locateFeature(featureId);
+  }, 320);
 }
 
 function compositionText(features) {
@@ -725,6 +740,9 @@ function setStudyTab(name) {
     $(buttonId).classList.toggle("active", tabName === name);
   });
   if (name === "book") renderBookPage();
+  if (window.matchMedia("(max-width: 700px)").matches) {
+    $("bookPanel").parentElement.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }
 
 function toggleTeacherMode() {
@@ -791,6 +809,12 @@ function bindInterface() {
   });
   document.addEventListener("visibilitychange", () => {
     if (document.hidden) stopPlayback();
+  });
+
+  let resizeTimer = null;
+  window.addEventListener("resize", () => {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(() => state.map?.invalidateSize({ animate: false }), 140);
   });
 }
 
