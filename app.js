@@ -296,7 +296,7 @@ const RELATION_LABELS = Object.freeze({
   asosiy_markaz: "Asosiy markaz",
   voha_shahri: "Voha shahri",
   sharqiy_darvoza: "Sharqiy darvoza",
-  yo‘l_markazi: "Yo‘l markazi",
+  "yo‘l_markazi": "Yo‘l markazi",
   shahar: "Shahar"
 });
 
