@@ -545,7 +545,7 @@ def apply_drive_sync() -> None:
 
     manifest_path = DATA / "web_content_manifest.json"
     manifest = read_json(manifest_path)
-    manifest["release"] = "first15-uz-v3"
+    manifest["release"] = "first15-hybrid-v4"
     manifest["drive"]["bookTopicFolderIds11To15"] = sync["folders"]["book"]
     manifest["drive"]["sourceTopicFolderIds11To15"] = sync["folders"]["source"]
     dataset_paths = {

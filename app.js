@@ -348,14 +348,28 @@ function bindFeature(feature, layer) {
 
 function initMap() {
   state.map = L.map("map", { zoomControl: true, preferCanvas: false, minZoom: 3 }).setView([39.7, 66.9], 5);
+  state.map.createPane("basemap-imagery");
+  state.map.getPane("basemap-imagery").style.zIndex = 200;
+  state.map.createPane("basemap-reference");
+  state.map.getPane("basemap-reference").style.zIndex = 250;
+
+  const imageryTiles = L.tileLayer("https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 19,
+    pane: "basemap-imagery",
+    className: "imagery-basemap",
+    attribution: "Tasvir © Esri — Esri, Maxar, Earthstar Geographics va GIS User Community"
+  });
+  const imageryReference = L.tileLayer("https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 19,
+    pane: "basemap-reference",
+    className: "imagery-reference",
+    attribution: "Joy nomlari va chegaralar © Esri"
+  });
   state.baseLayers = {
-    imagery: L.tileLayer("https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
-      maxZoom: 19,
-      className: "imagery-basemap",
-      attribution: "Tiles © Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community"
-    }),
+    imagery: L.layerGroup([imageryTiles, imageryReference]),
     osm: L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
+      pane: "basemap-imagery",
       className: "osm-basemap",
       attribution: "© OpenStreetMap contributors"
     })
@@ -369,7 +383,6 @@ function selectBasemap(basemap) {
   if (!nextLayer || basemap === state.activeBasemap) return;
   if (state.baseLayer) state.map.removeLayer(state.baseLayer);
   state.baseLayer = nextLayer.addTo(state.map);
-  state.baseLayer.bringToBack();
   state.activeBasemap = basemap;
   document.querySelectorAll(".basemap-toggle").forEach((button) => {
     const active = button.dataset.basemap === basemap;
