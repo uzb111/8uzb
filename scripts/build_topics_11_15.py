@@ -10,6 +10,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from localize_media_uz import localize_media_manifest
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -543,7 +545,7 @@ def apply_drive_sync() -> None:
 
     manifest_path = DATA / "web_content_manifest.json"
     manifest = read_json(manifest_path)
-    manifest["release"] = "first15-v1"
+    manifest["release"] = "first15-uz-v3"
     manifest["drive"]["bookTopicFolderIds11To15"] = sync["folders"]["book"]
     manifest["drive"]["sourceTopicFolderIds11To15"] = sync["folders"]["source"]
     dataset_paths = {
@@ -624,6 +626,7 @@ def main() -> int:
     build_thematic_points()
     build_media_manifest()
     build_enriched_media_manifest()
+    localize_media_manifest()
     rebuild_master()
     write_sources()
     apply_drive_sync()

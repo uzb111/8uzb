@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": "first15-v1",
+  "release": "first15-uz-v3",
   "sourceOfTruth": "google-drive",
   "runtimePolicy": "Browser runtime requests individual files through local static paths or a cached server endpoint; it never downloads the project ZIP.",
   "drive": {

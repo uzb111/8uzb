@@ -6,7 +6,9 @@
     "file": "assets/images/web/generated/t01_xorazm_siyosiy.webp",
     "title": "T01 Xorazm Siyosiy",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "XIII asr boshidagi Xorazm siyosiy muhiti",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t02_xorazm_mongol_munosabat",
@@ -15,7 +17,9 @@
     "file": "assets/images/web/generated/t02_xorazm_mongol_munosabat.webp",
     "title": "T02 Xorazm Mongol Munosabat",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Xorazm va Mo'g'ullar davlati munosabatlari",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t02_otror_voqeasi",
@@ -24,7 +28,9 @@
     "file": "assets/images/web/generated/t02_otror_voqeasi.webp",
     "title": "T02 Otror Voqeasi",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "O'tror voqeasi",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t03_mudofaa_oqibat",
@@ -33,7 +39,9 @@
     "file": "assets/images/web/generated/t03_mudofaa_oqibat.webp",
     "title": "T03 Mudofaa Oqibat",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Xorazm mudofaasi va uning oqibatlari",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t03_buxoro_samarqand",
@@ -42,7 +50,9 @@
     "file": "assets/images/web/generated/t03_buxoro_samarqand.webp",
     "title": "T03 Buxoro Samarqand",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Buxoro va Samarqand mudofaasi",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t04_jaloliddin_qahramonligi",
@@ -51,7 +61,9 @@
     "file": "assets/images/web/generated/t04_jaloliddin_qahramonligi.webp",
     "title": "T04 Jaloliddin Qahramonligi",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Jaloliddin Manguberdining qahramonligi",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t04_parvon",
@@ -60,7 +72,9 @@
     "file": "assets/images/web/generated/t04_parvon.webp",
     "title": "T04 Parvon",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Parvon jangi",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t05_jaloliddin_yurishlari",
@@ -69,7 +83,9 @@
     "file": "assets/images/web/generated/t05_jaloliddin_yurishlari.webp",
     "title": "T05 Jaloliddin Yurishlari",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Jaloliddin Manguberdining harbiy yurishlari",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t06_chigatoy_tashkil",
@@ -78,7 +94,9 @@
     "file": "assets/images/web/generated/t06_chigatoy_tashkil.webp",
     "title": "T06 Chigatoy Tashkil",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Chig'atoy ulusining tashkil topishi",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t06_chigatoy_savdo",
@@ -87,7 +105,9 @@
     "file": "assets/images/web/generated/t06_chigatoy_savdo.webp",
     "title": "T06 Chigatoy Savdo",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Chig'atoy ulusidagi savdo hayoti",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t07_chigatoy_bolinish",
@@ -96,7 +116,9 @@
     "file": "assets/images/web/generated/t07_chigatoy_bolinish.webp",
     "title": "T07 Chigatoy Bolinish",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Chig'atoy ulusining bo'linishi",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t07_moguliston_hayot",
@@ -105,7 +127,9 @@
     "file": "assets/images/web/generated/t07_moguliston_hayot.webp",
     "title": "T07 Moguliston Hayot",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Mo'g'ulistondagi ijtimoiy hayot",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t08_ilm_fan",
@@ -114,7 +138,9 @@
     "file": "assets/images/web/generated/t08_ilm_fan.webp",
     "title": "T08 Ilm Fan",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "XIII–XIV asrlarda ilm-fan va adabiyot",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t08_rashididdin",
@@ -123,7 +149,9 @@
     "file": "assets/images/web/generated/t08_rashididdin.webp",
     "title": "T08 Rashididdin",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Rashididdin va tarixnavislik",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t09_turon_siyosiy",
@@ -132,7 +160,9 @@
     "file": "assets/images/web/generated/t09_turon_siyosiy.webp",
     "title": "T09 Turon Siyosiy",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "XIV asr o'rtalaridagi Turon siyosiy muhiti",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t09_sarbadorlar",
@@ -141,7 +171,9 @@
     "file": "assets/images/web/generated/t09_sarbadorlar.webp",
     "title": "T09 Sarbadorlar",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Samarqand sarbadorlari",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t10_temur_hokimiyat",
@@ -150,7 +182,9 @@
     "file": "assets/images/web/generated/t10_temur_hokimiyat.webp",
     "title": "T10 Temur Hokimiyat",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Amir Temurning hokimiyatga kelishi",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t10_samarqand",
@@ -159,7 +193,9 @@
     "file": "assets/images/web/generated/t10_samarqand.webp",
     "title": "T10 Samarqand",
     "source_url": "",
-    "license": "AI-generated for TARIX360"
+    "license": "AI-generated for TARIX360",
+    "title_uz": "Amir Temur davridagi Samarqand",
+    "license_uz": "TARIX360 uchun yaratilgan sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "src_t01_001",
@@ -171,7 +207,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Nadjm_al-D%C3%AEn_Kubr%C3%A2_et_Muhammad_Hw%C3%A2razmsh%C3%A2h.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1532,
-    "height": 2188
+    "height": 2188,
+    "title_uz": "Najmiddin Kubro va Muhammad Xorazmshoh",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t01_002",
@@ -183,7 +221,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Map_of_the_Khwarazmian_Empire_and_the_Mongol_Federation_circa_1200_CE.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 3196,
-    "height": 1840
+    "height": 1840,
+    "title_uz": "Xorazmshohlar davlati va Mo'g'ullar ittifoqi xaritasi, taxminan 1200-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t01_003",
@@ -195,7 +235,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Map_of_the_Khwarazmian_Empire_and_the_Mongol_Federation_circa_1200_CE.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 3196,
-    "height": 1840
+    "height": 1840,
+    "title_uz": "Xorazmshohlar davlati va Mo'g'ullar ittifoqi xaritasi, taxminan 1200-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t01_004",
@@ -207,7 +249,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Khwarazmian_dynasty_%28greatest_extent%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 553,
-    "height": 553
+    "height": 553,
+    "title_uz": "Xorazmshohlar davlatining eng keng hududi",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t01_005",
@@ -219,7 +263,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Khwarazmian_dynasty_%28greatest_extent%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 553,
-    "height": 553
+    "height": 553,
+    "title_uz": "Xorazmshohlar davlatining eng keng hududi",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t01_006",
@@ -231,7 +277,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Muhammad_II_portrait_in_a_1430_manuscript_of_the_Jami%27_al-tawarikh_by_Rashid-al-Din_Hamadani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 375,
-    "height": 500
+    "height": 500,
+    "title_uz": "Muhammad II Xorazmshohning 1430-yilgi qo'lyozmadagi tasviri",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t01_007",
@@ -243,7 +291,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Mort_de_Muhammad_Hw%C3%A2razmsh%C3%A2h.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 3068,
-    "height": 1953
+    "height": 1953,
+    "title_uz": "Muhammad Xorazmshohning vafoti",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t01_008",
@@ -255,7 +305,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Prince_on_his_throne%2C_with_standing_courtesans%2C_Afrasiyab%2C_Samarkand%2C_1170-1220_CE._National_History_Museum_of_Samarkand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1662,
-    "height": 1231
+    "height": 1231,
+    "title_uz": "Afrosiyobdagi taxtda o'tirgan shahzoda, Samarqand, 1170–1220-yillar",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t01_009",
@@ -267,7 +319,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Muhammad_II_portrait_in_a_1430_manuscript_of_the_Jami%27_al-tawarikh_by_Rashid-al-Din_Hamadani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 375,
-    "height": 500
+    "height": 500,
+    "title_uz": "Muhammad II Xorazmshohning 1430-yilgi qo'lyozmadagi tasviri",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t02_001",
@@ -279,7 +333,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Genghis_Khan_invades_Urgench.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 660,
-    "height": 480
+    "height": 480,
+    "title_uz": "Chingizxonning Urganchga yurishi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t02_002",
@@ -291,7 +347,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/The_governor_at_the_terrace_-_siege_of_Bukhara%2C_1220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 2023,
-    "height": 1170
+    "height": 1170,
+    "title_uz": "Buxoro qamali, 1220-yil",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t02_003",
@@ -303,7 +361,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Assembl%C3%A9e_des_Khw%C3%A2rizmiens_-_NAF_886.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 2061,
-    "height": 902
+    "height": 902,
+    "title_uz": "Xorazmliklar yig'ini",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t03_001",
@@ -315,7 +375,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Khwarazmshahs_%28Khwarazmian%29_Empire_Flag_of_Map_%28Year-1218%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 1499,
-    "height": 1080
+    "height": 1080,
+    "title_uz": "Xorazmshohlar davlati xaritasi va bayrog'i, 1218-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t03_002",
@@ -327,7 +389,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Storks_on_Tupchiboshi_Madrasa%2C_Bukhara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 640,
-    "height": 548
+    "height": 548,
+    "title_uz": "Buxorodagi To'pchiboshi madrasasi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t03_003",
@@ -339,7 +403,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Otrar_aerial_view-Aug-2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY 4.0",
     "width": 4000,
-    "height": 3000
+    "height": 3000,
+    "title_uz": "O'tror xarobalarining havodan ko'rinishi, 2018-yil",
+    "license_uz": "CC BY 4.0"
   },
   {
     "id": "src_t03_004",
@@ -351,7 +417,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Otrar_aerial_view-Aug-2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY 4.0",
     "width": 4000,
-    "height": 3000
+    "height": 3000,
+    "title_uz": "O'tror xarobalarining havodan ko'rinishi, 2018-yil",
+    "license_uz": "CC BY 4.0"
   },
   {
     "id": "src_t04_001",
@@ -363,7 +431,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Jalal_al-Din_Khwarazm-Shah_crossing_the_rapid_Indus_river%2C_escaping_Chinggis_Khan_and_his_army.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1610,
-    "height": 2500
+    "height": 2500,
+    "title_uz": "Jaloliddin Manguberdining Sind daryosidan kechib o'tishi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t04_002",
@@ -375,7 +445,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Folio_86_recto._Jalal_al-Din_Mingburni_detail%2C_on_the_banks_of_the_Indus_in_November_1221.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 570,
-    "height": 848
+    "height": 848,
+    "title_uz": "Sind daryosi bo'yidagi Jaloliddin Manguberdi, 1221-yil noyabr",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t04_003",
@@ -387,7 +459,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Jalal_al-Din_Khwarazmshah_confronts_Chinggis_Khan_across_the_Indus._Rashid_al-Din%2C_Jami%E2%80%98_al-tawarikh%2C_National_Library_of_Russia%2C_St_Petersburg%2C_MS._Dorn_289%2C_fols._125v%E2%80%93126r_%28Jalal_al-Din_Khwarazmshah_detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1284,
-    "height": 1228
+    "height": 1228,
+    "title_uz": "Jaloliddin Manguberdi va Chingizxonning Sind bo'yidagi to'qnashuvi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t04_004",
@@ -399,7 +473,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Jalal_al-Din_Khwarazmshah_confronts_Chinggis_Khan_across_the_Indus._Rashid_al-Din%2C_Jami%E2%80%98_al-tawarikh%2C_National_Library_of_Russia%2C_St_Petersburg%2C_MS._Dorn_289%2C_fols._125v%E2%80%93126r_%28Jalal_al-Din_Khwarazmshah_detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1284,
-    "height": 1228
+    "height": 1228,
+    "title_uz": "Jaloliddin Manguberdi va Chingizxonning Sind bo'yidagi to'qnashuvi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t04_005",
@@ -411,7 +487,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Folio_86_recto._Jalal_al-Din_Mingburni_detail%2C_on_the_banks_of_the_Indus_in_November_1221.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 570,
-    "height": 848
+    "height": 848,
+    "title_uz": "Sind daryosi bo'yidagi Jaloliddin Manguberdi, 1221-yil noyabr",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t04_006",
@@ -423,7 +501,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Folio_86_recto._Battle_between_the_armies_of_Chingiz_and_Jalal_al-Din_Mingburni%2C_on_the_banks_of_the_Indus_in_November_1221._After_the_battle_was_lost%2C_Jalal_al-Din_%28left%29_escapes_on_the_other_side_of_the_Indus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1928,
-    "height": 1530
+    "height": 1530,
+    "title_uz": "Chingizxon va Jaloliddin qo'shinlarining Sind bo'yidagi jangi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t04_007",
@@ -435,7 +515,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/During_the_battle_of_Indus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 600,
-    "height": 837
+    "height": 837,
+    "title_uz": "Sind jangi tasviri",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t05_001",
@@ -447,7 +529,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Jalal_al-Din_Khwarazmshah_confronts_Chinggis_Khan_across_the_Indus._Rashid_al-Din%2C_Jami%E2%80%98_al-tawarikh%2C_National_Library_of_Russia%2C_St_Petersburg%2C_MS._Dorn_289%2C_fols._125v%E2%80%93126r_%28Jalal_al-Din_Khwarazmshah_with_weapons%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 674,
-    "height": 1006
+    "height": 1006,
+    "title_uz": "Jaloliddin Manguberdi va Chingizxon Sind daryosi bo'yida",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t05_002",
@@ -459,7 +543,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Bataille_de_Bolnisi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 660,
-    "height": 1062
+    "height": 1062,
+    "title_uz": "Bolnisi jangi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t06_001",
@@ -471,7 +557,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Map_of_the_Chagatai_Khanate_circa_1300_CE.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 3.0",
     "width": 3196,
-    "height": 1837
+    "height": 1837,
+    "title_uz": "Chig'atoy ulusi xaritasi, taxminan 1300-yil",
+    "license_uz": "CC BY-SA 3.0"
   },
   {
     "id": "src_t06_002",
@@ -483,7 +571,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Map_of_the_Chagatai_Khanate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC0",
     "width": 4928,
-    "height": 2500
+    "height": 2500,
+    "title_uz": "Chig'atoy ulusi xaritasi",
+    "license_uz": "CC0"
   },
   {
     "id": "src_t06_003",
@@ -495,7 +585,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Chagadai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 3.0",
     "width": 2810,
-    "height": 1344
+    "height": 1344,
+    "title_uz": "Chig'atoyxon tasviri",
+    "license_uz": "CC BY-SA 3.0"
   },
   {
     "id": "src_t06_004",
@@ -507,7 +599,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Chagatai_Khanate_in_the_Catalan_Atlas.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 11811,
-    "height": 3850
+    "height": 3850,
+    "title_uz": "Katalon atlasidagi Chig'atoy ulusi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t06_005",
@@ -519,7 +613,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Chagatai_Khanate_map_en.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY 3.0",
     "width": 811,
-    "height": 646
+    "height": 646,
+    "title_uz": "Chig'atoy ulusi xaritasi",
+    "license_uz": "CC BY 3.0"
   },
   {
     "id": "src_t06_006",
@@ -531,7 +627,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Kingdom_of_Chagatai_in_the_Catalan_Atlas_%281375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 2767,
-    "height": 2846
+    "height": 2846,
+    "title_uz": "Katalon atlasidagi Chig'atoy saltanati, 1375-yil",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t06_007",
@@ -543,7 +641,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Map_of_the_Chagatai_Khanate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC0",
     "width": 4928,
-    "height": 2500
+    "height": 2500,
+    "title_uz": "Chig'atoy ulusi xaritasi",
+    "license_uz": "CC0"
   },
   {
     "id": "src_t07_001",
@@ -555,7 +655,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Asia_under_the_Mongols_1290_AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 6810,
-    "height": 6009
+    "height": 6009,
+    "title_uz": "Mo'g'ullar hukmronligi davridagi Osiyo, 1290-yil",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t07_002",
@@ -567,7 +669,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/1372_Moghulistan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 1199,
-    "height": 809
+    "height": 809,
+    "title_uz": "Mo'g'uliston xaritasi, 1372-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t07_003",
@@ -579,7 +683,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/1372_Moghulistan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 1199,
-    "height": 809
+    "height": 809,
+    "title_uz": "Mo'g'uliston xaritasi, 1372-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t07_004",
@@ -591,7 +697,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/1372_Moghulistan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 1199,
-    "height": 809
+    "height": 809,
+    "title_uz": "Mo'g'uliston xaritasi, 1372-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t07_005",
@@ -603,7 +711,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/1372_Moghulistan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 1199,
-    "height": 809
+    "height": 809,
+    "title_uz": "Mo'g'uliston xaritasi, 1372-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t07_006",
@@ -615,7 +725,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Eastern_Chagatai_1372.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 1103,
-    "height": 750
+    "height": 750,
+    "title_uz": "Sharqiy Chig'atoy hududi, 1372-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t07_007",
@@ -627,7 +739,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/1372_Moghulistan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 1199,
-    "height": 809
+    "height": 809,
+    "title_uz": "Mo'g'uliston xaritasi, 1372-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t07_008",
@@ -639,7 +753,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Asia_in_1335.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1100,
-    "height": 837
+    "height": 837,
+    "title_uz": "Osiyo xaritasi, 1335-yil",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t07_009",
@@ -651,7 +767,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Asia_under_the_Mongols_1290_AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 6810,
-    "height": 6009
+    "height": 6009,
+    "title_uz": "Mo'g'ullar hukmronligi davridagi Osiyo, 1290-yil",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t08_001",
@@ -663,7 +781,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Saadii_Sherozi_%22Gulistan%22.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 344,
-    "height": 325
+    "height": 325,
+    "title_uz": "Sa'diy Sheroziyning «Guliston» asari",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t08_002",
@@ -675,7 +795,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Sadi%2C_Gulistan%2C_f.1_detail%2C_%28278_x_185_mm%29%2C_mid_17th_century%2C_Alexander_Turnbull_Library%2C_MSR-37._%286215381647%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "No restrictions",
     "width": 963,
-    "height": 1251
+    "height": 1251,
+    "title_uz": "Sa'diyning «Guliston» qo'lyozmasi, XVII asr o'rtalari",
+    "license_uz": "Foydalanish cheklovi yo'q"
   },
   {
     "id": "src_t08_003",
@@ -687,7 +809,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Masnavi_of_Jalal-al_Din_Rumi_MET_DP299178.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC0",
     "width": 2000,
-    "height": 1500
+    "height": 1500,
+    "title_uz": "Jaloliddin Rumiyning «Masnaviy» qo'lyozmasi",
+    "license_uz": "CC0"
   },
   {
     "id": "src_t08_004",
@@ -699,7 +823,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Masnavi_of_Jalal-al_Din_Rumi_MET_DP299178.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC0",
     "width": 2000,
-    "height": 1500
+    "height": 1500,
+    "title_uz": "Jaloliddin Rumiyning «Masnaviy» qo'lyozmasi",
+    "license_uz": "CC0"
   },
   {
     "id": "src_t08_005",
@@ -711,7 +837,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Khalili_Collection_Islamic_Art_mss-0945-2b-3a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 3.0 igo",
     "width": 2250,
-    "height": 1636
+    "height": 1636,
+    "title_uz": "Islomiy qo'lyozma va miniatyura namunasi",
+    "license_uz": "CC BY-SA 3.0 igo"
   },
   {
     "id": "src_t08_006",
@@ -723,7 +851,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kitab-i_Gulistan_bil-Turki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1369,
-    "height": 981
+    "height": 981,
+    "title_uz": "«Guliston bit-turkiy» qo'lyozmasi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t08_007",
@@ -735,7 +865,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/An_illustrated_manuscript_of_one_of_Amir_Khusrau%27s_poems_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 512,
-    "height": 804
+    "height": 804,
+    "title_uz": "Amir Xusrav dostonlaridan birining miniatyurali qo'lyozmasi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t09_001",
@@ -747,7 +879,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Karte_Map_Chorasan-Transoxanien-Choresmien.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 3.0",
     "width": 589,
-    "height": 597
+    "height": 597,
+    "title_uz": "Xuroson, Movarounnahr va Xorazm xaritasi",
+    "license_uz": "CC BY-SA 3.0"
   },
   {
     "id": "src_t09_002",
@@ -759,7 +893,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Timur_and_Amir_Husayn_Defeat_Mengli-Buqa_at_the_Ab-i_Siyah%2C_Zafarnama%2C_TIEM_Ms._1964%2C_fol._32a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1140,
-    "height": 1900
+    "height": 1900,
+    "title_uz": "Amir Temur va Amir Husaynning Mengli Buqaga qarshi jangi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t09_003",
@@ -771,7 +907,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Timur_and_Amir_Husayn_Defeat_Mengli-Buqa_at_the_Ab-i_Siyah%2C_Zafarnama%2C_TIEM_Ms._1964%2C_fol._32a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1140,
-    "height": 1900
+    "height": 1900,
+    "title_uz": "Amir Temur va Amir Husaynning Mengli Buqaga qarshi jangi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t09_004",
@@ -783,7 +921,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Timur_during_attack_on_Balkh_1370.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 2210,
-    "height": 3169
+    "height": 3169,
+    "title_uz": "Amir Temurning Balxga yurishi, 1370-yil",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t10_001",
@@ -795,7 +935,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/15th_century_Turko-Mongol_genealogy%2C_probably_made_for_Khalil_Sultan_%28Topkapi_Sarayi_M%C3%BCzesi%2C_H2152%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 4386,
-    "height": 3144
+    "height": 3144,
+    "title_uz": "XV asr Temuriylar–mo'g'ullar shajarasi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t10_002",
@@ -807,7 +949,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Map_of_the_Timurid_Empire_%281400%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 3196,
-    "height": 1840
+    "height": 1840,
+    "title_uz": "Amir Temur davlati xaritasi, 1400-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t10_003",
@@ -819,7 +963,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Map_of_the_Timurid_Empire_%281400%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 3196,
-    "height": 1840
+    "height": 1840,
+    "title_uz": "Amir Temur davlati xaritasi, 1400-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t10_004",
@@ -831,7 +977,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Map_of_the_Timurid_Empire_%281400%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC BY-SA 4.0",
     "width": 3196,
-    "height": 1840
+    "height": 1840,
+    "title_uz": "Amir Temur davlati xaritasi, 1400-yil",
+    "license_uz": "CC BY-SA 4.0"
   },
   {
     "id": "src_t10_005",
@@ -843,7 +991,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Battle_between_Timur_and_Toqtamish_Khan_%28left_portion%29%2C_1420-1440%2C_possibly_Herat._Topkapi_H.2153%2C_folio_2a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 2045,
-    "height": 3090
+    "height": 3090,
+    "title_uz": "Amir Temur va To'xtamishxon qo'shinlari jangi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t10_006",
@@ -855,7 +1005,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Amir_Temur_davlati_xaritasi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "CC0",
     "width": 960,
-    "height": 890
+    "height": 890,
+    "title_uz": "Amir Temur davlati xaritasi",
+    "license_uz": "CC0"
   },
   {
     "id": "src_t10_007",
@@ -867,7 +1019,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Folio_1297._Mourning_the_death_of_Timur_in_1405._Zafarnama%2C_1528_%28Golestan%2C_MS_708%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1440,
-    "height": 1920
+    "height": 1920,
+    "title_uz": "Amir Temur vafotiga motam, 1405-yil",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t10_008",
@@ -879,7 +1033,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/15th_century_Turko-Mongol_genealogy%2C_probably_made_for_Khalil_Sultan_%28Topkapi_Sarayi_M%C3%BCzesi%2C_H2152%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 4386,
-    "height": 3144
+    "height": 3144,
+    "title_uz": "XV asr Temuriylar–mo'g'ullar shajarasi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t11_met_baghdad",
@@ -888,7 +1044,9 @@
     "file": "assets/images/web/source/topic_11/met_451304_conquest_baghdad.webp",
     "title": "Amir Temurning Bag‘dod yurishi — Zafarnoma miniatyurasi",
     "source_url": "https://www.metmuseum.org/art/collection/search/451304",
-    "license": "Public Domain · The Met Open Access"
+    "license": "Public Domain · The Met Open Access",
+    "title_uz": "Amir Temurning Bag‘dod yurishi — Zafarnoma miniatyurasi",
+    "license_uz": "Jamoat mulki · Met muzeyining ochiq kolleksiyasi"
   },
   {
     "id": "src_t12_met_battle",
@@ -897,7 +1055,9 @@
     "file": "assets/images/web/source/topic_12/met_450512_battle_scene.webp",
     "title": "Zafarnomadagi jang sahnasi",
     "source_url": "https://www.metmuseum.org/art/collection/search/450512",
-    "license": "Public Domain · The Met Open Access"
+    "license": "Public Domain · The Met Open Access",
+    "title_uz": "Zafarnomadagi jang sahnasi",
+    "license_uz": "Jamoat mulki · Met muzeyining ochiq kolleksiyasi"
   },
   {
     "id": "src_t13_met_chinese_emperor",
@@ -906,7 +1066,9 @@
     "file": "assets/images/web/source/topic_13/met_448242_chinese_emperor.webp",
     "title": "Xitoy hukmdori — Temuriylar davri tarixiy qo‘lyozmasi",
     "source_url": "https://www.metmuseum.org/art/collection/search/448242",
-    "license": "Public Domain · The Met Open Access"
+    "license": "Public Domain · The Met Open Access",
+    "title_uz": "Xitoy hukmdori — Temuriylar davri tarixiy qo‘lyozmasi",
+    "license_uz": "Jamoat mulki · Met muzeyining ochiq kolleksiyasi"
   },
   {
     "id": "src_t14_met_timur_before_battle",
@@ -915,7 +1077,9 @@
     "file": "assets/images/web/source/topic_14/met_451303_timur_before_battle.webp",
     "title": "Amir Temur jang oldidan — Zafarnoma miniatyurasi",
     "source_url": "https://www.metmuseum.org/art/collection/search/451303",
-    "license": "Public Domain · The Met Open Access"
+    "license": "Public Domain · The Met Open Access",
+    "title_uz": "Amir Temur jang oldidan — Zafarnoma miniatyurasi",
+    "license_uz": "Jamoat mulki · Met muzeyining ochiq kolleksiyasi"
   },
   {
     "id": "src_t15_met_court_audience",
@@ -924,7 +1088,9 @@
     "file": "assets/images/web/source/topic_15/met_451959_court_audience.webp",
     "title": "Temuriy siyosiy an’anadagi saroy qabuli — Boburnoma miniatyurasi",
     "source_url": "https://www.metmuseum.org/art/collection/search/451959",
-    "license": "Public Domain · The Met Open Access"
+    "license": "Public Domain · The Met Open Access",
+    "title_uz": "Temuriy siyosiy an’anadagi saroy qabuli — Boburnoma miniatyurasi",
+    "license_uz": "Jamoat mulki · Met muzeyining ochiq kolleksiyasi"
   },
   {
     "id": "src_t11_commons_balkh_audience",
@@ -936,7 +1102,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Depiction_of_Timur_granting_audience_on_the_occasion_of_his_accession%2C_in_the_near_contemporary_Zafarnama_%281424-1428%29%2C_1467_edition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 3764,
-    "height": 2944
+    "height": 2944,
+    "title_uz": "Amir Temurning 1370-yil Balxdagi qabul marosimi — Zafarnoma miniatyurasi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t12_commons_tokhtamysh_1391",
@@ -948,7 +1116,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Battle_between_Timur_and_Toqtamish_Khan_in_1391._Zafarnama_of_1436_%28Toqtamish_detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 978,
-    "height": 1238
+    "height": 1238,
+    "title_uz": "Temur va To‘xtamish jangi — 1436-yilgi Zafarnoma tafsiloti",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t13_commons_clavijo_manuscript",
@@ -960,7 +1130,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Clavijo_BNE_ms._f._1r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 656,
-    "height": 904
+    "height": 904,
+    "title_uz": "Klavixoning Samarqand elchiligi bayon qilingan qo‘lyozma sahifasi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t14_commons_timur_tokhtamysh_battle",
@@ -972,7 +1144,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Battle_between_Timur_and_Toqtamish_Khan_in_18_June_1391._Zafarnama_of_1436%2C_facing_folios_208v-207r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 3063,
-    "height": 2372
+    "height": 2372,
+    "title_uz": "Temur va To‘xtamish qo‘shinlari — Zafarnomaning ikki sahifali jang tasviri",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t15_commons_khalil_court",
@@ -984,7 +1158,9 @@
     "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Contemporary_drawing_of_Khalil_Sultan_enthroned%2C_1405-1406_%28Ms._Diez_A._fol.74%2C_p.24%29_b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "license": "Public domain",
     "width": 1851,
-    "height": 2467
+    "height": 2467,
+    "title_uz": "Xalil Sulton saroyi: qilich va qalam ahli tasvirlangan boshqaruv majlisi",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "gen_t11_balkh_qurultay",
@@ -995,7 +1171,9 @@
     "license": "TARIX360 AI educational reconstruction",
     "method": "OpenAI built-in image generation",
     "prompt_summary": "Balxdagi siyosiy kengash va markazlashgan davlat tuzish jarayoni",
-    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya."
+    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+    "title_uz": "1370-yil Balx qurultoyi va markazlashuv",
+    "license_uz": "TARIX360 uchun yaratilgan ta'limiy sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t11_herat_1381",
@@ -1006,7 +1184,9 @@
     "license": "TARIX360 AI educational reconstruction",
     "method": "OpenAI built-in image generation",
     "prompt_summary": "Hirot darvozasida siyosiy nazorat almashinuvi",
-    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya."
+    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+    "title_uz": "1381-yil Hirot yurishi",
+    "license_uz": "TARIX360 uchun yaratilgan ta'limiy sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t12_terek_1395",
@@ -1017,7 +1197,9 @@
     "license": "TARIX360 AI educational reconstruction",
     "method": "OpenAI built-in image generation",
     "prompt_summary": "Temur va To‘xtamish qo‘shinlarining Terek bo‘yidagi harakati",
-    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya."
+    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+    "title_uz": "1395-yil Terek jangi",
+    "license_uz": "TARIX360 uchun yaratilgan ta'limiy sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t12_ankara_1402",
@@ -1028,7 +1210,9 @@
     "license": "TARIX360 AI educational reconstruction",
     "method": "OpenAI built-in image generation",
     "prompt_summary": "Temur va Boyazid qo‘shinlarining Anqara yaqinidagi taktik joylashuvi",
-    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya."
+    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+    "title_uz": "1402-yil Anqara jangi",
+    "license_uz": "TARIX360 uchun yaratilgan ta'limiy sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t13_clavijo_samarkand",
@@ -1039,7 +1223,9 @@
     "license": "TARIX360 AI educational reconstruction",
     "method": "OpenAI built-in image generation",
     "prompt_summary": "1404-yilda Kastiliya elchilarining Temuriylar saroyidagi qabuli",
-    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya."
+    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+    "title_uz": "Klavixoning Samarqanddagi qabuli",
+    "license_uz": "TARIX360 uchun yaratilgan ta'limiy sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t13_western_couriers",
@@ -1050,7 +1236,9 @@
     "license": "TARIX360 AI educational reconstruction",
     "method": "OpenAI built-in image generation",
     "prompt_summary": "Samarqanddan Yevropa tomon maktub olib ketayotgan elchilar",
-    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya."
+    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+    "title_uz": "G‘arbga yo‘l olgan diplomatik choparlar",
+    "license_uz": "TARIX360 uchun yaratilgan ta'limiy sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t13_ming_envoys",
@@ -1061,7 +1249,9 @@
     "license": "TARIX360 AI educational reconstruction",
     "method": "OpenAI built-in image generation",
     "prompt_summary": "Temuriy va Ming elchilari o‘rtasidagi rasmiy uchrashuv",
-    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya."
+    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+    "title_uz": "Ming elchilarining Samarqanddagi qabuli",
+    "license_uz": "TARIX360 uchun yaratilgan ta'limiy sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t14_seven_corps",
@@ -1072,7 +1262,9 @@
     "license": "TARIX360 AI educational reconstruction",
     "method": "OpenAI built-in image generation",
     "prompt_summary": "Qo‘shinning markaz, qanot, ilg‘or va zaxira qismlariga bo‘linishi",
-    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya."
+    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+    "title_uz": "Yetti qo‘l qo‘shin tartibi",
+    "license_uz": "TARIX360 uchun yaratilgan ta'limiy sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t14_logistics",
@@ -1083,7 +1275,9 @@
     "license": "TARIX360 AI educational reconstruction",
     "method": "OpenAI built-in image generation",
     "prompt_summary": "Uzoq yurish oldidan oziq-ovqat, ot-ulov va qurol ta’minoti",
-    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya."
+    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+    "title_uz": "Temuriy qo‘shin ta’minoti",
+    "license_uz": "TARIX360 uchun yaratilgan ta'limiy sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t15_central_divan",
@@ -1094,7 +1288,9 @@
     "license": "TARIX360 AI educational reconstruction",
     "method": "OpenAI built-in image generation",
     "prompt_summary": "Kotiblar, moliya amaldorlari va viloyat xabarchilari ish jarayoni",
-    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya."
+    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+    "title_uz": "Samarqanddagi markaziy devon",
+    "license_uz": "TARIX360 uchun yaratilgan ta'limiy sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "gen_t15_justice_court",
@@ -1105,7 +1301,9 @@
     "license": "TARIX360 AI educational reconstruction",
     "method": "OpenAI built-in image generation",
     "prompt_summary": "Savdogarlar nizosi tinglanayotgan ma’muriy-sud jarayoni",
-    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya."
+    "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+    "title_uz": "Adolat va sud majlisi",
+    "license_uz": "TARIX360 uchun yaratilgan ta'limiy sun'iy intellekt rekonstruksiyasi"
   },
   {
     "id": "src_t11_balkh_attack_reuse",
@@ -1118,7 +1316,9 @@
     "license": "Public domain",
     "width": 2210,
     "height": 3169,
-    "reused_from": "src_t09_004"
+    "reused_from": "src_t09_004",
+    "title_uz": "1370-yil Balx voqealari — Zafarnoma tasviri",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t11_timurid_map_reuse",
@@ -1131,7 +1331,9 @@
     "license": "CC0",
     "width": 960,
     "height": 890,
-    "reused_from": "src_t10_006"
+    "reused_from": "src_t10_006",
+    "title_uz": "Amir Temur davlati xaritasi",
+    "license_uz": "CC0"
   },
   {
     "id": "src_t14_tokhtamysh_battle_reuse",
@@ -1144,7 +1346,9 @@
     "license": "Public domain",
     "width": 2045,
     "height": 3090,
-    "reused_from": "src_t10_005"
+    "reused_from": "src_t10_005",
+    "title_uz": "Temur va To‘xtamish qo‘shinlari — tarixiy miniatyura",
+    "license_uz": "Jamoat mulki"
   },
   {
     "id": "src_t15_genealogy_reuse",
@@ -1157,6 +1361,8 @@
     "license": "Public domain",
     "width": 4386,
     "height": 3144,
-    "reused_from": "src_t10_001"
+    "reused_from": "src_t10_001",
+    "title_uz": "Temuriylar shajarasi va siyosiy tuzilma",
+    "license_uz": "Jamoat mulki"
   }
 ]

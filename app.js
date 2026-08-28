@@ -45,6 +45,133 @@ const ROUTE_PALETTES = Object.freeze({
   default: { line: "#ef6a58", glow: "#ffc078", label: "Tarixiy yo‘nalish" }
 });
 
+const VALUE_LABELS_UZ = Object.freeze({
+  battle: "jang",
+  campaign: "harbiy yurish",
+  campaign_event: "harbiy yurish voqeasi",
+  campaign_turning_point: "harbiy yurishdagi burilish",
+  diplomacy: "diplomatiya",
+  diplomatic_crisis: "diplomatik inqiroz",
+  invasion: "bosqin",
+  literature: "adabiyot",
+  political_cultural_turn: "siyosiy-madaniy burilish",
+  political_event: "siyosiy voqea",
+  political_transition: "siyosiy o'tish davri",
+  science: "ilm-fan",
+  siege: "qamal",
+  siege_transition: "qamal va hokimiyat almashinuvi",
+  war_event: "urush voqeasi",
+  "historical polity": "tarixiy davlat",
+  reconstructed: "tarixiy rekonstruksiya",
+  "regional influence zone": "mintaqaviy ta'sir zonasi",
+  thematic: "mavzuli obyekt",
+  military_campaign: "harbiy yurish",
+  diplomatic_mission: "elchilik yo'li",
+  diplomatic_correspondence: "diplomatik yozishmalar yo'li",
+  influence_zone: "ta'sir zonasi",
+  reconstructed_control_extent: "umumlashtirilgan nazorat hududi",
+  territorial_extent: "taxminiy hudud",
+  "archaeological_site approximate": "arxeologik yodgorlik bo'yicha taxminiy",
+  "archaeological-site approximate": "arxeologik yodgorlik bo'yicha taxminiy",
+  "modern city centre approximate": "zamonaviy shahar markazi bo'yicha taxminiy",
+  "modern/historical-site approximate": "zamonaviy yoki tarixiy joy bo'yicha taxminiy",
+  "approximate for broad historical event unless city-fixed": "shaharga aniq bog'lanmagan tarixiy voqea uchun taxminiy",
+  "city approximate": "shahar bo'yicha taxminiy",
+  "city-based": "shahar nuqtasiga bog'langan",
+  "city-based approximate": "shahar nuqtasi bo'yicha taxminiy",
+  "city-based symbolic": "shahar asosidagi ramziy nuqta",
+  "city-fixed": "shahar nuqtasiga aniq bog'langan",
+  "city-fixed approximate": "shahar nuqtasiga taxminan bog'langan",
+  "destination city-fixed": "manzil shaharga aniq bog'langan",
+  "modern monument approximate": "zamonaviy yodgorlik bo'yicha taxminiy",
+  "recipient court represented by Paris": "qabul qiluvchi saroy Parij nuqtasi bilan ramziy ko'rsatilgan",
+  "regional approximate": "mintaqa bo'yicha taxminiy",
+  "site approximate": "joy bo'yicha taxminiy",
+  "city-waypoint route; exact march track is uncertain": "shahar bekatlariga tayangan yo'nalish; aniq yurish izi noma'lum",
+  "generalized silk-road trunk": "Buyuk ipak yo'lining umumlashtirilgan asosiy tarmog'i",
+  "major-stop itinerary, not an exact road trace": "asosiy bekatlar ketma-ketligi; aniq yo'l izi emas",
+  "relationship line; not a single courier itinerary": "aloqa chizig'i; bitta chopar bosib o'tgan aniq yo'l emas",
+  "schematic educational route": "sxematik ta'limiy yo'nalish",
+  "schematic waypoint route, not exact march track": "bekatlar bo'yicha sxematik yo'nalish; aniq yurish izi emas",
+  "sourced educational waypoint route; not an exact march track": "manbalarga tayangan ta'limiy yo'nalish; aniq yurish izi emas",
+  "textbook-based schematic waypoint route": "darslikka tayangan sxematik bekatlar yo'nalishi",
+  "thematic connector route": "mavzuli bog'lovchi yo'nalish",
+  "generalized campaign-era extent from Wikimedia temporal-map sequence": "Wikimedia davriy xaritalari asosida umumlashtirilgan yurish davri hududi",
+  "generalized core-control reconstruction": "tayanch nazorat hududining umumlashtirilgan rekonstruksiyasi",
+  "generalized from multiple reference maps": "bir nechta tayanch xarita asosida umumlashtirilgan",
+  "generalized from scholarly textual geography + atlas reference": "ilmiy geografik tavsif va atlas asosida umumlashtirilgan",
+  "generalized late-Timurid extent": "so'nggi Temuriylar davri hududining umumlashtirilgan konturi",
+  "generalized visual digitization from referenced 1372 map": "1372-yilgi tayanch xaritadan umumlashtirib raqamlashtirilgan",
+  "historical political-zone reconstruction": "tarixiy siyosiy hudud rekonstruksiyasi",
+  "low-confidence schematic contested zone": "ishonchi past, bahsli hududning sxematik ko'rinishi",
+  "manual generalized polygon from atlas/reference maps": "atlas va tayanch xaritalardan qo'lda umumlashtirilgan poligon",
+  "regional valley reconstruction": "mintaqaviy vodiy hududi rekonstruksiyasi",
+  "schematic 1496 fragmentation": "1496-yildagi parchalanishning sxematik ko'rinishi",
+  "schematic influence reconstruction": "ta'sir hududining sxematik rekonstruksiyasi",
+  "schematic influence-zone reconstruction": "ta'sir zonasining sxematik rekonstruksiyasi",
+  "schematic post-succession division": "vorislikdan keyingi bo'linishning sxematik ko'rinishi",
+  "small thematic zone": "kichik mavzuli hudud",
+  "text-anchored regional reconstruction": "matnli manbaga tayangan mintaqaviy rekonstruksiya",
+  "text-anchored valley reconstruction": "matnli manbaga tayangan vodiy rekonstruksiyasi",
+  "textbook-georeferenced generalized reconstruction": "darslik xaritasiga geografik bog'langan umumlashtirilgan rekonstruksiya",
+  "Timur early power base": "Amir Temurning dastlabki tayanch siyosiy markazi",
+  "Timurid architecture": "Temuriylar me'morchiligi",
+  "Timurid architecture / royal construction": "Temuriylar me'morchiligi va hukmdorlik bunyodkorligi",
+  "Timurid ruler of Herat": "Hirotdagi Temuriy hukmdor",
+  "calligraphy / miniature center": "xattotlik va miniatyura markazi",
+  "crafts / trade": "hunarmandchilik va savdo",
+  "crafts / urban economy": "hunarmandchilik va shahar iqtisodiyoti",
+  "historian / Jome ut-tavorix author": "tarixchi, «Jome' ut-tavorix» muallifi",
+  "historical_anchor/control_point": "tarixiy tayanch va nazorat nuqtasi",
+  "historical_city/route_anchor": "tarixiy shahar va yo'nalish tayanchi",
+  "observatory / science heritage": "rasadxona va ilmiy meros",
+  "poet / statesman": "shoir va davlat arbobi",
+  "ruler-scholar / astronomy": "hukmdor-olim va astronomiya",
+  "adabiyot / axloqiy-falsafiy meros": "adabiyot va axloqiy-falsafiy meros",
+  "adabiyot / musiqa": "adabiyot va musiqa",
+  "adabiyot / tasavvuf": "adabiyot va tasavvuf",
+  "tarixnavislik / Jome’ ut-tavorix": "tarixnavislik va «Jome' ut-tavorix»",
+  "A political zone rather than a single stable, cadastral state border.": "Bu qat'iy kadastr chegarasi emas, balki o'zgaruvchan siyosiy ta'sir hududidir.",
+  "After deaths in 1494–1495, succession instability intensified.": "1494–1495-yillardagi vafotlardan keyin taxt vorisligi beqarorligi kuchaydi.",
+  "Anchored to Talas–Ili–Tarim–Turfan geography; generalized WGS84 outline.": "Talas–Ili–Tarim–Turfon geografiyasiga tayangan umumlashtirilgan WGS84 konturi.",
+  "Approximate political center/influence zone.": "Taxminiy siyosiy markaz va ta'sir zonasi.",
+  "Approximate regional political zone.": "Taxminiy mintaqaviy siyosiy hudud.",
+  "Bregel describes Khusraw Shah ruling the large Hisar appanage independently.": "Bregel Xusravshohning yirik Hisor mulkini mustaqil boshqarganini qayd etadi.",
+  "Bregel explicitly assigns Ferghana to Umar Shaykh.": "Bregel Farg'onani aniq ravishda Umarshayx tasarrufiga kiritadi.",
+  "Bregel explicitly assigns Mavarannahr to Sultan Ahmad.": "Bregel Movarounnahrni aniq ravishda Sulton Ahmad tasarrufiga kiritadi.",
+  "Bregel explicitly lists Hisar, Chaghaniyan and Badakhshan.": "Bregel Hisor, Chag'oniyon va Badaxshonni alohida sanab o'tadi.",
+  "Core Herat/Khorasan and eastern Iranian/Afghan sphere.": "Hirot–Xuroson yadrosi hamda Sharqiy Eron va Afg'oniston ta'sir hududi.",
+  "Core Samarkand/Transoxiana sphere.": "Samarqand va Movarounnahrning tayanch hududi.",
+  "Early ulus boundaries were not sharply fixed; sedentary regions also remained under imperial fiscal administration.": "Dastlabki ulus chegaralari qat'iy belgilanmagan; o'troq hududlar imperiya soliq boshqaruvida ham qolgan.",
+  "Extent mixes durable control with short-lived campaign-era domination; use campaigns layer to distinguish movements.": "Kontur doimiy nazorat va yurish davridagi qisqa hukmronlikni birlashtiradi; harakatlarni yurishlar qatlamidan ajrating.",
+  "Herat-centered Khorasan sphere; exact frontier fluctuated.": "Hirot markazli Xuroson hududi; aniq chegara tez-tez o'zgarib turgan.",
+  "Late 13th-century sources disagree on Caspian/eastern limits; eastern nomadic frontier is intentionally generalized.": "XIII asr oxiri manbalarida Kaspiy va sharqiy chegaralar turlicha; ko'chmanchi sharqiy chegara ataylab umumlashtirilgan.",
+  "Rapidly contested by Qara Qoyunlu and other powers; shown for context only.": "Qoraqo'yunlilar va boshqa kuchlar bilan tez-tez talashilgan; faqat tarixiy kontekst uchun ko'rsatilgan.",
+  "Represents broad reconsolidation across Transoxiana, Afghanistan and parts of northern Iran before 1469.": "1469-yilgacha Movarounnahr, Afg'oniston va Shimoliy Eronning ayrim qismlaridagi qayta birlashuvni ko'rsatadi.",
+  "Represents the core Chagatai/Transoxiana sphere after the 1370 Balkh transition; authority remained contested.": "1370-yil Balx voqealaridan keyingi Chig'atoy–Movarounnahr tayanch hududini ko'rsatadi; hokimiyat hali bahsli edi.",
+  "Southern Transoxiana/Upper Oxus influence; not a formal state border.": "Janubiy Movarounnahr va Yuqori Amudaryo ta'sir hududi; rasmiy davlat chegarasi emas.",
+  "Timur belonged to the Barlas, centered in the Kesh region.": "Amir Temur Kesh atrofida joylashgan barlos urug'iga mansub edi.",
+  "Umar Shaykh died in 1494/95; Ferghana passed into a new succession phase.": "Umarshayx 1494/1495-yilda vafot etdi; Farg'onada yangi vorislik davri boshlandi.",
+  "Encyclopaedia Iranica": "«Iranika» ensiklopediyasi",
+  "Encyclopaedia Iranica — Central Asia in the Mongol and Timurid Periods": "«Iranika» ensiklopediyasi — Mo'g'ullar va Temuriylar davrida Markaziy Osiyo",
+  "UNESCO — Central Asia under Timur": "UNESCO — Amir Temur davrida Markaziy Osiyo"
+});
+
+function displayUz(value, fallback = "") {
+  if (value === null || value === undefined || value === "") return fallback;
+  if (Array.isArray(value)) return value.map((item) => displayUz(item)).join(", ");
+  const text = String(value);
+  return VALUE_LABELS_UZ[text] || text.replaceAll("_", " ");
+}
+
+function mediaTitle(item) {
+  return item.title_uz || item.title || "Tarixiy rasm";
+}
+
+function mediaLicense(item) {
+  return item.license_uz || displayUz(item.license || "");
+}
+
 function yearOf(value) {
   if (value === null || value === undefined || value === "") return null;
   const match = String(value).match(/-?\d{3,4}/);
@@ -68,7 +195,7 @@ function featureClass(feature) {
 
 function featureLabel(feature) {
   const properties = feature.properties || {};
-  return properties.title_uz || properties.name_uz || properties.name || properties.polity_uz || properties.polity_en || properties.id || "Obyekt";
+  return properties.title_uz || properties.name_uz || properties.historical_name_uz || properties.polity_uz || properties.name || properties.polity_en || properties.id || "Obyekt";
 }
 
 function isActive(feature, year) {
@@ -161,8 +288,8 @@ function featureDetails(feature) {
     return [
       ["Tarixiy nom", properties.historical_name_uz || featureLabel(feature)],
       ["Hozirgi joy", modernLocation],
-      ["Mavzudagi roli", properties.summary_uz || properties.role || ""],
-      ["Joy aniqligi", properties.location_precision || properties.coordinate_quality || ""]
+      ["Mavzudagi roli", properties.summary_uz || displayUz(properties.role)],
+      ["Joy aniqligi", displayUz(properties.location_precision || properties.coordinate_quality)]
     ].filter((row) => row[1]);
   }
   if (featureClass(feature) === "route") {
@@ -172,14 +299,14 @@ function featureDetails(feature) {
       ["Davri", [properties.start_date, properties.end_date].filter(Boolean).join(" – ")],
       ["Yo‘nalish turi", palette.label],
       ["Asosiy bekatlar", Array.isArray(properties.waypoints) ? properties.waypoints.join(" → ") : ""],
-      ["Aniqlik", properties.route_quality || "Sxematik ta’limiy yo‘nalish"],
+      ["Aniqlik", displayUz(properties.route_quality, "Sxematik ta’limiy yo‘nalish")],
     ].filter((row) => row[1]);
   }
   return [
     ["Nomi", featureLabel(feature)],
     ["Sana", properties.date || [properties.start_date, properties.end_date].filter(Boolean).join(" – ")],
-    ["Turi", properties.category || CATEGORY_LABELS[featureClass(feature)] || properties.status || ""],
-    ["Izoh", properties.notes || properties.role || ""]
+    ["Turi", displayUz(properties.category || properties.status || CATEGORY_LABELS[featureClass(feature)] || "")],
+    ["Izoh", displayUz(properties.notes || properties.role || "")]
   ].filter((row) => row[1]);
 }
 
@@ -338,11 +465,11 @@ function renderStateSources(properties) {
   const sourceList = $("stateSourceList");
   const sources = Array.isArray(properties.source_refs) ? properties.source_refs : [];
   if (!sources.length) {
-    sourceList.innerHTML = `<div class="profile-source-note">${escapeHtml(properties.geometry_quality || properties.notes || "Manba metama’lumoti tayyorlanmoqda.")}</div>`;
+    sourceList.innerHTML = `<div class="profile-source-note">${escapeHtml(displayUz(properties.geometry_quality || properties.notes, "Manba metama’lumoti tayyorlanmoqda."))}</div>`;
     return;
   }
   sourceList.innerHTML = sources.map((source) => {
-    const title = typeof source === "string" ? source : source.title || "Tarixiy manba";
+    const title = displayUz(typeof source === "string" ? source : source.title_uz || source.title || "Tarixiy manba");
     const url = typeof source === "string" ? source : source.url || (source.drive_file_id ? `https://drive.google.com/file/d/${encodeURIComponent(source.drive_file_id)}/view` : "");
     const pages = typeof source === "object" && Array.isArray(source.pages) ? ` · ${source.pages.join(", ")}-bet` : "";
     if (!url) return `<div class="profile-source-note">${escapeHtml(title + pages)}</div>`;
@@ -358,8 +485,8 @@ function renderStateProfile(feature) {
   $("stateProfileType").textContent = boundaryTypeLabel(properties);
   const confidence = Number(properties.confidence);
   $("stateProfileConfidence").textContent = Number.isFinite(confidence) ? `Ishonch ${Math.round(confidence * 100)}%` : "Taxminiy rekonstruksiya";
-  $("stateProfileSummary").textContent = properties.notes || `${state.currentYear}-yil sahnasidagi tanlangan tarixiy siyosiy hudud.`;
-  $("stateProfileUncertainty").textContent = properties.uncertainty_note || "Chegara tarixiy manbalardan umumlashtirilgan; zamonaviy davlat chegarasi emas.";
+  $("stateProfileSummary").textContent = displayUz(properties.notes, `${state.currentYear}-yil sahnasidagi tanlangan tarixiy siyosiy hudud.`);
+  $("stateProfileUncertainty").textContent = displayUz(properties.uncertainty_note, "Chegara tarixiy manbalardan umumlashtirilgan; zamonaviy davlat chegarasi emas.");
   $("stateCityCount").textContent = `${cities.length} ta bog‘liq nuqta`;
 
   const cityList = $("stateCityList");
@@ -637,7 +764,7 @@ function renderEventList(features) {
     button.type = "button";
     button.className = `event-item ${category}`;
     button.style.setProperty("--delay", `${Math.min(index * 45, 360)}ms`);
-    button.innerHTML = `<span class="event-dot ${category}"></span><div><div class="type">${escapeHtml(properties.category || CATEGORY_LABELS[category] || "obyekt")}</div><div class="name">${escapeHtml(featureLabel(feature))}</div><div class="detail">${escapeHtml(properties.date || [properties.start_date, properties.end_date].filter(Boolean).join(" – ") || properties.role || "Xaritadagi tarixiy obyekt")}</div></div><span class="locate-arrow">↗</span>`;
+    button.innerHTML = `<span class="event-dot ${category}"></span><div><div class="type">${escapeHtml(displayUz(properties.category || CATEGORY_LABELS[category] || "obyekt"))}</div><div class="name">${escapeHtml(featureLabel(feature))}</div><div class="detail">${escapeHtml(properties.date || [properties.start_date, properties.end_date].filter(Boolean).join(" – ") || displayUz(properties.role, "Xaritadagi tarixiy obyekt"))}</div></div><span class="locate-arrow">↗</span>`;
     button.addEventListener("click", () => locateFeature(featureId));
     list.appendChild(button);
   });
@@ -663,7 +790,7 @@ function renderBookPage() {
   const [start, end] = state.topic.pages;
   state.currentBookPage = Math.max(start, Math.min(end, Number(state.currentBookPage || start)));
   const record = bookPageRecord(state.currentBookPage);
-  if (!record) throw new Error(`${state.currentBookPage}-bet book manifestida topilmadi.`);
+  if (!record) throw new Error(`${state.currentBookPage}-bet darslik sahifalari ro‘yxatida topilmadi.`);
 
   $("pdfRangeText").textContent = `${start}–${end}-betlar`;
   $("bookPages").textContent = `Kitob: ${start}–${end}-bet`;
@@ -709,16 +836,19 @@ function renderGallery() {
     card.className = "media-card";
     card.style.setProperty("--delay", `${Math.min(index * 55, 440)}ms`);
     const kindLabel = item.kind === "generated" ? "Rekonstruksiya" : "Tarixiy manba";
-    card.innerHTML = `<div class="media-visual"><img loading="lazy" src="${escapeHtml(storage.resolveAsset(item.file))}" alt="${escapeHtml(item.title)}"><span class="media-kind ${escapeHtml(item.kind)}">${kindLabel}</span></div><div class="media-info"><div class="media-title">${escapeHtml(item.title)}</div><div class="media-meta">${kindLabel}${item.license ? ` · ${escapeHtml(item.license)}` : ""}</div></div>`;
+    const title = mediaTitle(item);
+    const license = mediaLicense(item);
+    card.innerHTML = `<div class="media-visual"><img loading="lazy" src="${escapeHtml(storage.resolveAsset(item.file))}" alt="${escapeHtml(title)}"><span class="media-kind ${escapeHtml(item.kind)}">${kindLabel}</span></div><div class="media-info"><div class="media-title">${escapeHtml(title)}</div><div class="media-meta">${kindLabel}${license ? ` · ${escapeHtml(license)}` : ""}</div></div>`;
     card.addEventListener("click", () => openLightbox(item));
     gallery.appendChild(card);
   });
 }
 
 function openLightbox(item) {
+  const title = mediaTitle(item);
   $("lightboxImg").src = storage.resolveAsset(item.file);
-  $("lightboxImg").alt = item.title || "Tarixiy rasm";
-  $("lightboxCaption").textContent = item.title;
+  $("lightboxImg").alt = title;
+  $("lightboxCaption").textContent = title;
   $("lightbox").classList.remove("hidden");
   $("lightboxClose").focus();
 }
@@ -1000,5 +1130,8 @@ async function boot() {
 
 boot().catch((error) => {
   console.error(error);
-  document.body.innerHTML = `<main class="fatal-error"><strong>TARIX360 yuklanmadi</strong><pre>${escapeHtml(error.stack || error)}</pre><p>Papkani START_LOCAL.bat orqali ishga tushiring.</p></main>`;
+  const help = location.hostname.endsWith("github.io")
+    ? "Sahifani majburiy yangilang (Ctrl+F5). Muammo davom etsa, ma’lumotlar nashri hali yangilanayotgan bo‘lishi mumkin."
+    : "Loyihani statik veb-server orqali oching.";
+  document.body.innerHTML = `<main class="fatal-error"><strong>TARIX360 yuklanmadi</strong><pre>${escapeHtml(error.stack || error)}</pre><p>${escapeHtml(help)}</p></main>`;
 });
