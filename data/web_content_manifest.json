@@ -48,7 +48,7 @@
       "path": "data/master_all_features.geojson",
       "driveFileId": "1DGRz1O6TYk0NfFp2pmX-dgTuua3JUuEB",
       "mimeType": "application/geo+json",
-      "size": 213930
+      "size": 239392
     },
     {
       "path": "data/media_manifest.json",
@@ -60,7 +60,7 @@
       "path": "data/states_master_v2.geojson",
       "driveFileId": "1qBlpC_lCbSuOh7Y2L4WVBjqF07mJAe71",
       "mimeType": "application/geo+json",
-      "size": 76645
+      "size": 100063
     },
     {
       "path": "data/events_master_v2.geojson",
@@ -90,7 +90,7 @@
       "path": "data/thematic_points_v2.geojson",
       "driveFileId": "19vbOYk-CCnyT5HVkV8_FyuS84mYb3RNv",
       "mimeType": "application/geo+json",
-      "size": 11271
+      "size": 13519
     },
     {
       "path": "data/sources_topics_11_15.json",
