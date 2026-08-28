@@ -880,5 +880,50 @@
     "license": "Public domain",
     "width": 4386,
     "height": 3144
+  },
+  {
+    "id": "src_t11_met_baghdad",
+    "topic": 11,
+    "kind": "source",
+    "file": "assets/images/web/source/topic_11/met_451304_conquest_baghdad.webp",
+    "title": "Amir Temurning Bag‘dod yurishi — Zafarnoma miniatyurasi",
+    "source_url": "https://www.metmuseum.org/art/collection/search/451304",
+    "license": "Public Domain · The Met Open Access"
+  },
+  {
+    "id": "src_t12_met_battle",
+    "topic": 12,
+    "kind": "source",
+    "file": "assets/images/web/source/topic_12/met_450512_battle_scene.webp",
+    "title": "Zafarnomadagi jang sahnasi",
+    "source_url": "https://www.metmuseum.org/art/collection/search/450512",
+    "license": "Public Domain · The Met Open Access"
+  },
+  {
+    "id": "src_t13_met_chinese_emperor",
+    "topic": 13,
+    "kind": "source",
+    "file": "assets/images/web/source/topic_13/met_448242_chinese_emperor.webp",
+    "title": "Xitoy hukmdori — Temuriylar davri tarixiy qo‘lyozmasi",
+    "source_url": "https://www.metmuseum.org/art/collection/search/448242",
+    "license": "Public Domain · The Met Open Access"
+  },
+  {
+    "id": "src_t14_met_timur_before_battle",
+    "topic": 14,
+    "kind": "source",
+    "file": "assets/images/web/source/topic_14/met_451303_timur_before_battle.webp",
+    "title": "Amir Temur jang oldidan — Zafarnoma miniatyurasi",
+    "source_url": "https://www.metmuseum.org/art/collection/search/451303",
+    "license": "Public Domain · The Met Open Access"
+  },
+  {
+    "id": "src_t15_met_court_audience",
+    "topic": 15,
+    "kind": "source",
+    "file": "assets/images/web/source/topic_15/met_451959_court_audience.webp",
+    "title": "Temuriy siyosiy an’anadagi saroy qabuli — Boburnoma miniatyurasi",
+    "source_url": "https://www.metmuseum.org/art/collection/search/451959",
+    "license": "Public Domain · The Met Open Access"
   }
 ]

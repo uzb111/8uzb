@@ -4,7 +4,7 @@
     "primaryUrl": "https://zokirjon.com/wp-content/uploads/2025/02/8-sinf-Ozbekiston-tarixi-2023-N.pdf",
     "fallbackUrl": "https://bilimlar.uz/wp-content/uploads/2024/11/8-S-O-t-T-D-Y-o-o.pdf",
     "localUrl": "assets/book/ozbekiston_tarixi_8_2023.pdf",
-    "note": "Local PDF mavjud bo‘lmasa, frontend primaryUrl orqali kitobni ko‘rsatadi."
+    "note": "Browser faqat joriy yengil WebP sahifani yuklaydi; 145 MB asl PDF foydalanuvchi so‘ragandagina Drive orqali ochiladi."
   },
   "topics": [
     {
@@ -337,6 +337,227 @@
         "t10_temur_hokimiyat.png",
         "t10_samarqand.png"
       ]
+    },
+    {
+      "id": 11,
+      "title": "Amir Temur markazlashgan davlat tuzish yo‘lida",
+      "pages": [
+        94,
+        99
+      ],
+      "years": [
+        1370,
+        1393
+      ],
+      "focusYear": 1385,
+      "showFeatureIds": [
+        "P06_TIMUR_1370",
+        "P07_TIMUR_1381_1387",
+        "P07_TIMUR_1388_1393",
+        "EV_1372_KHWARAZM",
+        "EV_1381_HERAT",
+        "EV_1387_ISFAHAN",
+        "CAM_1372_1379_MOGHUL_KHWARAZM",
+        "CAM_1380_1387_KHORASAN_IRAN",
+        "CITY_001",
+        "CITY_002",
+        "CITY_003",
+        "CITY_004",
+        "CITY_006",
+        "CITY_007",
+        "CITY_009",
+        "CITY_010",
+        "CITY_012",
+        "CITY_013",
+        "CITY_027",
+        "CITY_032",
+        "CITY_033",
+        "CITY_034",
+        "CITY_044",
+        "CITY_045",
+        "CITY_046",
+        "CITY_047",
+        "CITY_048",
+        "CITY_049",
+        "CITY_053",
+        "CITY_054"
+      ],
+      "mapStory": "1370-yildagi Movarounnahr tayanch hududidan Xorazm, Xuroson va Eron tomon bosqichma-bosqich kengayish; yurish yo‘llari davlat poligonidan alohida ko‘rsatiladi.",
+      "generatedImages": []
+    },
+    {
+      "id": 12,
+      "title": "Amir Temurning davlat chegaralarini mustahkamlashi",
+      "pages": [
+        100,
+        111
+      ],
+      "years": [
+        1376,
+        1405
+      ],
+      "focusYear": 1402,
+      "showFeatureIds": [
+        "P06_TIMUR_1370",
+        "P07_TIMUR_1381_1387",
+        "P07_TIMUR_1388_1393",
+        "P07_TIMUR_1394_1397",
+        "P07_TIMUR_1397_1399",
+        "P07_TIMUR_1399_1401",
+        "P07_TIMUR_1401_1402",
+        "P07_TIMUR_1403_1405",
+        "EV_1391_KONDURCHA",
+        "EV_1395_TEREK",
+        "EV_1398_DELHI",
+        "EV_1400_ALEPPO",
+        "EV_1401_DAMASCUS",
+        "EV_1401_BAGHDAD",
+        "EV_1402_ANKARA",
+        "EV_1405_OTRAR",
+        "CAM_1394_95_GOLDEN_HORDE",
+        "CAM_1398_INDIA",
+        "CAM_1400_01_SYRIA",
+        "CAM_1402_ANATOLIA",
+        "CAM_1404_05_CHINA_START",
+        "CITY_001",
+        "CITY_003",
+        "CITY_007",
+        "CITY_010",
+        "CITY_025",
+        "CITY_026",
+        "CITY_027",
+        "CITY_028",
+        "CITY_029",
+        "CITY_030",
+        "CITY_031",
+        "CITY_041",
+        "CITY_046",
+        "CITY_049",
+        "CITY_050",
+        "CITY_051",
+        "CITY_052",
+        "CITY_053"
+      ],
+      "mapStory": "To‘xtamish bilan shimoliy to‘qnashuvlar, Dehli, Suriya–Iroq, Anqara va Xitoy yurishi arafasi vaqt bo‘yicha jonlanadi.",
+      "generatedImages": []
+    },
+    {
+      "id": 13,
+      "title": "Amir Temurning tashqi siyosati",
+      "pages": [
+        112,
+        116
+      ],
+      "years": [
+        1402,
+        1404
+      ],
+      "focusYear": 1404,
+      "showFeatureIds": [
+        "P07_TIMUR_1401_1402",
+        "P07_TIMUR_1403_1405",
+        "EV_1402_FRANCE_LETTER",
+        "EV_1403_CLAVIJO",
+        "EV_1404_MING_ENVOYS",
+        "ROUTE_CLAVIJO_1403_1404",
+        "ROUTE_TIMUR_WESTERN_DIPLOMACY_1402",
+        "CITY_001",
+        "CITY_054",
+        "CITY_055",
+        "CITY_056",
+        "CITY_057",
+        "CITY_058",
+        "TH_DIPLOMACY_SAMARKAND",
+        "TH_MING_DIPLOMACY_SAMARKAND"
+      ],
+      "mapStory": "Samarqanddan Fransiya va Angliyaga maktublar hamda Kastiliya elchisi Klavixoning 1403–1404-yillardagi yo‘li bitta diplomatik sahnada.",
+      "generatedImages": []
+    },
+    {
+      "id": 14,
+      "title": "Amir Temur davlatida qo‘shin tuzilishi",
+      "pages": [
+        117,
+        126
+      ],
+      "years": [
+        1370,
+        1405
+      ],
+      "focusYear": 1395,
+      "showFeatureIds": [
+        "P06_TIMUR_1370",
+        "P07_TIMUR_1381_1387",
+        "P07_TIMUR_1388_1393",
+        "P07_TIMUR_1394_1397",
+        "P07_TIMUR_1397_1399",
+        "P07_TIMUR_1399_1401",
+        "P07_TIMUR_1401_1402",
+        "P07_TIMUR_1403_1405",
+        "CAM_1394_95_GOLDEN_HORDE",
+        "CAM_1398_INDIA",
+        "CAM_1400_01_SYRIA",
+        "CAM_1402_ANATOLIA",
+        "CAM_1404_05_CHINA_START",
+        "EV_1395_TEREK",
+        "EV_1398_DELHI",
+        "EV_1402_ANKARA",
+        "CITY_001",
+        "CITY_004",
+        "CITY_010",
+        "CITY_026",
+        "CITY_030",
+        "CITY_031",
+        "TH_ARMY_MUSTER_SAMARKAND",
+        "TH_ARMY_EASTERN_STAGE_OTRAR"
+      ],
+      "mapStory": "Qo‘shin yig‘ilishi, yetti qo‘l tamoyili, ta’minot tugunlari va asosiy yurish yo‘nalishlari xaritada bog‘lanadi.",
+      "generatedImages": []
+    },
+    {
+      "id": 15,
+      "title": "Amir Temur davlatining boshqaruvi",
+      "pages": [
+        127,
+        131
+      ],
+      "years": [
+        1370,
+        1405
+      ],
+      "focusYear": 1404,
+      "showFeatureIds": [
+        "P06_TIMUR_1370",
+        "P07_TIMUR_1381_1387",
+        "P07_TIMUR_1388_1393",
+        "P07_TIMUR_1394_1397",
+        "P07_TIMUR_1397_1399",
+        "P07_TIMUR_1399_1401",
+        "P07_TIMUR_1401_1402",
+        "P07_TIMUR_1403_1405",
+        "CITY_001",
+        "CITY_002",
+        "CITY_003",
+        "CITY_004",
+        "CITY_006",
+        "CITY_007",
+        "CITY_008",
+        "CITY_009",
+        "CITY_010",
+        "CITY_027",
+        "CITY_028",
+        "CITY_032",
+        "CITY_033",
+        "CITY_034",
+        "CITY_044",
+        "CITY_046",
+        "CITY_047",
+        "CITY_053",
+        "TH_DIWAN_SAMARKAND",
+        "TH_JUSTICE_SAMARKAND"
+      ],
+      "mapStory": "Samarqanddagi markaziy boshqaruv, mahalliy viloyat markazlari va sud-adolat tizimi saltanat makoni bilan bog‘lanadi.",
+      "generatedImages": []
     }
   ]
 }

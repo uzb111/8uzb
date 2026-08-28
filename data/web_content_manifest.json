@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "release": "first10-v1",
+  "release": "first15-v1",
   "sourceOfTruth": "google-drive",
   "runtimePolicy": "Browser runtime requests individual files through local static paths or a cached server endpoint; it never downloads the project ZIP.",
   "drive": {
@@ -15,50 +15,64 @@
     "bookOriginalFolderId": "1D33KX0ZawPCtbTfj8q4N-xmWs6gA4qrD",
     "bookWebPagesFolderId": "1xdgXUBk_QQzPHhP1IfMxyWnwOGwYE8Yo",
     "manifestFolderId": "1WBJkOspRPYLXBHTfcaBlGWXPoYtRDDdz",
-    "manifestFileId": "1Cu_lrZr1J5atKsG-KBnwZkGKjuwa8GuE"
+    "manifestFileId": "1Cu_lrZr1J5atKsG-KBnwZkGKjuwa8GuE",
+    "bookTopicFolderIds11To15": {
+      "11": "1C7zTAPBzCEq2Kh2OplkNyiEtogJzrMpo",
+      "12": "1QEe1ZK-zAFrGreGQL0FTXzyYe70_uRwU",
+      "13": "1jTohvfv3hXpIwhZDjFCTbYXCMlQwhNPj",
+      "14": "1Dcx0IN9qWd-zma12orPLnZbTXOZ7-0oh",
+      "15": "1YteYBBQRPSmFbJloIFyJ2SPZOxVru3hQ"
+    },
+    "sourceTopicFolderIds11To15": {
+      "11": "1bGQZtqRIeWTikjhgpez0z2cYjUOhbGFo",
+      "12": "1shtint_9c_EvmyQvE9g1D3EDH3NCbFei",
+      "13": "1jhZRVPce05B1QwlRvjFOvWMYWBtwTwh3",
+      "14": "1sOZT0SNZIl2soLZhtxpNgbpu1zXzbejn",
+      "15": "1gchwXaJWcETX-LBO9yUX3aMeIdqJ5Q5u"
+    }
   },
   "datasets": [
     {
       "path": "data/topic_config_10.json",
       "driveFileId": "1trfdZ0JG9tVeh8374C3CjQ9VGIdzQ22Q",
       "mimeType": "application/json",
-      "size": 8642
+      "size": 14493
     },
     {
       "path": "data/book_pages_manifest.json",
       "driveFileId": "18-90zh5cLf9N3PvxkCmlahCLf5v26QwY",
       "mimeType": "application/json",
-      "size": 21763
+      "size": 32502
     },
     {
       "path": "data/master_all_features.geojson",
       "driveFileId": "1DGRz1O6TYk0NfFp2pmX-dgTuua3JUuEB",
       "mimeType": "application/geo+json",
-      "size": 190883
+      "size": 213930
     },
     {
       "path": "data/media_manifest.json",
       "driveFileId": "1NdhxMXuHHO8GjrtMG0hxVBCWf4fVHndV",
       "mimeType": "application/json",
-      "size": 42156
+      "size": 44893
     },
     {
       "path": "data/states_master_v2.geojson",
       "driveFileId": "1qBlpC_lCbSuOh7Y2L4WVBjqF07mJAe71",
       "mimeType": "application/geo+json",
-      "size": 63620
+      "size": 76645
     },
     {
       "path": "data/events_master_v2.geojson",
       "driveFileId": "1X83gTmYVOe-YiVgJhmpCHbnX5R2jfC9S",
       "mimeType": "application/geo+json",
-      "size": 15291
+      "size": 19709
     },
     {
       "path": "data/cities_master_v2.geojson",
       "driveFileId": "1QMAPzYDt5ZqlRK30quKQ6LDjwKAkq5tu",
       "mimeType": "application/geo+json",
-      "size": 56796
+      "size": 78605
     },
     {
       "path": "data/city_sources_first10.json",
@@ -70,13 +84,25 @@
       "path": "data/routes_master_v2.geojson",
       "driveFileId": "1Pd3fyDFnD6S5NDkSpsclgSqlSVJU7WXO",
       "mimeType": "application/geo+json",
-      "size": 19382
+      "size": 24547
     },
     {
       "path": "data/thematic_points_v2.geojson",
       "driveFileId": "19vbOYk-CCnyT5HVkV8_FyuS84mYb3RNv",
       "mimeType": "application/geo+json",
-      "size": 6045
+      "size": 11271
+    },
+    {
+      "path": "data/sources_topics_11_15.json",
+      "driveFileId": "1aXsFJiNrMiD02twD2JBJ7jDu84Ftlfli",
+      "mimeType": "application/json",
+      "size": 2122
+    },
+    {
+      "path": "data/drive_sync_topics_11_15.json",
+      "driveFileId": "1dWEida25vU9bQ_QSa0ACIlC-XZE_34Wu",
+      "mimeType": "application/json",
+      "size": 2954
     }
   ],
   "media": [
@@ -703,6 +729,46 @@
       "driveFileId": "1ue9UBn98mjiAiOWrP1WYBivbcx1GhMvg",
       "mimeType": "image/jpeg",
       "size": 16309840
+    },
+    {
+      "path": "assets/images/source/topic_11/met_451304_conquest_baghdad.jpg",
+      "topic": 11,
+      "kind": "source",
+      "driveFileId": "1JP-vsP0M7ebVSrkTUkFtJD6q3L8yYZQb",
+      "mimeType": "image/jpeg",
+      "size": 2294491
+    },
+    {
+      "path": "assets/images/source/topic_12/met_450512_battle_scene.jpg",
+      "topic": 12,
+      "kind": "source",
+      "driveFileId": "14T8jVpuKkjb1WHnldS40LktyCYhQHuAL",
+      "mimeType": "image/jpeg",
+      "size": 2745647
+    },
+    {
+      "path": "assets/images/source/topic_13/met_448242_chinese_emperor.jpg",
+      "topic": 13,
+      "kind": "source",
+      "driveFileId": "1HFjVRxSEpb_Hc6rSOEuvq6fcoA3Wuv8p",
+      "mimeType": "image/jpeg",
+      "size": 4769764
+    },
+    {
+      "path": "assets/images/source/topic_14/met_451303_timur_before_battle.jpg",
+      "topic": 14,
+      "kind": "source",
+      "driveFileId": "1DNjWgBgwzkQmSz3TaEPHGsI-a3fCAERe",
+      "mimeType": "image/jpeg",
+      "size": 2504886
+    },
+    {
+      "path": "assets/images/source/topic_15/met_451959_court_audience.jpg",
+      "topic": 15,
+      "kind": "source",
+      "driveFileId": "14U_cPVHTgx8kL8AA1P7kRA8T6vjEIXRB",
+      "mimeType": "image/jpeg",
+      "size": 4493109
     }
   ],
   "book": {
@@ -710,6 +776,6 @@
     "driveFileId": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
     "size": 144604832,
     "webPagesManifestFileId": "18-90zh5cLf9N3PvxkCmlahCLf5v26QwY",
-    "status": "original-and-first10-web-pages-ready"
+    "status": "original-and-first15-web-pages-ready"
   }
 }

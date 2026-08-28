@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "scope": "TARIX360 topics 11–15",
+  "authority": "The textbook fixes lesson scope and pages; academic and museum sources support geography, chronology and media metadata.",
+  "sources": [
+    {
+      "id": "BOOK_2023",
+      "title": "O‘zbekiston tarixi, 8-sinf (2023)",
+      "driveFileId": "1MBVkyq1JJmz3WtFZDjpW4vQeKKoJ2ddY",
+      "pages": [
+        94,
+        131
+      ],
+      "use": "topic structure, textbook narrative and reference map"
+    },
+    {
+      "id": "IRANICA_CENTRAL_ASIA",
+      "title": "Encyclopaedia Iranica — Central Asia in the Mongol and Timurid Periods",
+      "url": "https://www.iranicaonline.org/articles/central-asia-v/",
+      "use": "territorial chronology, cities and political context"
+    },
+    {
+      "id": "UNESCO_TIMUR",
+      "title": "UNESCO History of Civilizations of Central Asia — Central Asia under Timur",
+      "url": "https://es.unesco.org/silkroad/sites/default/files/knowledge-bank-article/vol_IVa%20silk%20road_central%20asia%20under%20timur.pdf",
+      "use": "campaigns, administration and relations with western European rulers"
+    },
+    {
+      "id": "MET_TIMURID",
+      "title": "The Metropolitan Museum of Art — The Art of the Timurid Period",
+      "url": "https://www.metmuseum.org/toah/hd/timu/hd_timu.htm",
+      "use": "period overview and open-access visual context"
+    },
+    {
+      "id": "IRANICA_CLAVIJO",
+      "title": "Encyclopaedia Iranica — Ruy González de Clavijo",
+      "url": "https://www.iranicaonline.org/articles/clavijo-ruy-gonzlez-de-d/",
+      "use": "1403–1404 embassy itinerary and chronology"
+    },
+    {
+      "id": "UNESCO_SILK_CITIES",
+      "title": "UNESCO Silk Roads — Cities along the Silk Roads",
+      "url": "https://en.unesco.org/silkroad/silk-road-themes/cities-silk-roads",
+      "use": "city-network interpretation"
+    }
+  ],
+  "geometryPolicy": "Boundaries are generalized teaching reconstructions, not cadastral borders. Campaign reach is encoded as dated routes and events rather than permanent territorial fill."
+}

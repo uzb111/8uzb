@@ -10,7 +10,7 @@
   // whitelisted individual files through the serverless Drive gateway.
   global.TARIX360_DEPLOYMENT = Object.freeze({
     environment: isLocalhost ? "localhost" : isGitHubPages ? "github-pages" : "production",
-    release: "first10-v1",
+    release: "first15-v1",
     contentMode: usesStaticSnapshot ? "local-static" : "drive-api",
     contentEndpoint: "/api/content",
     dataBase: usesStaticSnapshot ? "data" : "",
