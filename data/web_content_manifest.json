@@ -36,7 +36,7 @@
       "path": "data/topic_config_10.json",
       "driveFileId": "1trfdZ0JG9tVeh8374C3CjQ9VGIdzQ22Q",
       "mimeType": "application/json",
-      "size": 14493
+      "size": 14938
     },
     {
       "path": "data/book_pages_manifest.json",
@@ -48,19 +48,19 @@
       "path": "data/master_all_features.geojson",
       "driveFileId": "1DGRz1O6TYk0NfFp2pmX-dgTuua3JUuEB",
       "mimeType": "application/geo+json",
-      "size": 239392
+      "size": 241397
     },
     {
       "path": "data/media_manifest.json",
       "driveFileId": "1NdhxMXuHHO8GjrtMG0hxVBCWf4fVHndV",
       "mimeType": "application/json",
-      "size": 44893
+      "size": 57205
     },
     {
       "path": "data/states_master_v2.geojson",
       "driveFileId": "1qBlpC_lCbSuOh7Y2L4WVBjqF07mJAe71",
       "mimeType": "application/geo+json",
-      "size": 100063
+      "size": 100161
     },
     {
       "path": "data/events_master_v2.geojson",
@@ -84,7 +84,7 @@
       "path": "data/routes_master_v2.geojson",
       "driveFileId": "1Pd3fyDFnD6S5NDkSpsclgSqlSVJU7WXO",
       "mimeType": "application/geo+json",
-      "size": 24547
+      "size": 26454
     },
     {
       "path": "data/thematic_points_v2.geojson",
@@ -102,7 +102,13 @@
       "path": "data/drive_sync_topics_11_15.json",
       "driveFileId": "1dWEida25vU9bQ_QSa0ACIlC-XZE_34Wu",
       "mimeType": "application/json",
-      "size": 2954
+      "size": 4128
+    },
+    {
+      "path": "data/web_sources_topics_11_15.json",
+      "driveFileId": "1CyOEZKkqjnnzvKajX4n_qptTxJhZU02g",
+      "mimeType": "application/json",
+      "size": 4774
     }
   ],
   "media": [
@@ -732,7 +738,7 @@
     },
     {
       "path": "assets/images/source/topic_11/met_451304_conquest_baghdad.jpg",
-      "topic": 11,
+      "topic": 12,
       "kind": "source",
       "driveFileId": "1JP-vsP0M7ebVSrkTUkFtJD6q3L8yYZQb",
       "mimeType": "image/jpeg",
@@ -769,6 +775,134 @@
       "driveFileId": "14U_cPVHTgx8kL8AA1P7kRA8T6vjEIXRB",
       "mimeType": "image/jpeg",
       "size": 4493109
+    },
+    {
+      "path": "assets/images/source/topic_11/src_t11_commons_balkh_audience.jpg",
+      "topic": 11,
+      "kind": "source",
+      "driveFileId": "1E3YubYCMaIe5BnoBbpCKsFZSmBKQhgJt",
+      "mimeType": "image/jpeg",
+      "size": 8238067
+    },
+    {
+      "path": "assets/images/source/topic_12/src_t12_commons_tokhtamysh_1391.jpg",
+      "topic": 12,
+      "kind": "source",
+      "driveFileId": "1WTlqOpnxhiUu_YhYePPrNTzh-Zb_qAbU",
+      "mimeType": "image/jpeg",
+      "size": 1157714
+    },
+    {
+      "path": "assets/images/source/topic_13/src_t13_commons_clavijo_manuscript.jpg",
+      "topic": 13,
+      "kind": "source",
+      "driveFileId": "17EQCQElQcu53Fmbn6EvEtlh21TtJpEUN",
+      "mimeType": "image/jpeg",
+      "size": 405247
+    },
+    {
+      "path": "assets/images/source/topic_14/src_t14_commons_timur_tokhtamysh_battle.jpg",
+      "topic": 14,
+      "kind": "source",
+      "driveFileId": "139_74iRaeTqCZ9NLlEwF4Ehab2tW68Pt",
+      "mimeType": "image/jpeg",
+      "size": 11002328
+    },
+    {
+      "path": "assets/images/source/topic_15/src_t15_commons_khalil_court.jpg",
+      "topic": 15,
+      "kind": "source",
+      "driveFileId": "1ZrBvIdTjSyzGfvONMdR5nxV6vk7sKPcD",
+      "mimeType": "image/jpeg",
+      "size": 2633314
+    },
+    {
+      "path": "assets/images/generated/topic_11/gen_t11_balkh_qurultay.png",
+      "topic": 11,
+      "kind": "generated",
+      "driveFileId": "1uUuyFvfcpqMt7FiuiIlQ1WFxUfZAHCYx",
+      "mimeType": "image/png",
+      "size": 2999157
+    },
+    {
+      "path": "assets/images/generated/topic_11/gen_t11_herat_1381.png",
+      "topic": 11,
+      "kind": "generated",
+      "driveFileId": "1oHFGAYw10K7sF5jIxMU095SbER-Y6VOo",
+      "mimeType": "image/png",
+      "size": 2632539
+    },
+    {
+      "path": "assets/images/generated/topic_12/gen_t12_terek_1395.png",
+      "topic": 12,
+      "kind": "generated",
+      "driveFileId": "1BElaLB8I4iQRAGYmdAockIArA6asQ74s",
+      "mimeType": "image/png",
+      "size": 2616481
+    },
+    {
+      "path": "assets/images/generated/topic_12/gen_t12_ankara_1402.png",
+      "topic": 12,
+      "kind": "generated",
+      "driveFileId": "17HJSfekIoOR2oxK2PRfoS6IEmOKWR3UF",
+      "mimeType": "image/png",
+      "size": 2987249
+    },
+    {
+      "path": "assets/images/generated/topic_13/gen_t13_clavijo_samarkand.png",
+      "topic": 13,
+      "kind": "generated",
+      "driveFileId": "1RRIJwWMX2IBE-U9Q-J9za_OqYWsmjBO4",
+      "mimeType": "image/png",
+      "size": 2918529
+    },
+    {
+      "path": "assets/images/generated/topic_13/gen_t13_western_couriers.png",
+      "topic": 13,
+      "kind": "generated",
+      "driveFileId": "1a4KL7yxHTCPd9U_y4wWpJ2XRoSMQ0x5f",
+      "mimeType": "image/png",
+      "size": 2576631
+    },
+    {
+      "path": "assets/images/generated/topic_13/gen_t13_ming_envoys.png",
+      "topic": 13,
+      "kind": "generated",
+      "driveFileId": "1UXqhu1lzLwANZnm6nLWqkPG2L7VVA8xq",
+      "mimeType": "image/png",
+      "size": 2605162
+    },
+    {
+      "path": "assets/images/generated/topic_14/gen_t14_seven_corps.png",
+      "topic": 14,
+      "kind": "generated",
+      "driveFileId": "1ktA1HAEwfSptNE05Vn-zBF2ZiEIbDM76",
+      "mimeType": "image/png",
+      "size": 2987293
+    },
+    {
+      "path": "assets/images/generated/topic_14/gen_t14_logistics.png",
+      "topic": 14,
+      "kind": "generated",
+      "driveFileId": "1wes_gXpL0JCBDrmCjnq-7KeBYjdMN4RM",
+      "mimeType": "image/png",
+      "size": 2697764
+    },
+    {
+      "path": "assets/images/generated/topic_15/gen_t15_central_divan.png",
+      "topic": 15,
+      "kind": "generated",
+      "driveFileId": "1CMts0B4GHsKkyhN9jn2CbBSJ-dBOAiVH",
+      "mimeType": "image/png",
+      "size": 2448350
+    },
+    {
+      "path": "assets/images/generated/topic_15/gen_t15_justice_court.png",
+      "topic": 15,
+      "kind": "generated",
+      "driveFileId": "1YFrf6IBBCaNK2Io--9jc5HBiPZGX3iZ6",
+      "mimeType": "image/png",
+      "size": 2350605
     }
   ],
   "book": {

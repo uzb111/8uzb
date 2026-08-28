@@ -1073,7 +1073,7 @@
         ],
         "notes": "Tayanch nazorat hududi va qisqa muddatli siyosiy ta’sir umumlashtirilgan; Dehli, Suriya, Anqara va Dashti Qipchoq yurishlari alohida chiziqlarda ko‘rsatiladi.",
         "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
-        "boundary_kind": "influence_zone",
+        "boundary_kind": "reconstructed_control_extent",
         "boundary_quality": "generalized control area; campaign reach is shown separately as routes",
         "uncertainty_note": "Kontur zamonaviy davlat chegarasi emas. Yurishdagi g‘alaba doimiy ma’muriy qo‘shib olish degani emas.",
         "source_refs": [
@@ -1199,7 +1199,7 @@
         ],
         "notes": "Tayanch nazorat hududi va qisqa muddatli siyosiy ta’sir umumlashtirilgan; Dehli, Suriya, Anqara va Dashti Qipchoq yurishlari alohida chiziqlarda ko‘rsatiladi.",
         "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
-        "boundary_kind": "influence_zone",
+        "boundary_kind": "reconstructed_control_extent",
         "boundary_quality": "generalized control area; campaign reach is shown separately as routes",
         "uncertainty_note": "Kontur zamonaviy davlat chegarasi emas. Yurishdagi g‘alaba doimiy ma’muriy qo‘shib olish degani emas.",
         "source_refs": [
@@ -1329,7 +1329,7 @@
         ],
         "notes": "Tayanch nazorat hududi va qisqa muddatli siyosiy ta’sir umumlashtirilgan; Dehli, Suriya, Anqara va Dashti Qipchoq yurishlari alohida chiziqlarda ko‘rsatiladi.",
         "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
-        "boundary_kind": "influence_zone",
+        "boundary_kind": "reconstructed_control_extent",
         "boundary_quality": "generalized control area; campaign reach is shown separately as routes",
         "uncertainty_note": "Kontur zamonaviy davlat chegarasi emas. Yurishdagi g‘alaba doimiy ma’muriy qo‘shib olish degani emas.",
         "source_refs": [
@@ -1463,7 +1463,7 @@
         ],
         "notes": "Tayanch nazorat hududi va qisqa muddatli siyosiy ta’sir umumlashtirilgan; Dehli, Suriya, Anqara va Dashti Qipchoq yurishlari alohida chiziqlarda ko‘rsatiladi.",
         "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
-        "boundary_kind": "influence_zone",
+        "boundary_kind": "reconstructed_control_extent",
         "boundary_quality": "generalized control area; campaign reach is shown separately as routes",
         "uncertainty_note": "Kontur zamonaviy davlat chegarasi emas. Yurishdagi g‘alaba doimiy ma’muriy qo‘shib olish degani emas.",
         "source_refs": [
@@ -1601,7 +1601,7 @@
         ],
         "notes": "Tayanch nazorat hududi va qisqa muddatli siyosiy ta’sir umumlashtirilgan; Dehli, Suriya, Anqara va Dashti Qipchoq yurishlari alohida chiziqlarda ko‘rsatiladi.",
         "crs_note": "GeoJSON coordinates are WGS84 longitude/latitude (EPSG:4326). Historical frontiers are generalized.",
-        "boundary_kind": "influence_zone",
+        "boundary_kind": "reconstructed_control_extent",
         "boundary_quality": "generalized control area; campaign reach is shown separately as routes",
         "uncertainty_note": "Kontur zamonaviy davlat chegarasi emas. Yurishdagi g‘alaba doimiy ma’muriy qo‘shib olish degani emas.",
         "source_refs": [
@@ -2722,7 +2722,7 @@
         "phase": "Xuroson va Eron tomon kengayish",
         "status": "reconstructed",
         "boundary_type": "historical_control_and_influence",
-        "boundary_kind": "influence_zone",
+        "boundary_kind": "reconstructed_control_extent",
         "confidence": 0.54,
         "geometry_quality": "textbook-georeferenced generalized reconstruction",
         "boundary_quality": "generalized control area; campaign reach is shown separately as routes",
@@ -2875,7 +2875,7 @@
         "phase": "Eron, Kavkaz va Dashti Qipchoq yurishlari davri",
         "status": "reconstructed",
         "boundary_type": "historical_control_and_influence",
-        "boundary_kind": "influence_zone",
+        "boundary_kind": "reconstructed_control_extent",
         "confidence": 0.54,
         "geometry_quality": "textbook-georeferenced generalized reconstruction",
         "boundary_quality": "generalized control area; campaign reach is shown separately as routes",
@@ -7262,6 +7262,14 @@
         "confidence": 0.45,
         "route_quality": "schematic waypoint route, not exact march track",
         "topic_refs": "12,14",
+        "route_kind": "military_campaign",
+        "waypoints": [
+          "Samarqand",
+          "Sirdaryo dashtlari",
+          "Ural oralig‘i",
+          "Terek",
+          "Kavkaz"
+        ],
         "feature_class": "route",
         "source_layer": "routes"
       },
@@ -7302,6 +7310,14 @@
         "confidence": 0.55,
         "route_quality": "schematic waypoint route, not exact march track",
         "topic_refs": "12,14",
+        "route_kind": "military_campaign",
+        "waypoints": [
+          "Samarqand",
+          "Balx",
+          "Kobul",
+          "Panjob",
+          "Dehli"
+        ],
         "feature_class": "route",
         "source_layer": "routes"
       },
@@ -7346,6 +7362,15 @@
         "confidence": 0.5,
         "route_quality": "schematic waypoint route, not exact march track",
         "topic_refs": "12,14",
+        "route_kind": "military_campaign",
+        "waypoints": [
+          "Samarqand",
+          "Hirot",
+          "Tabriz",
+          "Halab",
+          "Damashq",
+          "Bag‘dod"
+        ],
         "feature_class": "route",
         "source_layer": "routes"
       },
@@ -7390,6 +7415,14 @@
         "confidence": 0.5,
         "route_quality": "schematic waypoint route, not exact march track",
         "topic_refs": "12,14",
+        "route_kind": "military_campaign",
+        "waypoints": [
+          "Bag‘dod",
+          "Tabriz",
+          "Sivas",
+          "Anadolu",
+          "Anqara"
+        ],
         "feature_class": "route",
         "source_layer": "routes"
       },
@@ -7430,6 +7463,12 @@
         "confidence": 0.7,
         "route_quality": "schematic waypoint route, not exact march track",
         "topic_refs": "12,14",
+        "route_kind": "military_campaign",
+        "waypoints": [
+          "Samarqand",
+          "Toshkent",
+          "O‘tror"
+        ],
         "feature_class": "route",
         "source_layer": "routes"
       },
@@ -8146,6 +8185,14 @@
             ]
           }
         ],
+        "route_kind": "military_campaign",
+        "waypoints": [
+          "Samarqand",
+          "Toshkent",
+          "Yettisuv",
+          "Mo‘g‘uliston yo‘nalishi",
+          "Gurganj"
+        ],
         "feature_class": "route",
         "source_layer": "routes"
       },
@@ -8196,6 +8243,17 @@
             ]
           },
           "https://www.iranicaonline.org/articles/central-asia-v/"
+        ],
+        "route_kind": "military_campaign",
+        "waypoints": [
+          "Samarqand",
+          "Balx",
+          "Hirot",
+          "Nishopur",
+          "Mashhad",
+          "Isfahon",
+          "Sherozi",
+          "Tabriz"
         ],
         "feature_class": "route",
         "source_layer": "routes"
@@ -8252,6 +8310,17 @@
         "source_refs": [
           "https://www.iranicaonline.org/articles/clavijo-ruy-gonzlez-de-d/"
         ],
+        "route_kind": "diplomatic_mission",
+        "waypoints": [
+          "Kastiliya",
+          "Sevilya",
+          "Rim",
+          "Konstantinopol",
+          "Trabzon",
+          "Tabriz",
+          "Mashhad",
+          "Samarqand"
+        ],
         "feature_class": "route",
         "source_layer": "routes"
       },
@@ -8306,6 +8375,16 @@
         "route_quality": "relationship line; not a single courier itinerary",
         "source_refs": [
           "https://es.unesco.org/silkroad/sites/default/files/knowledge-bank-article/vol_IVa%20silk%20road_central%20asia%20under%20timur.pdf"
+        ],
+        "route_kind": "diplomatic_correspondence",
+        "waypoints": [
+          "Samarqand",
+          "Tabriz",
+          "Trabzon",
+          "Konstantinopol",
+          "Rim",
+          "Parij",
+          "London"
         ],
         "feature_class": "route",
         "source_layer": "routes"

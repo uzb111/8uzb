@@ -38,6 +38,13 @@ const CATEGORY_LABELS = Object.freeze({
   thematic: "shaxs / maskan"
 });
 
+const ROUTE_PALETTES = Object.freeze({
+  military_campaign: { line: "#ff654f", glow: "#ffb36b", label: "Harbiy yurish" },
+  diplomatic_mission: { line: "#55c8ff", glow: "#b7e9ff", label: "Elchilik yo‘li" },
+  diplomatic_correspondence: { line: "#b98cff", glow: "#e3d1ff", label: "Diplomatik aloqa" },
+  default: { line: "#ef6a58", glow: "#ffc078", label: "Tarixiy yo‘nalish" }
+});
+
 function yearOf(value) {
   if (value === null || value === undefined || value === "") return null;
   const match = String(value).match(/-?\d{3,4}/);
@@ -94,20 +101,28 @@ function escapeHtml(value) {
 function styleForFeature(feature) {
   const category = featureClass(feature);
   if (category === "state") {
-    const influenceZone = (feature.properties || {}).boundary_kind === "influence_zone";
+    const boundaryKind = (feature.properties || {}).boundary_kind;
+    const influenceZone = boundaryKind === "influence_zone";
+    const reconstructed = boundaryKind === "reconstructed_control_extent";
     return {
-      color: influenceZone ? "#b9853e" : "#8c6423",
-      weight: influenceZone ? 1.8 : 2.2,
-      fillColor: influenceZone ? "#c99443" : "#dfaa3d",
-      fillOpacity: influenceZone ? 0.12 : 0.27,
+      color: influenceZone ? "#c48b3c" : reconstructed ? "#f0bd55" : "#a9782b",
+      weight: influenceZone ? 2 : reconstructed ? 3 : 2.3,
+      fillColor: influenceZone ? "#c99443" : reconstructed ? "#dba83f" : "#dfaa3d",
+      fillOpacity: influenceZone ? 0.1 : reconstructed ? 0.23 : 0.27,
       dashArray: influenceZone ? "7 6" : null,
-      className: `history-state${influenceZone ? " influence-zone" : ""}`
+      className: `history-state${influenceZone ? " influence-zone" : reconstructed ? " reconstructed-control" : ""}`
     };
   }
   if (category === "route") {
-    return { color: "#d75d4e", weight: 3.2, dashArray: "10 8", opacity: 0.94, className: "history-route" };
+    const palette = routePalette(feature);
+    return { color: palette.line, weight: 3.4, dashArray: "11 8", opacity: 0.98, lineCap: "round", lineJoin: "round", className: "history-route route-progress" };
   }
   return { color: "#627b91", weight: 2, fillColor: "#7f96a8", fillOpacity: 0.2, className: "history-shape" };
+}
+
+function routePalette(feature) {
+  const kind = (feature.properties || {}).route_kind || "default";
+  return ROUTE_PALETTES[kind] || ROUTE_PALETTES.default;
 }
 
 function pointStyle(feature) {
@@ -148,6 +163,16 @@ function featureDetails(feature) {
       ["Hozirgi joy", modernLocation],
       ["Mavzudagi roli", properties.summary_uz || properties.role || ""],
       ["Joy aniqligi", properties.location_precision || properties.coordinate_quality || ""]
+    ].filter((row) => row[1]);
+  }
+  if (featureClass(feature) === "route") {
+    const palette = routePalette(feature);
+    return [
+      ["Nomi", featureLabel(feature)],
+      ["Davri", [properties.start_date, properties.end_date].filter(Boolean).join(" – ")],
+      ["Yo‘nalish turi", palette.label],
+      ["Asosiy bekatlar", Array.isArray(properties.waypoints) ? properties.waypoints.join(" → ") : ""],
+      ["Aniqlik", properties.route_quality || "Sxematik ta’limiy yo‘nalish"],
     ].filter((row) => row[1]);
   }
   return [
@@ -304,6 +329,7 @@ const RELATION_LABELS = Object.freeze({
 
 function boundaryTypeLabel(properties) {
   if (properties.boundary_kind === "influence_zone") return "Ta’sir zonasi";
+  if (properties.boundary_kind === "reconstructed_control_extent") return "Umumlashtirilgan nazorat hududi";
   if (properties.boundary_kind === "territorial_extent") return "Taxminiy hudud";
   return properties.status === "reconstructed" ? "Rekonstruksiya" : "Tarixiy hudud";
 }
@@ -419,6 +445,117 @@ function compositionText(features) {
     .join(" · ") || "Faol qatlam yo‘q";
 }
 
+function routeProgress(feature) {
+  const properties = feature.properties || {};
+  const start = yearOf(properties.start_date);
+  const end = yearOf(properties.end_date);
+  if (start === null || end === null || end <= start) return 1;
+  return Math.max(0.08, Math.min(1, (state.currentYear - start + 1) / (end - start + 1)));
+}
+
+function routePrefixCoordinates(coordinates, progress) {
+  if (!Array.isArray(coordinates) || coordinates.length < 2 || progress >= 1) return coordinates;
+  const lengths = [];
+  let total = 0;
+  for (let index = 1; index < coordinates.length; index += 1) {
+    const [x1, y1] = coordinates[index - 1];
+    const [x2, y2] = coordinates[index];
+    const latitudeScale = Math.cos((((y1 + y2) / 2) * Math.PI) / 180);
+    const length = Math.hypot((x2 - x1) * latitudeScale, y2 - y1);
+    lengths.push(length);
+    total += length;
+  }
+
+  const target = total * progress;
+  const prefix = [coordinates[0]];
+  let covered = 0;
+  for (let index = 1; index < coordinates.length; index += 1) {
+    const segment = lengths[index - 1];
+    if (covered + segment <= target) {
+      prefix.push(coordinates[index]);
+      covered += segment;
+      continue;
+    }
+    const ratio = segment ? (target - covered) / segment : 0;
+    const [x1, y1] = coordinates[index - 1];
+    const [x2, y2] = coordinates[index];
+    prefix.push([x1 + (x2 - x1) * ratio, y1 + (y2 - y1) * ratio]);
+    break;
+  }
+  return prefix.length >= 2 ? prefix : coordinates.slice(0, 2);
+}
+
+function routeArrowAngle(coordinates) {
+  if (!coordinates || coordinates.length < 2) return 0;
+  const [x1, y1] = coordinates[coordinates.length - 2];
+  const [x2, y2] = coordinates[coordinates.length - 1];
+  return Math.atan2(-(y2 - y1), x2 - x1) * (180 / Math.PI);
+}
+
+function addRouteFeature(feature) {
+  const palette = routePalette(feature);
+  const coordinates = feature.geometry?.coordinates || [];
+  const prefix = routePrefixCoordinates(coordinates, routeProgress(feature));
+  const progressFeature = {
+    ...feature,
+    geometry: { ...feature.geometry, coordinates: prefix }
+  };
+  const corridor = L.geoJSON(feature, {
+    interactive: false,
+    style: { color: palette.glow, weight: 11, opacity: 0.2, lineCap: "round", lineJoin: "round", className: "route-corridor" }
+  });
+  const guide = L.geoJSON(feature, {
+    interactive: false,
+    style: { color: palette.line, weight: 2, opacity: 0.3, dashArray: "2 9", lineCap: "round", className: "route-guide" }
+  });
+  const active = L.geoJSON(progressFeature, {
+    style: styleForFeature,
+    onEachFeature: bindFeature
+  });
+  const [arrowX, arrowY] = prefix[prefix.length - 1];
+  const angle = routeArrowAngle(prefix);
+  const arrow = L.marker([arrowY, arrowX], {
+    icon: L.divIcon({
+      className: "history-route-arrow",
+      html: `<span class="route-arrow" style="--route-angle:${angle}deg;--route-color:${palette.line};--route-glow:${palette.glow}"></span>`,
+      iconSize: [28, 28],
+      iconAnchor: [14, 14]
+    }),
+    riseOnHover: true
+  });
+  bindFeature(feature, arrow);
+  const group = L.featureGroup([corridor, guide, active, arrow]);
+  group.addTo(state.layerGroup);
+  return group;
+}
+
+function addStateFeature(feature) {
+  const shape = L.geoJSON(feature, {
+    style: styleForFeature,
+    onEachFeature: bindFeature
+  });
+  const bounds = shape.getBounds();
+  if (!bounds.isValid()) {
+    shape.addTo(state.layerGroup);
+    return shape;
+  }
+  const properties = feature.properties || {};
+  const period = [properties.start_date, properties.end_date].filter(Boolean).join("–");
+  const label = L.marker(bounds.getCenter(), {
+    icon: L.divIcon({
+      className: "history-state-label",
+      html: `<span><strong>${escapeHtml(featureLabel(feature))}</strong><small>${escapeHtml(period)} · umumlashtirilgan hudud</small></span>`,
+      iconSize: [190, 44],
+      iconAnchor: [95, 22]
+    }),
+    riseOnHover: true
+  });
+  label.on("click", () => selectStateFeature(feature));
+  const group = L.featureGroup([shape, label]);
+  group.addTo(state.layerGroup);
+  return group;
+}
+
 function renderMap({ fitBounds = false, animate = true } = {}) {
   state.layerGroup.clearLayers();
   state.featureLayers.clear();
@@ -431,11 +568,16 @@ function renderMap({ fitBounds = false, animate = true } = {}) {
   }
 
   selected.forEach((feature) => {
-    const container = L.geoJSON(feature, {
-      style: styleForFeature,
-      pointToLayer: pointLayer,
-      onEachFeature: bindFeature
-    }).addTo(state.layerGroup);
+    const category = featureClass(feature);
+    const container = category === "route"
+      ? addRouteFeature(feature)
+      : category === "state"
+        ? addStateFeature(feature)
+        : L.geoJSON(feature, {
+            style: styleForFeature,
+            pointToLayer: pointLayer,
+            onEachFeature: bindFeature
+          }).addTo(state.layerGroup);
     const featureId = (feature.properties || {}).id;
     container._tarixFeatureId = featureId;
     state.featureLayers.set(featureId, container);

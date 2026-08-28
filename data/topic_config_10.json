@@ -383,7 +383,10 @@
         "CITY_054"
       ],
       "mapStory": "1370-yildagi Movarounnahr tayanch hududidan Xorazm, Xuroson va Eron tomon bosqichma-bosqich kengayish; yurish yo‘llari davlat poligonidan alohida ko‘rsatiladi.",
-      "generatedImages": []
+      "generatedImages": [
+        "gen_t11_balkh_qurultay.png",
+        "gen_t11_herat_1381.png"
+      ]
     },
     {
       "id": 12,
@@ -439,7 +442,10 @@
         "CITY_053"
       ],
       "mapStory": "To‘xtamish bilan shimoliy to‘qnashuvlar, Dehli, Suriya–Iroq, Anqara va Xitoy yurishi arafasi vaqt bo‘yicha jonlanadi.",
-      "generatedImages": []
+      "generatedImages": [
+        "gen_t12_terek_1395.png",
+        "gen_t12_ankara_1402.png"
+      ]
     },
     {
       "id": 13,
@@ -471,7 +477,11 @@
         "TH_MING_DIPLOMACY_SAMARKAND"
       ],
       "mapStory": "Samarqanddan Fransiya va Angliyaga maktublar hamda Kastiliya elchisi Klavixoning 1403–1404-yillardagi yo‘li bitta diplomatik sahnada.",
-      "generatedImages": []
+      "generatedImages": [
+        "gen_t13_clavijo_samarkand.png",
+        "gen_t13_western_couriers.png",
+        "gen_t13_ming_envoys.png"
+      ]
     },
     {
       "id": 14,
@@ -512,7 +522,10 @@
         "TH_ARMY_EASTERN_STAGE_OTRAR"
       ],
       "mapStory": "Qo‘shin yig‘ilishi, yetti qo‘l tamoyili, ta’minot tugunlari va asosiy yurish yo‘nalishlari xaritada bog‘lanadi.",
-      "generatedImages": []
+      "generatedImages": [
+        "gen_t14_seven_corps.png",
+        "gen_t14_logistics.png"
+      ]
     },
     {
       "id": 15,
@@ -557,7 +570,10 @@
         "TH_JUSTICE_SAMARKAND"
       ],
       "mapStory": "Samarqanddagi markaziy boshqaruv, mahalliy viloyat markazlari va sud-adolat tizimi saltanat makoni bilan bog‘lanadi.",
-      "generatedImages": []
+      "generatedImages": [
+        "gen_t15_central_divan.png",
+        "gen_t15_justice_court.png"
+      ]
     }
   ]
 }

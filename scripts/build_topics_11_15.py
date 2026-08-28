@@ -60,7 +60,7 @@ def polygon_feature(feature_id: str, start: int, end: int, snapshot: int, phase:
             "phase": phase,
             "status": "reconstructed",
             "boundary_type": "historical_control_and_influence",
-            "boundary_kind": "influence_zone",
+            "boundary_kind": "reconstructed_control_extent",
             "confidence": 0.54,
             "geometry_quality": "textbook-georeferenced generalized reconstruction",
             "boundary_quality": "generalized control area; campaign reach is shown separately as routes",
@@ -115,7 +115,7 @@ def build_topics() -> None:
                 "CITY_048", "CITY_049", "CITY_053", "CITY_054",
             ],
             "mapStory": "1370-yildagi Movarounnahr tayanch hududidan Xorazm, Xuroson va Eron tomon bosqichma-bosqich kengayish; yurish yo‘llari davlat poligonidan alohida ko‘rsatiladi.",
-            "generatedImages": [],
+            "generatedImages": ["gen_t11_balkh_qurultay.png", "gen_t11_herat_1381.png"],
         },
         {
             "id": 12,
@@ -136,7 +136,7 @@ def build_topics() -> None:
                 "CITY_046", "CITY_049", "CITY_050", "CITY_051", "CITY_052", "CITY_053",
             ],
             "mapStory": "To‘xtamish bilan shimoliy to‘qnashuvlar, Dehli, Suriya–Iroq, Anqara va Xitoy yurishi arafasi vaqt bo‘yicha jonlanadi.",
-            "generatedImages": [],
+            "generatedImages": ["gen_t12_terek_1395.png", "gen_t12_ankara_1402.png"],
         },
         {
             "id": 13,
@@ -152,7 +152,7 @@ def build_topics() -> None:
                 "TH_DIPLOMACY_SAMARKAND", "TH_MING_DIPLOMACY_SAMARKAND",
             ],
             "mapStory": "Samarqanddan Fransiya va Angliyaga maktublar hamda Kastiliya elchisi Klavixoning 1403–1404-yillardagi yo‘li bitta diplomatik sahnada.",
-            "generatedImages": [],
+            "generatedImages": ["gen_t13_clavijo_samarkand.png", "gen_t13_western_couriers.png", "gen_t13_ming_envoys.png"],
         },
         {
             "id": 14,
@@ -171,7 +171,7 @@ def build_topics() -> None:
                 "TH_ARMY_MUSTER_SAMARKAND", "TH_ARMY_EASTERN_STAGE_OTRAR",
             ],
             "mapStory": "Qo‘shin yig‘ilishi, yetti qo‘l tamoyili, ta’minot tugunlari va asosiy yurish yo‘nalishlari xaritada bog‘lanadi.",
-            "generatedImages": [],
+            "generatedImages": ["gen_t14_seven_corps.png", "gen_t14_logistics.png"],
         },
         {
             "id": 15,
@@ -189,7 +189,7 @@ def build_topics() -> None:
                 "TH_DIWAN_SAMARKAND", "TH_JUSTICE_SAMARKAND",
             ],
             "mapStory": "Samarqanddagi markaziy boshqaruv, mahalliy viloyat markazlari va sud-adolat tizimi saltanat makoni bilan bog‘lanadi.",
-            "generatedImages": [],
+            "generatedImages": ["gen_t15_central_divan.png", "gen_t15_justice_court.png"],
         },
     ]
     for topic in additions:
@@ -236,7 +236,7 @@ def build_states() -> None:
         start, end, snapshot = intervals[feature_id]
         properties.update({
             "start_date": str(start), "end_date": str(end), "snapshot_year": snapshot,
-            "boundary_kind": "influence_zone", "status": "reconstructed", "confidence": 0.54,
+            "boundary_kind": "reconstructed_control_extent", "status": "reconstructed", "confidence": 0.54,
             "geometry_quality": "textbook-georeferenced generalized reconstruction",
             "boundary_quality": "generalized control area; campaign reach is shown separately as routes",
             "notes": "Tayanch nazorat hududi va qisqa muddatli siyosiy ta’sir umumlashtirilgan; Dehli, Suriya, Anqara va Dashti Qipchoq yurishlari alohida chiziqlarda ko‘rsatiladi.",
@@ -363,10 +363,23 @@ def build_routes() -> None:
         "CAM_1400_01_SYRIA": "12,14", "CAM_1402_ANATOLIA": "12,14",
         "CAM_1404_05_CHINA_START": "12,14",
     }
+    route_metadata = {
+        "CAM_1372_1379_MOGHUL_KHWARAZM": {"route_kind": "military_campaign", "waypoints": ["Samarqand", "Toshkent", "Yettisuv", "Mo‘g‘uliston yo‘nalishi", "Gurganj"]},
+        "CAM_1380_1387_KHORASAN_IRAN": {"route_kind": "military_campaign", "waypoints": ["Samarqand", "Balx", "Hirot", "Nishopur", "Mashhad", "Isfahon", "Sherozi", "Tabriz"]},
+        "CAM_1394_95_GOLDEN_HORDE": {"route_kind": "military_campaign", "waypoints": ["Samarqand", "Sirdaryo dashtlari", "Ural oralig‘i", "Terek", "Kavkaz"]},
+        "CAM_1398_INDIA": {"route_kind": "military_campaign", "waypoints": ["Samarqand", "Balx", "Kobul", "Panjob", "Dehli"]},
+        "CAM_1400_01_SYRIA": {"route_kind": "military_campaign", "waypoints": ["Samarqand", "Hirot", "Tabriz", "Halab", "Damashq", "Bag‘dod"]},
+        "CAM_1402_ANATOLIA": {"route_kind": "military_campaign", "waypoints": ["Bag‘dod", "Tabriz", "Sivas", "Anadolu", "Anqara"]},
+        "CAM_1404_05_CHINA_START": {"route_kind": "military_campaign", "waypoints": ["Samarqand", "Toshkent", "O‘tror"]},
+        "ROUTE_CLAVIJO_1403_1404": {"route_kind": "diplomatic_mission", "waypoints": ["Kastiliya", "Sevilya", "Rim", "Konstantinopol", "Trabzon", "Tabriz", "Mashhad", "Samarqand"]},
+        "ROUTE_TIMUR_WESTERN_DIPLOMACY_1402": {"route_kind": "diplomatic_correspondence", "waypoints": ["Samarqand", "Tabriz", "Trabzon", "Konstantinopol", "Rim", "Parij", "London"]},
+    }
     for feature in routes["features"]:
         feature_id = feature.get("properties", {}).get("id")
         if feature_id in topic_map:
             feature["properties"]["topic_refs"] = topic_map[feature_id]
+        if feature_id in route_metadata:
+            feature["properties"].update(route_metadata[feature_id])
     write_json(path, routes)
 
 
@@ -398,6 +411,74 @@ def build_media_manifest() -> None:
     ]
     by_id = {item["id"]: item for item in media}
     by_id.update({item["id"]: item for item in records})
+    write_json(path, list(by_id.values()))
+
+
+def build_enriched_media_manifest() -> None:
+    """Add sourced and reconstructed lesson media without disturbing topics 1-10."""
+    path = DATA / "media_manifest.json"
+    media = read_json(path)
+    by_id = {item["id"]: item for item in media}
+
+    # The Baghdad folio belongs to the later western campaigns in topic 12.
+    by_id["src_t11_met_baghdad"] = {
+        **by_id["src_t11_met_baghdad"],
+        "topic": 12,
+    }
+
+    web_sources_path = DATA / "web_sources_topics_11_15.json"
+    if web_sources_path.exists():
+        for item in read_json(web_sources_path):
+            by_id[item["id"]] = {
+                "id": item["id"],
+                "topic": item["topic"],
+                "kind": "source",
+                "file": item["file"],
+                "title": item["title_uz"],
+                "source_url": item["source_url"],
+                "original_url": item["original_url"],
+                "license": item["license"],
+                "width": item["width"],
+                "height": item["height"],
+            }
+
+    generated = [
+        ("gen_t11_balkh_qurultay", 11, "assets/images/generated/topic_11/gen_t11_balkh_qurultay.png", "1370-yil Balx qurultoyi va markazlashuv", "Balxdagi siyosiy kengash va markazlashgan davlat tuzish jarayoni"),
+        ("gen_t11_herat_1381", 11, "assets/images/generated/topic_11/gen_t11_herat_1381.png", "1381-yil Hirot yurishi", "Hirot darvozasida siyosiy nazorat almashinuvi"),
+        ("gen_t12_terek_1395", 12, "assets/images/generated/topic_12/gen_t12_terek_1395.png", "1395-yil Terek jangi", "Temur va To‘xtamish qo‘shinlarining Terek bo‘yidagi harakati"),
+        ("gen_t12_ankara_1402", 12, "assets/images/generated/topic_12/gen_t12_ankara_1402.png", "1402-yil Anqara jangi", "Temur va Boyazid qo‘shinlarining Anqara yaqinidagi taktik joylashuvi"),
+        ("gen_t13_clavijo_samarkand", 13, "assets/images/generated/topic_13/gen_t13_clavijo_samarkand.png", "Klavixoning Samarqanddagi qabuli", "1404-yilda Kastiliya elchilarining Temuriylar saroyidagi qabuli"),
+        ("gen_t13_western_couriers", 13, "assets/images/generated/topic_13/gen_t13_western_couriers.png", "G‘arbga yo‘l olgan diplomatik choparlar", "Samarqanddan Yevropa tomon maktub olib ketayotgan elchilar"),
+        ("gen_t13_ming_envoys", 13, "assets/images/generated/topic_13/gen_t13_ming_envoys.png", "Ming elchilarining Samarqanddagi qabuli", "Temuriy va Ming elchilari o‘rtasidagi rasmiy uchrashuv"),
+        ("gen_t14_seven_corps", 14, "assets/images/generated/topic_14/gen_t14_seven_corps.png", "Yetti qo‘l qo‘shin tartibi", "Qo‘shinning markaz, qanot, ilg‘or va zaxira qismlariga bo‘linishi"),
+        ("gen_t14_logistics", 14, "assets/images/generated/topic_14/gen_t14_logistics.png", "Temuriy qo‘shin ta’minoti", "Uzoq yurish oldidan oziq-ovqat, ot-ulov va qurol ta’minoti"),
+        ("gen_t15_central_divan", 15, "assets/images/generated/topic_15/gen_t15_central_divan.png", "Samarqanddagi markaziy devon", "Kotiblar, moliya amaldorlari va viloyat xabarchilari ish jarayoni"),
+        ("gen_t15_justice_court", 15, "assets/images/generated/topic_15/gen_t15_justice_court.png", "Adolat va sud majlisi", "Savdogarlar nizosi tinglanayotgan ma’muriy-sud jarayoni"),
+    ]
+    for media_id, topic, file, title, prompt_summary in generated:
+        by_id[media_id] = {
+            "id": media_id,
+            "topic": topic,
+            "kind": "generated",
+            "file": file,
+            "title": title,
+            "license": "TARIX360 AI educational reconstruction",
+            "method": "OpenAI built-in image generation",
+            "prompt_summary": prompt_summary,
+            "reconstruction_note": "Bu tarixiy foto emas; darslik va davr kontekstiga tayangan ta’limiy vizual rekonstruksiya.",
+        }
+
+    reused = [
+        ("src_t09_004", "src_t11_balkh_attack_reuse", 11, "1370-yil Balx voqealari — Zafarnoma tasviri"),
+        ("src_t10_006", "src_t11_timurid_map_reuse", 11, "Amir Temur davlati xaritasi"),
+        ("src_t10_005", "src_t14_tokhtamysh_battle_reuse", 14, "Temur va To‘xtamish qo‘shinlari — tarixiy miniatyura"),
+        ("src_t10_001", "src_t15_genealogy_reuse", 15, "Temuriylar shajarasi va siyosiy tuzilma"),
+    ]
+    for source_id, media_id, topic, title in reused:
+        source = dict(by_id[source_id])
+        source.update({"id": media_id, "topic": topic, "title": title, "reused_from": source_id})
+        by_id[media_id] = source
+
     write_json(path, list(by_id.values()))
 
 
@@ -485,6 +566,7 @@ def apply_drive_sync() -> None:
     for relative_path, sync_key in [
         ("data/sources_topics_11_15.json", "sources_topics_11_15"),
         ("data/drive_sync_topics_11_15.json", "drive_sync_topics_11_15"),
+        ("data/web_sources_topics_11_15.json", "web_sources_topics_11_15"),
     ]:
         local_path = ROOT / relative_path
         datasets_by_path[relative_path] = {
@@ -513,6 +595,21 @@ def apply_drive_sync() -> None:
             "mimeType": "image/jpeg",
             "size": local_path.stat().st_size,
         }
+    for item in read_json(DATA / "media_manifest.json"):
+        drive_id = sync.get("media", {}).get(item.get("id"))
+        relative_path = item.get("file")
+        local_path = ROOT / relative_path if relative_path else None
+        if not drive_id or not local_path or not local_path.exists():
+            continue
+        mime_type = "image/png" if local_path.suffix.lower() == ".png" else "image/jpeg"
+        by_path[relative_path] = {
+            "path": relative_path,
+            "topic": item.get("topic"),
+            "kind": item.get("kind"),
+            "driveFileId": drive_id,
+            "mimeType": mime_type,
+            "size": local_path.stat().st_size,
+        }
     manifest["media"] = list(by_path.values())
     manifest["book"]["status"] = "original-and-first15-web-pages-ready"
     write_json(manifest_path, manifest)
@@ -526,6 +623,7 @@ def main() -> int:
     build_routes()
     build_thematic_points()
     build_media_manifest()
+    build_enriched_media_manifest()
     rebuild_master()
     write_sources()
     apply_drive_sync()
